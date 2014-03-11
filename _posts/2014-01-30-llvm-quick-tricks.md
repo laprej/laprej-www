@@ -71,3 +71,32 @@ if (global_annos) {
 }
 ```
 
+-----
+#### Edit: <small>(03/11/2014)</small>
+I've learned a new trick related to simple function annotations since writing the original post. LLVM supports adding named "function attributes" to the `llvm::Function` object. Rather than keeping track of a `std::set` of the functions with the attribute as above, you can instead do the following:
+
+```cpp
+auto global_annos = M.getNamedGlobal("llvm.global.annotations");
+if (global_annos) {
+  auto a = cast<ConstantArray>(global_annos->getOperand(0));
+  for (int i=0; i<a->getNumOperands(); i++) {
+    auto e = cast<ConstantStruct>(a->getOperand(i));
+    
+    if (auto fn = dyn_cast<Function>(e->getOperand(0)->getOperand(0))) {
+      auto anno = cast<ConstantDataArray>(cast<GlobalVariable>(e->getOperand(1)->getOperand(0))->getOperand(0))->getAsCString();
+      fn.addFnAttr(anno); // <-- add function annotation here
+    }
+  }
+}
+```
+
+Then, in other code, you can check for the existence of this attribute simply:
+
+```cpp
+for (Function* fn : module) {
+  if (fn->hasFnAttribute("myattribute")) {
+    outs() << fn->getName() << " has my attribute!\n";
+  }
+}
+```
+
