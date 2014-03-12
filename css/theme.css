@@ -2,9 +2,9 @@
 body {
 /*  font-family: 'News Cycle', sans-serif;*/
 /*  font-family: 'Helvetica Neue', sans-serif;*/
-  font-family: 'Source Sans Pro', News Cycle, sans-serif;
+  font-family: Roboto, News Cycle, sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
   padding-top: 5px;
   padding-bottom: 10px;
 }
