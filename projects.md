@@ -13,7 +13,7 @@ Irregular applications are those that do lots of hard-to-predict, data-dependent
 
 The core is a runtime system we are developing that automatically aggregates small messages to improve network bandwidth, using massive multithreading to tolerate the increased latency. All we ask is that the programmer expose *sufficient parallelism*, a quantity that is not lacking in these "Big Data" applications. Our highly-optimized runtime can then manage moving data and computation around the cluster, performing tricks such as issuing hardware pre-fetches and carefully managing the L1 cache, performing extremely lightweight context switches, and coordinating RDMA transfers to get maximum throughput on the network.
 
-A full list of publications for this project and more information can be found on our project website: [grappa.io](http://grappa.io).
+A full list of publications for this project and more information can be found on our project website: [grappa.io](http://grappa.io), the most up-to-date paper is *[Latency Tolerant Distributed Shared Memory](http://sampa.cs.washington.edu/grappa/papers/grappa-tr-14-05-03.pdf)*.
 
 Grappa is also now **open source**! We would love to help people try it out on their own problems. Check it out on [Github](http://github.com/uwsampa/grappa).
 
