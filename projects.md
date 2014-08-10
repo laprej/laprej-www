@@ -6,7 +6,7 @@ description: List of current and recent research and side projects.
 
 <a name="Grappa"></a>
 ## [Grappa](http://grappa.io)
-<img src="img/grappa-grapes.jpg" class="img-thumbnail pull-right" style="width:250px;margin:15px"/>
+<img src="img/grappa_logo.svg" class="pull-right" style="width:250px;margin:15px"/>
 Scaling irregular applications on commodity hardware.
 
 Irregular applications are those that do lots of hard-to-predict, data-dependent, fine-grained memory accesses. Examples include graph analytics, molecular dynamics, circuit simulation, neuromorphic computation, and many more. The lack of spatial and temporal locality in these applications makes it difficult to scale them beyond a single node because commodity networks need large packets to get near their peak throughput. The goal of this project is to make it easier to develop and run those kinds of applications on large compute clusters. We see the same few tricks being implemented over and over when irregular applications are tuned for maximum performance, such as rewriting parts to buffer communication, using asynchronous callbacks to overlap communication and disk I/O with computation. In addition to being wasteful, this process can be error-prone.
