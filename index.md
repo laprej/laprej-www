@@ -19,11 +19,16 @@ I'm interested in helping people solve tough problems using the most powerful co
 
 Right now, the *tough problems* people seem to be facing involve analyzing and understanding large, irregular data sets (including such "Big Data" problems as social network analytics). These problems are particularly challenging because their execution is highly data-dependent and unpredictable, wreaking havoc on systems which are optimized for regular access patterns.
 
-For many people---in particular, most data scientists---the *most powerful computer* they have access to is actually pretty beefy: a compute cluster, even if it's just an on-demand cluster from the cloud. These highly-parallel distributed-memory machines are notoriously difficult to do useful things with.
+For many people — in particular, most data scientists — the *most powerful computer* they have access to is actually pretty beefy: a compute cluster, even if it's just an on-demand cluster from the cloud. These highly-parallel distributed-memory machines are notoriously difficult to do useful things with.
 
 Solving these problems requires being willing to change any part of the traditional "stack": hardware, compiler, runtime, programming language, or tools. I enjoy hacking LLVM to automatically extract communication, develop fancy C++11 interfaces to runtimes, and exploring how to leverage high-level program information to optimize low-level runtime calls.
 
 ## Projects
+
+<div class="alert alert-info">Latest paper:
+  <a href="pubs/oopsla14-alembic.pdf">Alembic: Automatic Locality Extraction via Migration</a> to appear at <a href="http://2014.splashcon.org/track/oopsla2014">OOPSLA'14</a>
+</div>
+
 Read more about various work in progress and past on the [Projects](projects.html) page. A few highlights:
 
 * [Grappa](projects.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
