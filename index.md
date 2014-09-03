@@ -26,7 +26,7 @@ Solving these problems requires being willing to change any part of the traditio
 ## Projects
 
 <div class="alert alert-info">Latest paper:
-  <a href="pubs/oopsla14-alembic.pdf">Alembic: Automatic Locality Extraction via Migration</a> to appear at <a href="http://2014.splashcon.org/track/oopsla2014">OOPSLA'14</a>
+  <a href="http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf">Alembic: Automatic Locality Extraction via Migration</a> to appear at <a href="http://2014.splashcon.org/track/oopsla2014">OOPSLA'14</a>
 </div>
 
 Read more about various work in progress and past on the [Projects](projects.html) page. A few highlights:

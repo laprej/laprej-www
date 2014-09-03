@@ -5,7 +5,7 @@ description: |
   One of the hardest parts about writing distributed applications is locality — this compiler analysis automatically transforms threads to migrate to the data they access, minimizing communication and improving overall performance.
 ---
 
-One of the hardest parts about writing distributed applications is locality: where to put the data, how to access it, and where to perform computation to minimize how much data must be moved. My new [paper](pubs/oopsla14-alembic.pdf), to appear at [OOPSLA'14](http://2014.splashcon.org/track/oopsla2014) in October, describes a compiler analysis called Alembic which helps distributed application programmers deal with locality by making threads migrate to the data they use automatically.
+One of the hardest parts about writing distributed applications is locality: where to put the data, how to access it, and where to perform computation to minimize how much data must be moved. My new [paper](http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf), to appear at [OOPSLA'14](http://2014.splashcon.org/track/oopsla2014) in October, describes a compiler analysis called Alembic which helps distributed application programmers deal with locality by making threads migrate to the data they use automatically.
 
 ### Traditional distributed shared memory model
 
@@ -22,4 +22,4 @@ However, consider a situation where a thread reads some value, computes somethin
 
 Alembic is a compiler analysis to do this kind of transformation automatically. It analyzes PGAS programs, determines where it is likely to be profitable to migrate, and splits the thread into a sequence of messages and *continuations* that migrate the thread to its data. Alembic is implemented for the [LLVM](http://llvm.org) compiler framework, and targets the [Grappa](http://grappa.io) runtime system, which is designed for *irregular applications* where migration is particularly important for performance.
 
-The full details of the analysis, how it works, and the evaluation of how it performs on some benchmarks, can be found in the [OOPSLA paper](pubs/oopsla14-alembic.pdf).
+The full details of the analysis, how it works, and the evaluation of how it performs on some benchmarks, can be found in the [OOPSLA paper](http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf).
