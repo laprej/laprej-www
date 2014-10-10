@@ -16,13 +16,13 @@ exclude: [README.md, Makefile]
 
 # Navigation bar links.
 navigation:
-    - title: Home
+    - title: home
       link: /
-    - title: Projects
+    - title: projects
       link: /projects.html
-    - title: CV
+    - title: cv
       link: /cv.html
-    - title: Posts
+    - title: posts
       link: /posts.html
     - title: 
       link: http://github.com/bholt

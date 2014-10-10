@@ -1,15 +1,10 @@
 ---
 layout: default
-title: Home
+title: home
 tagline: University of Washington
 ---
 
-<!-- ![profile](img/brandon_coast.jpg) -->
-<div class="span5 pull-right" style="padding-left:20px">
-  <div>
-    <img src="img/brandon_coast.jpg" class="img-rounded"/>
-  </div>
-</div>
+<img src="img/seattle.jpg" class="img-rounded img-responsive"/>
 
 ## About Me
 I am a grad student at the University of Washington, pursuing a PhD in Computer Science and Engineering. My research interests include exploring programming models, languages, and compilers for the purposes of exposing and expressing parallelism in a way that existing architectures can use it. My research is done as part of the Computer Architecture group at UW ([Sampa](http://sampa.cs.washington.edu)), with co-advisors [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/) and [Mark Oskin](http://www.cs.washington.edu/homes/oskin). With them, I am working on the [Grappa](http://grappa.io) project, an effort to improve performance of irregular applications on commodity clusters in software.

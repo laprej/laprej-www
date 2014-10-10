@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: projects
 description: List of current and recent research and side projects.
 ---
 
