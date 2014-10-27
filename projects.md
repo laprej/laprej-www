@@ -22,7 +22,7 @@ A couple sub-projects related to Grappa that I've worked on are listed below.
 ### Alembic
 One of the primary tricks to Grappa's success is moving computation to where data, which works especially well in low-locality situations. However, explicitly writing these *delegate operations* breaks the PGAS shared memory abstraction, tying code to one particular memory layout, and making writing performant distributed applications tedious. *Alembic* is a compiler analysis written for [LLVM](http://llvm.org) that automatically transforms threads to do computation migration to improve locality. Using a technique similar to continuation-passing style transformation, Alembic chooses the best places to migrate, reorders memory instructions, and splits threads into a series of messages, providing high-performance migrating threads automatically. This work will be presented at OOPSLA in October:
 
-- *Alembic: Automatic Locality Extraction via Migration* — to be presented at [OOPSLA'14](http://2014.splashcon.org/track/oopsla2014) ([paper](http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf))
+- *Alembic: Automatic Locality Extraction via Migration* — presented at [OOPSLA'14](http://2014.splashcon.org/track/oopsla2014) ([paper](http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf),[slides:key](pubs/alembic-oopsla.key),[slides:pdf](pubs/alembic-oopsla.pdf))
 	- Also check out my post summarizing this work: [Alembic: Distilling C++ into high performance Grappa](posts/alembic-appearing-at-oopsla14.html)
 
 ### Flat combining
