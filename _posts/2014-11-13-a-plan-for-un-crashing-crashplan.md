@@ -10,7 +10,7 @@ CrashPlan is by far my favorite tool for backing up my computers. I'm never able
 CrashPlan's documentation was largely unhelpful for diagnosing my problem, so here's some things that I learned and what to look for if you're experiencing similar problems.
 
 ## The error:
-<img src="{{site.base}}img/crashplan_crash.png" alt="Crash Plan Error Message"/>
+<img class="center-block" src="{{site.base}}/img/crashplan_crash.png" alt="Crash Plan Error Message"/>
 
 In my case, not only was the main CrashPlan app unable to connect to the service, but the CrashPlan MenuBar icon was also greyed out and said it couldn't connect to the backup service.
 
