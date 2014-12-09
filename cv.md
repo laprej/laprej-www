@@ -44,6 +44,11 @@ I am interested in helping programs scale from workstations up to huge machines 
 
 
 ### Internship Experience
+
+**Software Engineer Intern** - Twitter - Summer 2014
+
+- Worked on improving usability of large-scale data analytics tools (Twitter's *Scalding* tool).
+
 **Research Intern** - Microsoft Research (Redmond) - Summer 2013
 
 - Worked on autotuning cluster-scale deep neural networks.
