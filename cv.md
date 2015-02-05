@@ -34,6 +34,8 @@ I am interested in helping programs scale from workstations up to huge machines 
 
 *Workshop Papers:*
 
+- **[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf)**. J. Nelson, B. Holt, B. Myers, P. Briggs, L. Ceze, S. Kahan, M. Oskin. *[International Workshop on Rack-Scale Computing (WRSC w/EuroSys)](http://research.microsoft.com/en-us/events/wrsc2014/)*. (April 2014).
+
 - **[Do We Need a Crystal Ball for Task Migration?](https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf)** B. Myers, B. Holt. *[USENIX Workshop on Hot Topics in Parallelism](https://www.usenix.org/conference/hotpar12)*. (June 2012).
 
 *Undergraduate Publications:*
