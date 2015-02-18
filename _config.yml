@@ -12,7 +12,7 @@ url: http://homes.cs.washington.edu/~bholt/
 
 permalink: /posts/:title.html
 
-exclude: [README.md, Makefile]
+exclude: [README.md, Makefile, figure]
 
 # Navigation bar links.
 navigation:
