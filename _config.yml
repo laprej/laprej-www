@@ -12,7 +12,9 @@ redcarpet:
 keep_files:  ['fig']
 
 knitr:
-  chunk_options:
+  opts_knit:
+    base.dir: '_site/'
+  opts_chunk:
     fig.width: 5
     fig.height: 4
     fig.path: 'fig/'

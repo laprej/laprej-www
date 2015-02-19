@@ -75,7 +75,9 @@ cc_scales <- function(field=cc, title="Concurrency control:") list(
   scale_linetype_manual(name=title, values=c('commutative'=1,'reader/writer'=2))
 )
 
-data <- function(d) {
+claret_data <- function(where="") {
+  d <- db(paste("SELECT * FROM tapir WHERE total_time is not null AND ", where))
+
   d$failure_rate <- d$txn_failed / (d$txn_count + d$txn_failed)
   d$throughput <- d$txn_count * num(d$nclients) / d$total_time
   # d$throughput <- d$ntxns * num(d$nclients) / d$total_time

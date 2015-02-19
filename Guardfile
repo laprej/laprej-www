@@ -26,15 +26,15 @@
 ignore /^_site/
 ignore /^figure/
 
-guard 'jekyll' do
-  watch /.*/
-end
-
-# guard 'jekyll_plus', :serve => true do
+# guard 'jekyll' do
 #   watch /.*/
-#   ignore /^_site/
-#   ignore /^figure/
 # end
+
+guard 'jekyll_plus', :serve => true do
+  watch /.*/
+  ignore /^_site/
+  ignore /^fig/
+end
 
 guard 'livereload' do
   watch /.*/

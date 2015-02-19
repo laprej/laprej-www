@@ -5,14 +5,9 @@ description: "My latest project has led me to try to simulate workloads from rea
 ---
 
 
-```{r include=F}
+```{r, include=F}
 source('common.R')
-```
-
-Here is the code loading results from our database:
-
-```{r data, echo=T}
-d <- data(db("SELECT * FROM tapir WHERE total_time is not null AND name LIKE 'claret-v0.14%'"))
+d <- claret_data("name LIKE 'claret-v0.14%'")
 ```
 
 Now we plot it with a simple smoothing function:
@@ -20,6 +15,6 @@ Now we plot it with a simple smoothing function:
 ```{r time, echo=T}
 ggplot(subset(d, nshards==4 & initusers==4096), aes(
     x=nclients, y=total_time, group=cc, color=cc
-))+stat_smooth()+ylab('Time (s)')+xlab('clients')+
+))+stat_smooth()+ylab('Time')+xlab('clients')+
 theme_mine
 ```

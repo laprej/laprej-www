@@ -4,10 +4,15 @@ require 'ostruct'
 DIR = File.expand_path File.dirname(__FILE__)
 
 module KnitrRuby
-  class Knitr < OpenStruct
+    
+  class Knitr
+    
+    def initialize(opts={})
+      @opts = opts
+    end
 
     def knit(content)
-      command = "#{DIR}/knitrscript.R --args #{options}"
+      command = "#{DIR}/knitrscript.R --args #{opts_chunk} #{opts_knit}"
       Open3::popen3(command) do |stdin, stdout, stderr, wait_thr|
         stdin.puts content
         stdin.close
@@ -16,10 +21,28 @@ module KnitrRuby
         content = stdout.read
       end
     end
+    
+    def dump_as_rlist(h)
+      '"' + h.map{|k,v|
+        case v
+        when true
+          "#{k}=T"
+        when false
+          "#{k}=F"
+        when Fixnum
+          "#{k}=#{v.to_i}"
+        when String
+          "#{k}='#{v}'"
+        end
+      }.join(",") + '"'
+    end
+    
+    def opts_chunk
+      dump_as_rlist @opts['opts_chunk']
+    end
 
-    def options
-      opts = chunk_options || {}
-      opts.map {|k,v| "#{k}=#{v}" }.join(" ")
+    def opts_knit
+      dump_as_rlist @opts['opts_knit']
     end
 
   end
@@ -42,11 +65,14 @@ module Jekyll
       # call KnitRuby, provided by knitr-ruby gem
       def knit(content)        
         root = File.expand_path(File.dirname(__FILE__)+"/..")
-        Dir.chdir("#{root}/_site")
+        Dir.chdir("#{root}")
         
         @knitr = KnitrRuby::Knitr.new(options)
         
         out = @knitr.knit(content)
+        
+        # write output to screen prefixed with '#'
+        # $stderr << out.gsub(/^/,'# ') << "\n"
         
         # fix img links for the figures that were generated
         fig = options['fig.path']
