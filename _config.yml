@@ -45,6 +45,8 @@ navigation:
     - title: 
       link: http://github.com/bholt
       icon: /img/GitHub-Mark.png
+      icon2x: /img/GitHub-Mark@2x.png
     - title: 
       link: http://twitter.com/holtbg
-      icon: /img/twitter_logo_blue.png
+      icon: /img/twitter-logo.png
+      icon2x: /img/twitter-logo@2x.png
