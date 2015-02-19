@@ -6,13 +6,25 @@ highlighter: pygments
 redcarpet:
     extensions: ["with_toc_data"]
 
+# gems:
+#   - jekyll-knitr
+  
+keep_files:  ['.git','fig/']
+
+knitr:
+  chunk_options:
+    fig.width: 5
+    fig.height: 4
+    fig.path: 'fig/'
+    dev: svg
+
 base: ''
 
 url: http://homes.cs.washington.edu/~bholt/
 
 permalink: /posts/:title.html
 
-exclude: [README.md, Makefile, figure]
+exclude: [README.md, Makefile]
 
 # Navigation bar links.
 navigation:
