@@ -1,4 +1,29 @@
-require 'knitr-ruby'
+require 'open3'
+require 'ostruct'
+
+DIR = File.expand_path File.dirname(__FILE__)
+
+module KnitrRuby
+  class Knitr < OpenStruct
+
+    def knit(content)
+      command = "#{DIR}/knitrscript.R --args #{options}"
+      Open3::popen3(command) do |stdin, stdout, stderr, wait_thr|
+        stdin.puts content
+        stdin.close
+
+        raise StandardError, "Error knitting: #{stderr.read}" if wait_thr.value.exitstatus > 0
+        content = stdout.read
+      end
+    end
+
+    def options
+      opts = chunk_options || {}
+      opts.map {|k,v| "#{k}=#{v}" }.join(" ")
+    end
+
+  end
+end
 
 module Jekyll
   module Converters

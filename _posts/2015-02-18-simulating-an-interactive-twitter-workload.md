@@ -11,13 +11,13 @@ source('common.R')
 
 Here is the code loading results from our database:
 
-```{r, echo=T}
+```{r data, echo=T}
 d <- data(db("SELECT * FROM tapir WHERE total_time is not null AND name LIKE 'claret-v0.14%'"))
 ```
 
 Now we plot it with a simple smoothing function:
 
-```{r time}
+```{r time, echo=T}
 ggplot(subset(d, nshards==4 & initusers==4096), aes(
     x=nclients, y=total_time, group=cc, color=cc
 ))+stat_smooth()+ylab('Time (s)')+xlab('clients')+

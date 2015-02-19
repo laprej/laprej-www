@@ -9,13 +9,17 @@ redcarpet:
 # gems:
 #   - jekyll-knitr
   
-keep_files:  ['.git','fig/']
+keep_files:  ['fig']
 
 knitr:
   chunk_options:
     fig.width: 5
     fig.height: 4
     fig.path: 'fig/'
+    echo: FALSE
+    message: FALSE
+    warning: FALSE
+    error: FALSE
     dev: svg
 
 base: ''
