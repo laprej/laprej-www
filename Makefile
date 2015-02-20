@@ -5,6 +5,12 @@ PYTHON=python2.7
 
 CSEHOST := bicycle.cs.washington.edu
 deploy: BUILDARGS := --config _config.yml,_config_sandbox.yml
-deploy: clean all
+
+setup:
+	bundle install
+	
+build: setup
 	bundle exec jekyll build --config _config.yml,_deploy.yml
+
+deploy: clean build
 	rsync --compress --recursive --checksum --itemize-changes --perms --chmod=ug+rw,o+r --delete _site/ $(CSEHOST):/cse/web/homes/bholt
