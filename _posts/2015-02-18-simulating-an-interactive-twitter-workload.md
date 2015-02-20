@@ -18,5 +18,3 @@ ggplot(subset(d, nshards==4 & initusers==4096), aes(
 ))+stat_smooth()+ylab('Time (s)')+xlab('clients')+
 theme_mine
 ```
-
-Test change.
