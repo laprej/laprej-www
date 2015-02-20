@@ -2,6 +2,7 @@ suppressPackageStartupMessages(require(RMySQL))
 suppressPackageStartupMessages(require(sqldf))
 suppressPackageStartupMessages(require(ggplot2))
 suppressPackageStartupMessages(require(reshape))
+suppressPackageStartupMessages(require(plyr))
 options(RMySQL.dbname="claret") # (rest comes from $HOME/.my.cnf)
 
 db <- function(query, factors=c(), numeric=c()) {

@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 library("knitr")
 
 ## process the command line arguments as 'list' objects
