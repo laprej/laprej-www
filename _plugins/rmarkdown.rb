@@ -1,5 +1,6 @@
 require 'open3'
 require 'ostruct'
+require 'fileutils'
 
 DIR = File.expand_path File.dirname(__FILE__)
 
@@ -20,6 +21,14 @@ module KnitrRuby
         raise StandardError, "Error knitting: #{stderr.read}" if wait_thr.value.exitstatus > 0
         content = stdout.read
       end
+      
+      # copy figures into _site directory
+      fig = @opts['opts_chunk']['fig.path']
+      if File.exists? fig
+        FileUtils.mkdir_p("_site/#{fig}")
+        FileUtils.mv(Dir["#{fig}/*"], "_site/#{fig}")
+      end
+      content
     end
     
     def dump_as_rlist(h)
@@ -38,11 +47,11 @@ module KnitrRuby
     end
     
     def opts_chunk
-      dump_as_rlist @opts['opts_chunk']
+      dump_as_rlist @opts['opts_chunk'] || {}
     end
 
     def opts_knit
-      dump_as_rlist @opts['opts_knit']
+      dump_as_rlist @opts['opts_knit'] || {}
     end
 
   end
@@ -96,3 +105,12 @@ module Jekyll
     end
   end
 end
+
+# module Jekyll
+#   class RMarkdownGenerator < Generator
+#     def generate(site)
+#       puts "@> #{site.config['knitr']['opts_chunk']['fig.path']}"
+#     end
+#   end
+# end
+  

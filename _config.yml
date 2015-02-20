@@ -12,8 +12,8 @@ redcarpet:
 keep_files:  ['fig']
 
 knitr:
-  opts_knit:
-    base.dir: '_site/'
+  # opts_knit:
+  #   base.dir: '_site/fig/'
   opts_chunk:
     fig.width: 5
     fig.height: 4

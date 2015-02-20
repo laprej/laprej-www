@@ -15,8 +15,5 @@ opts_knit$set(base.url="", base.dir=".", root.dir=NULL, self.contained=FALSE, ve
 . <- do.call(opts_chunk$set, chunk_opts) ## set chunk options
 . <- do.call(opts_knit$set, knit_opts)   ## set knit options
 
-## create output directory in case it doesn't exist
-dir.create(opts_knit$get('base.dir'), showWarnings=F)
-
 ## knit the document being processed; takes input from stdin and outputs to stdout
 . <- knit(text = readLines(file("stdin")), output=stdout(), quiet=TRUE)
