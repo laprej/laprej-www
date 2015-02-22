@@ -31,7 +31,7 @@ histogram.facets <- function(df, measure, grp) {
 d <- claret_data("name LIKE 'claret-v0.14%'")
 ```
 
-```{r followers, include=F}
+```{r followers}
 d.follow <- histogram.facets(subset(df,
     initusers == 4096 & mix == 'geom_repost'
 ), 'stat_follower_counts', 'grp')
