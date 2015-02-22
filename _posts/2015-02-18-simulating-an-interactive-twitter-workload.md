@@ -31,6 +31,18 @@ histogram.facets <- function(df, measure, grp) {
 d <- claret_data("name LIKE 'claret-v0.14%'")
 ```
 
+```{r followers, include=F}
+d.follow <- histogram.facets(subset(df,
+    initusers == 4096 & mix == 'geom_repost'
+), 'stat_follower_counts', 'grp')
+ggplot(d.follow, aes(x=x, weight=y))+
+    stat_ecdf(color=c.blue)+
+    xlab('# followers / user (log scale)')+ylab('CDF (log scale)')+
+    scale_x_log10(breaks=c(1,10,100,1000))+scale_y_log10(breaks=c(0.1,0.5,1.0))+
+    theme_mine
+```
+
+
 Now we plot it with a simple smoothing function:
 
 ```{r time, echo=T}
