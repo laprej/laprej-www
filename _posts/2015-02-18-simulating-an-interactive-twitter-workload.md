@@ -101,3 +101,5 @@ ggplot(d.u, aes(x=nclients, y=throughput/1000,
     theme(legend.position='right', legend.direction='vertical', legend.title.align=0)+
     cc_scales(title='Concurrency\ncontrol:')
 ```
+
+Thanks, see you in the next exciting update on this project.
