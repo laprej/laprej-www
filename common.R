@@ -70,9 +70,30 @@ theme_mine <- list(
   )
 )
 
+cc_palette <- c(
+  'rw'=c.yellow,
+  'simple'=c.blue,
+  
+  'reader/writer'=c.yellow,
+  'commutative'=c.blue,
+  
+  'follow'=c.blue,
+  'newuser'=c.yellow,
+  'post'=c.green,
+  'repost'=c.red,
+  'timeline'=c.pink,
+  
+  'kronecker'=c.blue,
+  
+  'read'=c.pink,
+  'write'=c.green,
+  
+  'none'=c.gray  
+)
+
 cc_scales <- function(field=cc, title="Concurrency control:") list(
-  scale_fill_manual(values=my_palette, name=title),
-  scale_color_manual(values=my_palette, name=title),
+  scale_fill_manual(values=cc_palette, name=title),
+  scale_color_manual(values=cc_palette, name=title),
   scale_linetype_manual(name=title, values=c('commutative'=1,'reader/writer'=2))
 )
 
