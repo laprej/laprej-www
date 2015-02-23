@@ -38,6 +38,10 @@ font-family: News Cycle;
   font-weight: bold;
 }
 
+.nav li a {
+  padding: 10px;
+}
+
 .nav img {
 /*  background-color: #222;*/
   padding: 0px;
