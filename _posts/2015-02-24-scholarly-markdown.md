@@ -83,4 +83,7 @@ I am certainly very hopeful about Authorea's ideas and the direction they're goi
 I look forward to watching Authorea's progress, and will continue to check in to see what they are coming up with. But in the meantime, I will continue exploring what I can build out of these other tools.
 
 ---
-Completely disagree with me on every point? Really love iPython (or R, for that matter) and want to fight me about it? Are you really excited about sharing your research, too? I would love to hear your thoughts on the matter, please reach out to me on Twitter: [@holtbg](http://twitter.com/holtbg).
+Completely disagree with me on every point? Really love iPython (or R, for that matter) and want to fight me about it? Are you really excited about sharing your research, too? I would love to hear your thoughts on the matter, please reach out to me on Twitter:
+
+<blockquote class="twitter-tweet" lang="en"><p>Lowering the bar: My stab at making it easier to share ongoing research and ease the effort of publishing. <a href="http://t.co/S8Ffgj8Pk5">http://t.co/S8Ffgj8Pk5</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/570471778449039361">February 25, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
