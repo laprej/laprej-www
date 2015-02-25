@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Scholarly markdown (with R) for fun and more fun (probably no profit)
+title: Scholarly markdown (with R) for fun and (non-monetary) profit
 description: |
-  A new workflow for writing up research in Markdown and executing R inline to generate visualizations. Otherwise known as "iPython's not good enough for me".
+  We need ways to lower the barrier to writing up in-progress research, making it easier to explore data in the process of sharing your findings. I've pulled together some tools that use Markdown for writing and generate plots inline to make it easy to generate both webpages and conference submissions.
 ---
 
 > I've been thinking a lot recently about how I can making it easier for me to share ongoing research.
@@ -57,6 +57,7 @@ The solution to my problem so far appears to be to combine Knitr's ability to ge
 
  So far, I have successfully used variations on the concept to write a recent workshop paper with a sigplanconf latex template. And I worked out how to integrate Knitr with [Jekyll](http://jekyllrb.com/) to make it trivial to explore data and generate plots for blog posts, which I used in my recent post, [Simulating an interactive Twitter workload]({% post_url 2015-02-18-simulating-an-interactive-twitter-workload %}) to generate beautiful SVG plots.
 
+I should also say, I'm partial to Markdown because I've invested a fair bit of time making really awesome [WYSIWYG support for Markdown in Textmate](https://github.com/bholt/Github-Markdown.tmbundle) that makes it really fun to write in Markdown.
 
 ### Next
 
