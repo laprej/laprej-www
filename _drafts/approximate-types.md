@@ -1,12 +1,12 @@
 ---
-title: Approximate types to bridge the consistency gap
+title: Bridging the consistency gap with approximate types
 layout: post
 description: |
     Dealing with approximation doesn't have to hurt: using type systems 
     People in our research group and others have shown the power, flexibility, and safety of disciplined approximate computing. Using type systems, it is possible to 
 ---
 
-# Approximate computing
+## Approximate computing
 
 > standard approximate computing spiel here
 
@@ -18,7 +18,7 @@ The problem is that in a system where everything is relaxed consistency by defau
 
 If an application can tolerate a certain amount of imprecision or reordering, why not capture that explicitly in the programming model? What if bounds on approximation could be expressed succinctly and enforced automatically? The answer: disciplined approximate programming.
 
-# *Disciplined* approximate programming
+## *Disciplined* approximate programming
 
 Dealing with approximation doesn't have to hurt. Several of my colleagues at the University of Washington have been working hard for the last few years developing abstractions and tools to allow people to relax precision or give up absolute correctness in parts of a program that can tolerate it, while retaining strong guarantees that these parts won't interfere with the rest of the program. These projects include [EnerJ](http://homes.cs.washington.edu/~asampson/home/blog/enerj.html), which adds `@approx` annotations to Java, [ACCEPT](https://sampa.cs.washington.edu/accept), an approximate compiler for C++, and [passert](http://homes.cs.washington.edu/~asampson/blog/passert.html) and [Uncertain<T>](http://research.microsoft.com/apps/pubs/default.aspx?id=208236) which help programmers interact with probabilistic variables.
 
