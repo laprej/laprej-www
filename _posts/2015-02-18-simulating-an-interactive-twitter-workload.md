@@ -24,7 +24,7 @@ df.histogram <- function(json, version="none") {
   d <- fromJSON(json)
   return(data.frame(x=num(names(d)), y=num(unlist(d)), version=version))
 }
-df <- claret_data("name like '%v0.14%' and nclients = 32 and initusers = 4096")
+df <- claret_data("name like '%v0.14%' and nclients = 32 and initusers = 4096", json=TRUE)
 df$grp <- with(df, sprintf("%s\n%s\nmix:%s/%s,\n%s", name, ccmode, mix, alpha, gen))
 
 histogram.facets <- function(df, measure, grp) {
