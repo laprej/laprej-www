@@ -20,6 +20,6 @@ If an application can tolerate a certain amount of imprecision or reordering, wh
 
 # *Disciplined* approximate programming
 
-Dealing with approximation doesn't have to hurt. Several of my colleagues at the University of Washington have been working hard for the last few years developing abstractions and tools to allow people to relax precision or give up absolute correctness in parts of a program that can tolerate it, while retaining strong guarantees that these parts won't interfere with the rest of the program. These projects include [EnerJ][], which adds `@approx` annotations to Java, [ACCEPT][], an approximate compiler for C++, and [passert][] and [Uncertain<T>][] which help programmers interact with probabilistic variables.
+Dealing with approximation doesn't have to hurt. Several of my colleagues at the University of Washington have been working hard for the last few years developing abstractions and tools to allow people to relax precision or give up absolute correctness in parts of a program that can tolerate it, while retaining strong guarantees that these parts won't interfere with the rest of the program. These projects include [EnerJ](http://homes.cs.washington.edu/~asampson/home/blog/enerj.html), which adds `@approx` annotations to Java, [ACCEPT](https://sampa.cs.washington.edu/accept), an approximate compiler for C++, and [passert](http://homes.cs.washington.edu/~asampson/blog/passert.html) and [Uncertain<T>](http://research.microsoft.com/apps/pubs/default.aspx?id=208236) which help programmers interact with probabilistic variables.
 
 
