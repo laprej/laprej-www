@@ -41,7 +41,7 @@ navigation:
     - title: cv
       link: /cv.html
     - title: posts
-      link: /posts.html
+      link: /posts/
     - title: 
       link: http://github.com/bholt
       icon: /img/GitHub-Mark.png
