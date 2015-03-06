@@ -7,6 +7,7 @@ gem 'guard-jekyll'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
 gem 'rinruby'
+gem 'jekyll-pandoc-multiple-formats', :git => 'https://github.com/fauno/jekyll-pandoc-multiple-formats.git'
 
 # gem 'knitr-ruby', '~> 0.0.4'
 # gem 'knitr-ruby', :git => 'https://github.com/bholt/knitr-ruby.git', :branch => 'patch-1'

@@ -6,8 +6,9 @@ highlighter: pygments
 redcarpet:
     extensions: ["with_toc_data"]
 
-# gems:
+gems:
 #   - jekyll-knitr
+  - 'jekyll-pandoc-multiple-formats'
   
 keep_files:  ['fig']
 
@@ -23,6 +24,17 @@ knitr:
     warning: FALSE
     error: FALSE
     dev: svg
+
+pandoc:
+  skip: true
+  impose: false
+  output: ./tmp
+  flags: '--smart --bibliography=refs.bib'
+  # site_flags: '--toc'
+  outputs:
+    pdf: '--latex-engine=latex'
+  #   epub:
+  #   markdown:
 
 base: ''
 
