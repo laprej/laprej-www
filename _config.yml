@@ -6,10 +6,11 @@ highlighter: pygments
 redcarpet:
     extensions: ["with_toc_data"]
 
-gems:
+# gems:
 #   - jekyll-knitr
-  - 'jekyll-pandoc-multiple-formats'
-  
+#   - 'jekyll-pandoc-multiple-formats'
+gems: ['jekyll/scholar']
+
 keep_files:  ['fig']
 
 knitr:
@@ -25,16 +26,36 @@ knitr:
     error: FALSE
     dev: svg
 
-pandoc:
-  skip: true
-  impose: false
-  output: ./tmp
-  flags: '--smart --bibliography=refs.bib'
-  # site_flags: '--toc'
-  outputs:
-    pdf: '--latex-engine=latex'
-  #   epub:
-  #   markdown:
+# pandoc:
+#   skip: true
+#   impose: false
+#   output: ./tmp
+#   flags: '--smart --bibliography=_data/refs.bib --csl=_data/ieee.csl'
+#   # site_flags: '--toc'
+#   outputs:
+#     pdf: '--latex-engine=latex'
+#   #   epub:
+#   #   markdown:
+
+scholar:
+  style: ieee
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_data
+  bibliography: refs.bib
+  bibliography_template: |
+    {{reference}}
+
+  replace_strings: true
+  join_strings:    true
+
+  # details_dir:    bibliography
+  # details_layout: bibtex.html
+  # details_link:   Details
+  # query: "@*"
 
 base: ''
 
