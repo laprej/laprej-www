@@ -1,9 +1,14 @@
-suppressPackageStartupMessages(require(RMySQL))
+if (DATA.MODE != 'local') {
+  suppressPackageStartupMessages(require(RMySQL))
+  options(RMySQL.dbname="claret") # (rest comes from $HOME/.my.cnf)
+}
 suppressPackageStartupMessages(require(sqldf))
 suppressPackageStartupMessages(require(ggplot2))
 suppressPackageStartupMessages(require(reshape))
 suppressPackageStartupMessages(require(plyr))
-options(RMySQL.dbname="claret") # (rest comes from $HOME/.my.cnf)
+suppressPackageStartupMessages(require(sqldf))
+suppressPackageStartupMessages(require(jsonlite))
+
 
 db <- function(query, factors=c(), numeric=c()) {
   d <- sqldf(query)
@@ -97,9 +102,9 @@ cc_scales <- function(field=cc, title="Concurrency control:") list(
   scale_linetype_manual(name=title, values=c('commutative'=1,'reader/writer'=2))
 )
 
-claret_data <- function(where="", json=FALSE) {
+claret_data <- function(where="") {
 
-  d <- if(json) do.call("rbind", fromJSON("_data/claret.json"))
+  d <- if(DATA.MODE == 'local') do.call("rbind", fromJSON("_data/claret.json"))
        else    db(paste("SELECT * FROM tapir WHERE total_time is not null AND ", where))
   
   d$failure_rate <- d$txn_failed / (d$txn_count + d$txn_failed)
