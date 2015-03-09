@@ -1,6 +1,7 @@
 # DATA.MODE='local'
+DATA.MODE='mysql'
 
-if (DATA.MODE != 'local') {
+if (DATA.MODE == 'mysql') {
   suppressPackageStartupMessages(require(RMySQL))
   options(RMySQL.dbname="claret") # (rest comes from $HOME/.my.cnf)
 }
