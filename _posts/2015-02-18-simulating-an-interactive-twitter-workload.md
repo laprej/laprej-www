@@ -17,7 +17,6 @@ Natural graphs, in particular social network graphs, follow particular patterns.
 Using the Kronecker graph generator from the [Graph500 benchmark](http://graph500.org) (a simplistic benchmark designed to test the graph analytics performance of supercomputers), it was easy to create a graph of users that follow each other in a way that matches real networks:
 
 ```{r, include=F}
-DATA.MODE='local'
 source('common.R')
 
 df.histogram <- function(json, version="none") {

@@ -1,3 +1,5 @@
+# DATA.MODE='local'
+
 if (DATA.MODE != 'local') {
   suppressPackageStartupMessages(require(RMySQL))
   options(RMySQL.dbname="claret") # (rest comes from $HOME/.my.cnf)
