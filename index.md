@@ -26,13 +26,14 @@ Solving these problems requires being willing to change any part of the traditio
 ## Projects
 
 <div class="alert alert-info">Latest paper:
-  <a href="http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf">Alembic: Automatic Locality Extraction via Migration</a> to appear at <a href="http://2014.splashcon.org/track/oopsla2014">OOPSLA'14</a>
+  <a href="pubs/claret-papoc.pdf">Claret: Using Data Types for Highly Concurrent Transactions</a> to appear at <a href="http://papoc.di.uminho.pt/">PaPoC 2015</a>.
 </div>
 
 Read more about various work in progress and past on the [Projects](projects.html) page. A few highlights:
 
-* [Grappa](projects.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
-* [Igor](projects.html#Igor): A system to make it easier to run parameter sweeps and collect data from experiments.
+- [Claret](projects.html#Claret): Bringing ADTs and approximate computing to NoSQL databases.
+- [Grappa](projects.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
+- [Igor](projects.html#Igor): A system to make it easier to run parameter sweeps and collect data from experiments.
 
 ## Personal
 Despite appearances, in addition to locking myself up in a room coding all day, I do other things as well. I enjoy hiking, soccer, frisbee, and sci-fi. I particularly like mountains, in which Washington is not disappointing me.
