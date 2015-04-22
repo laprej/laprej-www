@@ -1,0 +1,7 @@
+common:
+  database: mysql:///claret?read_default_file=/Users/bholt/.my.cnf
+  prefix: .
+  format: json
+exports:
+  - query: SELECT * FROM tapir WHERE total_time is not null AND name LIKE '%v0.14%' AND nclients = 32 AND initusers = 4096
+    filename: claret.json
