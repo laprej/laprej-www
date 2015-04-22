@@ -1,6 +1,6 @@
 ---
 layout: default
-title: curriculum vitae
+title: Curriculum Vitae
 ---
 
 ### Research Interests

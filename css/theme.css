@@ -1,7 +1,7 @@
 /* Space out content a bit */
 body {
 /*  font-family: 'News Cycle', sans-serif;*/
-  font-family: Helvetica, sans-serif;
+/*  font-family: Helvetica, sans-serif;*/
 /*  font-family: Roboto, News Cycle, sans-serif;*/
   font-weight: 300;
   font-size: 14px;
@@ -25,8 +25,14 @@ p img {
   font-family: Inconsolata, monospace;
 }
 
+.media {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
 div.header {
   font-family: News Cycle;
+  margin-bottom: 20px;
 }
 div.header h2, div.panel-title {
   font-family: News Cycle;

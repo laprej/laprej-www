@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>bholt / {{ page.title }}</title>
+        <title>Brandon Holt — {{ page.title }}</title>
         
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@holtbg">
@@ -16,7 +16,6 @@
         <link href="{{site.base}}/css/bootstrap-theme.min.css" rel="stylesheet">
                 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
         
         <link href="{{site.base}}/css/theme.css" rel="stylesheet">
         <link href="{{site.base}}/css/syntax.css" rel="stylesheet">
@@ -37,9 +36,7 @@
       </script>
       
         <div class="container">
-          
           <div class="header">
-  
             <ul class="nav nav-pills pull-right">
               {% assign shorturl = page.url | replace:'index.html','' %}
               {% for item in site.navigation %}
@@ -49,13 +46,10 @@
                   {% else %}
                   <a href="{{ site.base }}{{ item.link }}" >
                   {% endif %}
-          
-                    {% if item.icon %}
-                    <img src="{{ site.base }}{{ item.icon }}" {% if item.icon2x %}srcset="{{site.base}}{{item.icon2x}} 2x"{% endif %} />
-                    {% endif %}
-                              
-                    {{ item.title }}
-          
+                  {% if item.icon %}
+                  <img src="{{ site.base }}{{ item.icon }}" {% if item.icon2x %}srcset="{{site.base}}{{item.icon2x}} 2x"{% endif %} />
+                  {% endif %}
+                  {{ item.title }}
                   </a>
                 </li>
               {% endfor %}
@@ -65,16 +59,8 @@
           
           {{ content }}
           
-          
           <div class="footer">
-            <p>
-              Brandon Holt &#8212;
-              <a href="http://www.cs.washington.edu/">Computer Science &amp;
-                Engineering</a>
-              at the
-              <a href="http://www.washington.edu/">University of
-                Washington</a>
-            </p>
+            <p>Brandon Holt &#8212; <a href="http://www.cs.washington.edu/">Computer Science &amp; Engineering</a> at the <a href="http://www.washington.edu/">University of Washington</a></p>
           </div>
         </div>
 
