@@ -1,5 +1,5 @@
 # DATA.MODE='local'
-DATA.MODE='mysql'
+# DATA.MODE='mysql'
 
 if (DATA.MODE == 'mysql') {
   suppressPackageStartupMessages(require(RMySQL))
@@ -107,8 +107,12 @@ cc_scales <- function(field=cc, title="Concurrency control:") list(
 
 claret_data <- function(where="") {
 
-  d <- if(DATA.MODE == 'local') do.call("rbind", fromJSON("_data/claret.json"))
-       else    db(paste("SELECT * FROM tapir WHERE total_time is not null AND ", where))
+  d <-
+    if(exists("DATA.MODE") && DATA.MODE == 'local') {
+      do.call("rbind", fromJSON("_data/claret.json"))
+    } else {
+      db(paste("SELECT * FROM tapir WHERE total_time is not null AND ", where))
+    }
   
   d$failure_rate <- d$txn_failed / (d$txn_count + d$txn_failed)
   d$throughput <- d$txn_count * num(d$nclients) / d$total_time

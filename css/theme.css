@@ -162,3 +162,10 @@ img { max-width: 100%; }
 dl.people dd {
     margin-bottom: 1em;
 }
+
+/* http://stackoverflow.com/questions/16937070/iframe-size-with-css-on-ios */
+#twitter-widget-0 {
+  width: 1px !important;
+  min-width: 100% !important;
+  *width: 100% !important;
+}

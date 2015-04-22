@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Simulating an interactive Twitter workload"
-description: "My latest project has led me to try to simulate workloads from real-world social networks. Starting from Graph500's Kronecker graph and integrating with Retwis, with a sprinkle of my own retweet behavior, I came up with something that works for me that I thought I'd share."
+title: Simulating an interactive Twitter workload
+description: |
+  My latest project has led me to try to simulate workloads from real-world social networks. Starting from Graph500's Kronecker graph and integrating with Retwis, with a sprinkle of my own retweet behavior, I came up with something that works for me that I thought I'd share.
 ---
 
 This week I submitted some early work on mitigating contention on hot keys in key/value stores to a workshop co-located with EuroSys. In order to better motivate the work, I wanted to recreate scenarios from real life that lead to lots of contention on a few keys. In particular, what is most interesting for my work is cases where a lot of clients are all attempting to read and update the same key at once. One place where this happens organically is when something, such as a tweet, "goes *viral*" and is suddenly being seen, commented on, and re-shared by millions of people. This web phenomenon causes all kinds of problems for designers and maintainers of social networks or really anything on the internet. Though Twitter's [failwhale](http://www.whatisfailwhale.info/) has been retired for a couple years now, and Twitter can now withstand high tweet volumes, even the spikes that follow a #WorldCup goal or Katy Perry's SuperBowl shark, some situations can still slow it to a crawl, like Ellen DeGeneres's 2014 Oscar selfie.
@@ -17,6 +18,7 @@ Natural graphs, in particular social network graphs, follow particular patterns.
 Using the Kronecker graph generator from the [Graph500 benchmark](http://graph500.org) (a simplistic benchmark designed to test the graph analytics performance of supercomputers), it was easy to create a graph of users that follow each other in a way that matches real networks:
 
 ```{r, include=F}
+DATA.MODE <- 'local'
 source('common.R')
 
 df.histogram <- function(json, version="none") {
