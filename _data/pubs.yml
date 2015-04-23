@@ -23,3 +23,28 @@ alembic:
     paper: http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf
     slides: /pubs/alembic-oopsla.pdf
     key: /pubs/alembic-oopsla.key
+
+flatcombining:
+  title: Flat Combining Synchronized Global Data Structures
+  venue:
+    name: "PGAS'13"
+    link: http://www.pgas2013.org.uk
+  links:
+    paper: /pubs/holt-pgas13.pdf
+    slides: /pubs/holt-pgas13-slides.pdf
+
+quals:
+  title: Turning Contention Into Cooperation
+  venue:
+    name: UW CSE Qualifying Examination Talk
+  links:
+    slides: /pubs/holt-quals.pdf
+
+
+hotpar12:
+  title: Do we need a crystal ball for task migration?
+  venue: 
+    name: "HotPar'12"
+    link: https://www.usenix.org/conference/hotpar12
+  links:
+    paper: https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf

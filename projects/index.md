@@ -41,13 +41,13 @@ One of the primary tricks to Grappa's success is moving computation to where dat
 ### Flat combining
 The general idea is that synchronization on global shared data structures can be massively improved by waiting and combining many operations together, and Grappa's massive multithreading allows us to tolerate this additional latency.
 
-- *Flat Combining Synchronized Global Data Structures* — presented at [PGAS'13](http://www.pgas2013.org.uk) ([paper]({{site.base}}/pubs/holt-pgas13.pdf), [slides]({{site.base}}/pubs/holt-pgas13-slides.pdf))
-- *Turning Contention Into Cooperation* - UW CSE Qualifying Examination Talk ([slides]({{site.base}}/pubs/holt-quals.pdf))
+- {% publication flatcombining %}
+- {% publication quals %}
 
 ### Task migration simulation
 [Brandon Myers](http://www.cs.washington.edu/homes/bdmyers/) and I submitted a workshop paper to [HotPar '12](https://www.usenix.org/conference/hotpar12) exploring whether it is possible to make profitable predictions about when to move a task its the data (migration) rather than moving the data. Our study involved instrumenting the shared memory accesses in a few simple benchmarks, collecting an execution trace, and simulating the cost of data movement under different migration policies, including an optimal migration schedule.
 
-- *Do we need a crystal ball for task migration?* — presented at [HotPar'12](https://www.usenix.org/conference/hotpar12) ([paper](https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf))
+- {% publication hotpar12 %}
 
 ---
 
