@@ -62,7 +62,7 @@ teaching:
 ---
 
 ## Research Interests
-I am interested in helping programs scale from workstations up to huge machines in order to solve the biggest problems in data-intensive and scientific computing workloads. To tackle this problem I look to designing programming models and language features that express parallelism and locality, compilers that leverage that additional information to do aggressive optimization, and runtime systems that handle the dynamic optimizations to make use of the architecture’s full capabilities.
+I am interested in helping programs scale from workstations up to huge machines in order to solve the biggest problems in data-intensive and scientific computing workloads. To tackle this problem I design programming models and language features that express parallelism and locality, compilers that leverage that additional information to do aggressive optimization, and runtime systems that handle dynamism to make full use of each architecture's capabilities.
 
 ## Education
 ##### [University of Washington](http://uw.edu) — [Department of Computer Science & Engineering](http://cs.washington.edu)
