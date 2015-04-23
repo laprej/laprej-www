@@ -70,7 +70,7 @@ navigation:
     - title: Home
       link: /
     - title: Projects
-      link: /projects.html
+      link: /projects/
     - title: CV
       link: /cv.html
     - title: Posts
