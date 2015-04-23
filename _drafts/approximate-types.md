@@ -2,8 +2,8 @@
 title: Bridging the consistency gap with approximate types
 layout: post
 description: |
-    Dealing with approximation doesn't have to hurt: using type systems 
-    People in our research group and others have shown the power, flexibility, and safety of disciplined approximate computing. Using type systems, it is possible to 
+  Dealing with approximation doesn't have to hurt: using type systems 
+  People in our research group and others have shown the power, flexibility, and safety of disciplined approximate computing. Using type systems, it is possible to 
 ---
 
 ## Approximate computing
