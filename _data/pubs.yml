@@ -1,0 +1,15 @@
+claret:
+  title: 'Claret: Using Data Types for Highly Concurrent Distributed Transactions'
+  authors: 
+    - Brandon Holt
+    - Irene Zhang
+    - Dan Ports
+    - Mark Oskin
+    - Luis Ceze
+  venue: 
+    name: Workshop on Principles and Practice of Consistency (PaPoC'15)
+    link: http://papoc.di.uminho.pt
+  links:
+    paper: http://dl.acm.org/authorize?N96590
+    slides: /pubs/claret-papoc-slides.pdf
+    key: /pubs/claret-papoc-slides.key
