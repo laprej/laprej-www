@@ -105,6 +105,8 @@ jocse:
     link: http://jocse.org
     name: "Journal of Computational Science Education, Vol 2"
     date: December 2011
+  links:
+    paper: http://www.shodor.org/media/content//jocse/volume2/issue1/holt2011
 
 peerreview:
   title: A Peer Review System to Enhance Collaborative Learning
