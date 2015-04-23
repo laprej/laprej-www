@@ -9,6 +9,14 @@ body {
   padding-bottom: 10px;
 }
 
+p {
+  margin: 0 0 4px;
+}
+
+div.pub {
+  margin-bottom: 10px;
+}
+
 #twitter-widget-0 {
   width: 100% !important;
   float: none;

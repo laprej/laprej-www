@@ -23,14 +23,6 @@ internships:
       - Worked with and evaluated Cray’s parallel productivity language, Chapel
       - Developed and optimized HPC benchmarks using MPI and Chapel
 
-  - who: Undergraduate Petascale Intern
-    where: Advised by Dr. Dan Ernst
-    when:  "May 2010-May 2011"
-    what: |
-      - Learned how to leverage NVidia’s GPU architecture using the CUDA framework
-      - Worked full-time over the summer optimizing a computational model to run on graphics processors
-      - Gained experience building and running on various high-performance compute clusters
-
   - who: Software Development Intern
     where: Epic
     when:  Summer 2009
@@ -103,13 +95,16 @@ I am interested in helping programs scale from workstations up to huge machines 
 ## Internship Experience
 
 {% for i in page.internships %}
-<p><strong>{{i.where}}</strong> — <em>{{i.who}}</em> — {{i.when}} {{i.what | markdownify}}</p>
+<div>
+<strong>{{i.where}}</strong> — <em>{{i.who}}</em> — {{i.when}}
+{{i.what | markdownify}}
+</div>
 {% endfor %}
 
 ## Teaching Experience
 
 {% for i in page.teaching %}
-<p><strong>{{i.position}}</strong> {{i.detail | markdownify}}</p>
+<div><strong>{{i.position}}</strong> {{i.detail | markdownify}}</div>
 {% endfor %}
 
 ## References

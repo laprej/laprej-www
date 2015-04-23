@@ -50,11 +50,13 @@ module Jekyll
         %{<a href="#{basify[v]}" class=""><span class="glyphicon glyphicon-#{icon[k]}"></span> #{k.capitalize}</a>}
       }
       
-      [ "<strong>#{pub['title']}</strong>",
+      content = [ "<strong>#{pub['title']}</strong>",
         (pub['authors'] ? pub['authors'].join(', ') : nil),
         venue(pub),
         links.join(' | ')
       ].compact.join('<br/>')
+      
+      %{<div class="pub">#{content}</div>}
     end
   end
 end
