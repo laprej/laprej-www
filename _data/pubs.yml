@@ -1,4 +1,4 @@
-claret:
+claret-papoc:
   title: 'Claret: Using Data Types for Highly Concurrent Distributed Transactions'
   authors:
     - Brandon Holt
@@ -9,6 +9,7 @@ claret:
   venue: 
     name: Workshop on Principles and Practice of Consistency (PaPoC'15)
     link: http://papoc.di.uminho.pt
+    date: Apr 2015
   links:
     paper: http://dl.acm.org/authorize?N96590
     slides: /pubs/claret-papoc-slides.pdf
@@ -16,9 +17,15 @@ claret:
 
 alembic:
   title: 'Alembic: Automatic Locality Extraction via Migration'
+  authors:
+    - Brandon Holt
+    - Preston Briggs
+    - Luis Ceze
+    - Mark Oskin
   venue:
     name: OOPSLA'14
     link: http://2014.splashcon.org/track/oopsla2014
+    date: Oct 2014
   links:
     paper: http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf
     slides: /pubs/alembic-oopsla.pdf
@@ -26,9 +33,18 @@ alembic:
 
 flatcombining:
   title: Flat Combining Synchronized Global Data Structures
+  authors:
+    - Brandon Holt
+    - Jacob Nelson
+    - Brandon Myers
+    - Preston Briggs
+    - Luis Ceze
+    - Simon Kahan
+    - Mark Oskin
   venue:
-    name: "PGAS'13"
+    name: "International Conference on PGAS Programming Models (PGAS'14)"
     link: http://www.pgas2013.org.uk
+    date: Oct 2013
   links:
     paper: /pubs/holt-pgas13.pdf
     slides: /pubs/holt-pgas13-slides.pdf
@@ -40,11 +56,66 @@ quals:
   links:
     slides: /pubs/holt-quals.pdf
 
-
 hotpar12:
   title: Do we need a crystal ball for task migration?
   venue: 
-    name: "HotPar'12"
+    name: "USENIX Workshop on Hot Topics in Parallelism (HotPar'12)"
     link: https://www.usenix.org/conference/hotpar12
   links:
     paper: https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf
+
+grappa-wrsc:
+  title: "Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications"
+  authors:
+    - Jacob Nelson
+    - Brandon Holt
+    - Brandon Myers
+    - Preston Briggs
+    - Luis Ceze
+    - Simon Kahan
+    - Mark Oskin
+  venue:
+    name: International Workshop on Rack-Scale Computing (WRSC w/EuroSys)
+    link: http://research.microsoft.com/en-us/events/wrsc2014/
+    date: Apr 2014
+  links:
+    paper: http://sampa.cs.washington.edu/papers/grappa-wrsc-2014.pdf
+
+grappa-usenix:
+  title: Latency-Tolerant Software Distributed Shared Memory
+  authors:
+    - Jacob Nelson
+    - Brandon Holt
+    - Brandon Myers
+    - Preston Briggs
+    - Luis Ceze
+    - Simon Kahan
+    - Mark Oskin
+  venue:
+    name: USENIX Annual Technical Conference
+    link: https://www.usenix.org/conference/atc15
+    date: July 2014
+
+jocse:
+  title: Accelerating Geophysics Simulation using CUDA
+  authors:
+    - Brandon Holt
+    - Dan Ernst
+  venue: 
+    link: http://jocse.org
+    name: "Journal of Computational Science Education, Vol 2"
+    date: December 2011
+
+peerreview:
+  title: A Peer Review System to Enhance Collaborative Learning
+  authors:
+    - Luke Komiskey
+    - Brandon Holt
+    - Joline Morrison
+    - Mike Morrison
+  venue:
+    name: Midwestern Instruction and Computing Symposium
+    link: http://www.micsymposium.org/
+    date: 2009
+  links:
+    paper: http://mics.sdsmt.edu/proceedings/Paper/mics2009_submission_5.pdf

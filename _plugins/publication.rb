@@ -46,7 +46,7 @@ module Jekyll
       # binding.pry
       
       icon = { 'paper'=>'file', 'key'=>'blackboard', 'slides'=>'blackboard' }
-      links = pub['links'].map{|k,v|
+      links = (pub['links'] || []).map{|k,v|
         %{<a href="#{basify[v]}" class=""><span class="glyphicon glyphicon-#{icon[k]}"></span> #{k.capitalize}</a>}
       }
       
