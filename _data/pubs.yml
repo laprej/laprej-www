@@ -12,7 +12,7 @@ claret:
   links:
     paper: http://dl.acm.org/authorize?N96590
     slides: /pubs/claret-papoc-slides.pdf
-    key: /pubs/claret-papoc-slides.key
+    key: /files/claret-papoc.key
 
 alembic:
   title: 'Alembic: Automatic Locality Extraction via Migration'
