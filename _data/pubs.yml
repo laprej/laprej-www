@@ -1,6 +1,6 @@
 claret:
   title: 'Claret: Using Data Types for Highly Concurrent Distributed Transactions'
-  authors: 
+  authors:
     - Brandon Holt
     - Irene Zhang
     - Dan Ports
@@ -13,3 +13,13 @@ claret:
     paper: http://dl.acm.org/authorize?N96590
     slides: /pubs/claret-papoc-slides.pdf
     key: /pubs/claret-papoc-slides.key
+
+alembic:
+  title: 'Alembic: Automatic Locality Extraction via Migration'
+  venue:
+    name: OOPSLA'14
+    link: http://2014.splashcon.org/track/oopsla2014
+  links:
+    paper: http://sampa.cs.washington.edu/papers/oopsla14-alembic.pdf
+    slides: /pubs/alembic-oopsla.pdf
+    key: /pubs/alembic-oopsla.key

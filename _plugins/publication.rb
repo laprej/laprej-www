@@ -42,7 +42,7 @@ module Jekyll
       }
       
       pub = site.data['pubs'][@tag]
-        
+      
       # binding.pry
       
       icon = { 'paper'=>'file', 'key'=>'blackboard', 'slides'=>'blackboard' }
@@ -51,10 +51,10 @@ module Jekyll
       }
       
       [ "<strong>#{pub['title']}</strong>",
-        pub['authors'].join(', '),
+        (pub['authors'] ? pub['authors'].join(', ') : nil),
         venue(pub),
         links.join(' | ')
-      ].join('<br/>')
+      ].compact.join('<br/>')
     end
   end
 end
