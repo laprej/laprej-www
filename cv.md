@@ -109,6 +109,6 @@ I am interested in helping programs scale from workstations up to huge machines 
 
 ## References
 
-* Luis Ceze, PhD. - PhD Advisor - [luisceze@cs.washington.edu](mailto:luisceze@cs.washington.edu)
+* Luis Ceze, PhD. – PhD Advisor – [luisceze@cs.washington.edu](mailto:luisceze@cs.washington.edu)
 * Mark Oskin 	– PhD Advisor – [oskin@cs.washington.edu](mailto:oskin@cs.washington.edu)
-* Dan Ernst, PhD. – Assistant Professor, Undergraduate Research Advisor - [dje@cray.com](mailto:dje@cray.com)
+* Dan Ernst, PhD. – Assistant Professor, Undergraduate Research Advisor – [dje@cray.com](mailto:dje@cray.com)
