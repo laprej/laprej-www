@@ -59,6 +59,8 @@ scholar:
 
 base: ''
 
+front_page_news: 6
+
 url: http://homes.cs.washington.edu/~bholt/
 
 permalink: /posts/:title.html

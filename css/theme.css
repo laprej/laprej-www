@@ -22,6 +22,24 @@ blockquote {
   font-style: italic;
 }
 
+/* Front page news. */
+ul.news .date {
+    color: #999;
+    font-weight: bold;
+    font-size: 0.8em;
+    display: block;
+}
+ul.news > li {
+    margin-top: 0.8em;
+}
+ul.news .shortnews .date {
+/*    float: left;*/
+    margin-right: 1em;
+}
+ul.news .bloglink a {
+    font-size: 1em;
+}
+
 div.pub {
   margin-bottom: 10px;
 }

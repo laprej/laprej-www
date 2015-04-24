@@ -11,6 +11,27 @@ tagline: University of Washington
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
+## News
+<ul class="news list-unstyled">
+{% for post in site.posts limit: site.front_page_news %}
+    {% if post.shortnews %}
+        <li class="shortnews">
+            <span class="date">{{ post.date | date_to_long_string }}</span>
+            {{ post.content }}
+        </li>
+    {% else %}
+        <li class="bloglink">
+            <span class="date">{{ post.date | date_to_long_string }}</span>
+            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% assign numposts = site.posts | size %}
+{% if numposts >= site.front_page_news %}
+<p><a href="{{ site.base }}/posts/">&hellip;</a></p>
+{% endif %}
+
 ## About Me
 I am a grad student at the University of Washington, pursuing a PhD in Computer Science and Engineering. My research interests include exploring programming models, languages, and compilers for the purposes of exposing and expressing parallelism in a way that existing architectures can use it. My research is done as part of the Computer Architecture group at UW ([Sampa](http://sampa.cs.washington.edu)), with co-advisors [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/) and [Mark Oskin](http://www.cs.washington.edu/homes/oskin). With them, I am working on the [Grappa](http://grappa.io) project, an effort to improve performance of irregular applications on commodity clusters in software.
 
