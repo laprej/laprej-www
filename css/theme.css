@@ -17,6 +17,11 @@ a:hover {
   margin: 0 0 4px;
 }*/
 
+blockquote {
+  font-size: 14px;
+  font-style: italic;
+}
+
 div.pub {
   margin-bottom: 10px;
 }
