@@ -18,11 +18,15 @@ module Jekyll
       end
     end
     
+    def date(pub)
+      pub['venue'] ? pub['venue']['date'] : nil
+    end
+    
     def venue(pub)
       v = pub['venue']
-      if v['link']
+      if v && v['link']
         %{<a href="#{v['link']}">#{v['name']}</a>}
-      elsif v['name']
+      elsif v && v['name']
         v['name']
       else
         v
@@ -52,7 +56,7 @@ module Jekyll
       
       content = [ "<strong>#{pub['title']}</strong>",
         (pub['authors'] ? pub['authors'].join(', ') : nil),
-        venue(pub),
+        [venue(pub), date(pub)].compact.join(' — '),
         links.join(' | ')
       ].compact.join('<br/>')
       

@@ -53,14 +53,19 @@ quals:
   title: Turning Contention Into Cooperation
   venue:
     name: UW CSE Qualifying Examination Talk
+    date: Dec 2013
   links:
     slides: /pubs/holt-quals.pdf
 
 hotpar12:
   title: Do we need a crystal ball for task migration?
+  authors:
+    - Brandon Myers
+    - Brandon Holt
   venue: 
     name: "USENIX Workshop on Hot Topics in Parallelism (HotPar'12)"
     link: https://www.usenix.org/conference/hotpar12
+    date: Jul 2012
   links:
     paper: https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf
 
@@ -94,7 +99,7 @@ grappa-usenix:
   venue:
     name: USENIX Annual Technical Conference
     link: https://www.usenix.org/conference/atc15
-    date: July 2014
+    date: Jul 2014
 
 jocse:
   title: Accelerating Geophysics Simulation using CUDA
@@ -104,7 +109,7 @@ jocse:
   venue: 
     link: http://jocse.org
     name: "Journal of Computational Science Education, Vol 2"
-    date: December 2011
+    date: Dec 2011
   links:
     paper: http://www.shodor.org/media/content//jocse/volume2/issue1/holt2011
 
