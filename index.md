@@ -29,32 +29,11 @@ Solving these problems requires being willing to change any part of the traditio
   <a href="pubs/claret-papoc.pdf">Claret: Using Data Types for Highly Concurrent Transactions</a> to appear at <a href="http://papoc.di.uminho.pt/">PaPoC 2015</a>.
 </div>
 
-Read more about various work in progress and past on the [Projects](projects.html) page. A few highlights:
+Read more about various work in progress and past on the [Projects](projects/index.html) page. A few highlights:
 
-- [Claret](projects.html#Claret): Bringing ADTs and approximate computing to NoSQL databases.
-- [Grappa](projects.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
-- [Igor](projects.html#Igor): A system to make it easier to run parameter sweeps and collect data from experiments.
+- [Claret](projects/index.html#Claret): Bringing ADTs and approximate computing to NoSQL databases.
+- [Grappa](projects/index.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
+- [Igor](projects/index.html#Igor): A system to make it easier to run parameter sweeps and collect data from experiments.
 
 ## Personal
 Despite appearances, in addition to locking myself up in a room coding all day, I do other things as well. I enjoy hiking, soccer, frisbee, and sci-fi. I particularly like mountains, in which Washington is not disappointing me.
-
-
-<!-- <div class="container">
- <div class="fluid-row">
-    <div class="span7">
-
-    </div>
-    <div class="span4">
-      <img src="img/brandon_coast.jpg" class="img-polaroid" style="height=100px"/>
-      <ul class="thumbnails">
-        <li></li>
-        <li class="span4">
-          <div class="alert alert-info">
-            <h1>GitHub</h1>
-            <a class="btn" href="http://github.com/bholt">See my repos &raquo;</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div> -->
