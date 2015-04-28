@@ -2,7 +2,7 @@
 title: Disciplined Inconsistency
 layout: default
 description: |
-  Distributed systems have hard performance requirements which drive programmers to accept drastic  
+  In order scale services with tight performance requirements, distributed systems programmers are forced to accept stale or inconsistent data. I propose to help programmers deal with this inconsitency in disciplined ways with type systems and runtime support that will allow them to indicate what kinds of errors are acceptable for their application.
 ---
 
 There are two ways of looking at inconsistency bounds: 
