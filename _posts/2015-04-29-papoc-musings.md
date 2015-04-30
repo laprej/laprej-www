@@ -25,6 +25,8 @@ What's even more useful about Riak is that it has been developed very modularly,
 -  [riak_kv](https://github.com/basho/riak_kv): simple key-value store built on riak_core.
 -  [riak_ensemble][]: implementation of Multi-Paxos (consensus groups) to enable consistent operations to be performed, which could in theory be used to implement full distributed transactions.
 
+Based on this, I might look into implementing some of my recent work on top of Riak, instead of Redis as I had planned.
+
 ## SyncFree Project
 
 Many of the attendees and organizers of PaPoC are involved in a big EU project related to scalable distributed systems called SyncFree. For my purposes, what is interesting is that it's a consortium of many universities and industry partners focused around improving the state-of-the-art in distributed programming models, data storage systems, and mobile platforms, and they seem to have taken a particular stance which leans heavily toward *eventual consistency* as necessary for providing high availability and scalability, for geo-replication as well as intermittently-connected mobile devices.
