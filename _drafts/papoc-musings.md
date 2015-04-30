@@ -43,11 +43,15 @@ Have you ever been sitting in the same room with a bunch of colleagues, all of y
 
 Now imagine the worst: all of us are in the same room, collaborating on this super crucial task, and the network goes down. Suddenly, even though we all have the slides, and all of our machines are still Wifi-capable, we suddenly are stuck in our own worlds, editing separate copies of the slides, so the version being presented is, sadly devoid of prank slides — err, I mean exciting new research.
 
-Wouldn't it make much more sense that when we lose connection to Google, all of us still connected to each other can still continue to collaborate. This particular example may not make you too concerned, but I actually have been in situations where I wanted to work on a document with other people and our internet kept going down, so Google Docs was a pain. Furthermore, there are countless other situations where offline coordination between devices is desired, such as ad-hoc networks used to aid relief efforts after a disaster takes out wireless infrastructure.
+Wouldn't it make much more sense that all of us still connected to each other can still continue to collaborate? This particular example may not overly concern you, but I actually have been in situations where I wanted to work on a document with other people and our internet kept going down, so Google Docs was a pain. Furthermore, there are countless other situations where offline coordination between devices is desired, such as ad-hoc networks used to aid relief efforts after a disaster takes out wireless infrastructure.
 
 Luckily some of the people at PaPoC are interested in helping all of these scenarios, and as with most things at this workshop, the solution is — CRDTs! Seriously though, it's pretty great. The poster child app so far for CRDTs has been collaborative text editing.
 
-Santiago Castiñeira presented his work, [Collaborative offline web applications using conflict-free replicated data types](http://dl.acm.org/citation.cfm?id=2745952), where he laid out these kinds of scenarios, showed that CRDTs are a natural fit, and explored various communication protocols for keeping them in sync with each other.
+### Offline collaboration
+
+Santiago Castiñeira presented his work, [Collaborative offline web applications using conflict-free replicated data types](http://dl.acm.org/citation.cfm?id=2745952), where he laid out these kinds of scenarios, showed that CRDTs are a natural fit, and explored various communication protocols for keeping them in sync with each other. Santiago built his system for Chrome specifically in order to be able to implement the peer-to-peer features. It would be really cool if one of the web standards like WebRTC supported connecting directly between already-known devices while offline.
+
+### Internet of Intermittently Connected Things
 
 I had other conversations with people at the workshop about the applying CRDTs for the "Internet of Things" (we're all suitably embarrassed to use the buzzword, but still excited). When devices go offline for any number of reasons, they tend to end up diverging much more from each other than typical even for geo-replicated data storage. First of all, this is cool in the context of the low-power energy-harvesting devices, which I hear a good deal about from my [current](http://homes.cs.washington.edu/~amrita/), [recently former](http://ben.ransford.org/) and [less recently former](http://brandonlucia.com/) colleagues.
 
