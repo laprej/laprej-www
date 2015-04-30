@@ -210,3 +210,49 @@ dl.people dd {
   min-width: 100% !important;
   *width: 100% !important;
 }
+
+.venue {
+  font-style: italic;
+}
+
+@media print {
+
+  body {
+    font-size: 12px;
+/*    font-family: Palatino;*/
+  }
+  
+  a[href]:after {
+    content: none !important;
+  }
+  
+  .nav, span.pub, .footer { display: none; }
+  
+  h1, h2, h3, h4, h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: inherit;
+  }
+  
+  li div { margin-bottom: 5px; }
+  
+  .header h2 {
+    font-size: 30px;
+  }
+
+  .header h2, .contact {
+    text-align: center;
+  }
+  
+  p.contact {
+    margin-top: -10px;
+  }
+  
+  .header {
+    border: none;
+  }
+    
+  ul {
+    padding-left: 24px;
+  }
+}

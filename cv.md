@@ -53,6 +53,10 @@ teaching:
 
 ---
 
+<p class="contact">
+<a href="mailto:bholt@cs.uw.edu"><span class="glyphicon glyphicon-envelope"></span> bholt@cs.uw.edu</a>
+</p>
+
 ## Research Interests
 I am interested in helping programs scale from workstations up to huge machines in order to solve the biggest problems in data-intensive and scientific computing workloads. To tackle this problem I design programming models and language features that express parallelism and locality, compilers that leverage that additional information to do aggressive optimization, and runtime systems that handle dynamism to make full use of each architecture's capabilities.
 

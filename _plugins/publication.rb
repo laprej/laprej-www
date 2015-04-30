@@ -23,14 +23,16 @@ module Jekyll
     end
     
     def venue(pub)
+      out = ""
       v = pub['venue']
       if v && v['link']
-        %{<a href="#{v['link']}">#{v['name']}</a>}
+        out = %{<a href="#{v['link']}">#{v['name']}</a>}
       elsif v && v['name']
-        v['name']
+        out = v['name']
       else
-        v
+        out = v
       end
+      %[<span class="venue">#{out}</span>]
     end
     
     def render(context)
@@ -51,13 +53,13 @@ module Jekyll
       
       icon = { 'paper'=>'file', 'key'=>'blackboard', 'slides'=>'blackboard' }
       links = (pub['links'] || []).map{|k,v|
-        %{<a href="#{basify[v]}" class=""><span class="glyphicon glyphicon-#{icon[k]}"></span> #{k.capitalize}</a>}
+        %{<a href="#{basify[v]}"><span class="glyphicon glyphicon-#{icon[k]}"></span> #{k.capitalize}</a>}
       }
       
       content = [ "<strong>#{pub['title']}</strong>",
         (pub['authors'] ? pub['authors'].join(', ') : nil),
-        [venue(pub), date(pub)].compact.join(' — '),
-        links.join(' | ')
+        [ venue(pub), date(pub)].compact.join(' — '),
+        %[<span class="pub">#{links.join(' | ')}</span>]
       ].compact.join('<br/>')
       
       %{<div class="pub">#{content}</div>}
