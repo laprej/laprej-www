@@ -87,3 +87,5 @@ I think this is particularly interesting because I recently noticed a similar di
 ---
 
 This has been a bit of a brain dump and an exercise in drawing connections. Thank you to the organizers of PaPoC, especially [Carlos Baquero](https://twitter.com/xmal) for creating a workshop where I could learn so much. I hope I haven't too poorly represented anyone's work here, and I apologize if I have, and would love to hear clarifications or thoughts on Twitter or via [email](mailto:bholt@cs.uw.edu).
+
+<blockquote class="twitter-tweet" lang="en" data-cards="hidden"><p lang="en" dir="ltr">Learned a ton from chatting with the folks at PaPoC, here&#39;s my writeup (otherwise known as &quot;1001 ways to use CRDTs&quot;) <a href="http://t.co/2hQaHG8VHK">http://t.co/2hQaHG8VHK</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/593643055787352064">April 30, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
