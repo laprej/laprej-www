@@ -1,9 +1,11 @@
 ---
-title: Reflections from PaPoC
+title: Musings from PaPoC
 layout: default
 description: |
   I had the privilege of presenting some of my work to many similarly-minded researchers at the PaPoC workshop last week. I got some great ideas from hearing about other relevant ongoing work and from insightful conversations with people there.
 ---
+
+# Papoc Musings
 
 <img src="{{site.base}}/img/papoy.jpg" class="pull-right" alt="Papoy!" />
 
@@ -11,7 +13,7 @@ The Workshop on Principles and Practice of Consistency (PaPoC) was co-located wi
 
 As it turns out, PaPoC was a fantastic choice for getting early feedback and ideas — I found many people with similar experience and interests at the workshop, particularly on CRDTs (Conflict-free/Commutative/Convergent Replicated Data Types) and lots of exciting ways of using them that I hadn't thought about before.
 
-# Riak
+## Riak
 
 <img src="{{site.base}}/img/riak-logo.png" class="pull-right" alt="Riak logo" />
 
@@ -23,17 +25,17 @@ What's even more useful about Riak is that it has been developed very modularly,
 -  [riak_kv](https://github.com/basho/riak_kv): simple key-value store built on riak_core.
 -  [riak_ensemble][]: implementation of Multi-Paxos (consensus groups) to enable consistent operations to be performed, which could in theory be used to implement full distributed transactions.
 
-# SyncFree Project
+## SyncFree Project
 
 Many of the attendees and organizers of PaPoC are involved in a big EU project related to scalable distributed systems called SyncFree. For my purposes, what is interesting is that it's a consortium of many universities and industry partners focused around improving the state-of-the-art in distributed programming models, data storage systems, and mobile platforms, and they seem to have taken a particular stance which leans heavily toward *eventual consistency* as necessary for providing high availability and scalability, for geo-replication as well as intermittently-connected mobile devices.
 
 What's even better than a bunch of researchers thinking about distributed programming models? A group of researchers *cooperating to create shared software infrastructure to do it.* I don't think there's necessarily an explicit need to build systems that integrate with each other, but due to all of the cross-pollination between groups, many have coalesced around similar systems. I saw many presentations about systems built using various open source components from Riak. Some of these are grouped together in a project on Github called [Antidote][], a CRDT-based key-value store.
 
-## Benchmark apps
+### Benchmark apps
 
 Rovio is one of the industry partners of SyncFree, and my understanding is that they have contributed a benchmark application that involves synchronizing game state between multiple mobile devices and the cloud. I will have to look into this more, but I think it's really awesome to have a simple end-to-end application that can be used to evaluate research but also provide a nice demo to help explain (*and sell!*) the work.
 
-# CRDTs for Offline and Mobile
+## CRDTs for Offline and Mobile
 
 Have you ever been sitting in the same room with a bunch of colleagues, all of you concurrently editing the same Google Doc? Well those of us in the [Sampa][] lab at UW do. The first weekly meeting of each quarter we do "2-minute madness" (lightning talks) where everyone ostensibly presents what they're working on right now in — you guessed it — two minutes or less, presented from a shared Google Slides presentation for convenience. In reality, the majority ends up being bobble-head photoshop work, inside jokes, and prank slides added at the last minute.
 
@@ -51,7 +53,7 @@ I had other conversations with people at the workshop about the applying CRDTs f
 
  Intermittent connectivity poses serious problems when trying to make good merge decisions, causing many applications to resort to asking users what they want to do. I think it would be cool to explore more ways of pushing the semantics of the task down into the merge operations in these scenarios. For instance, if collaborating on source code, choose to merge syntactically. As an aside, I'd also like this in the ultimate intermittently connected collaboration situation: [git with advisors](http://homes.cs.washington.edu/~bpw/cs/dvcs-for-advisors/). Both of these also relate to other work I just learned about by [Natacha Crooks][] and [Allen Clement][] called TARDiS, which helps deal with merging changes on replicated eventually consistent data by providing diffs of the state to the merge functions, allowing more complex semantic reasoning to take place.
 
-# LVars and alternative perspectives
+## LVars and alternative perspectives
 
 This wasn't a paper at PaPoC, but [Chris Meiklejohn][] mentioned the work in his talk on [Lasp][], and luckily its creator, Lindsey Kuper ([@lindsey][]) was attending PaPoC and EuroSys so I got plenty of time to learn more directly from her.
 
@@ -80,4 +82,4 @@ I think this is particularly interesting because I recently noticed a similar di
 
 ---
 
-This has been a bit of a brain dump and an exercies in drawing connections. I hope I haven't too poorly represented anyone's work, and I apologize if I have, and would love to hear clarifications or thoughts on Twitter or via [email](mailto:bholt@cs.uw.edu).
+This has been a bit of a brain dump and an exercise in drawing connections. Thank you to the organizers of PaPoC, especially [Carlos Baquero](https://twitter.com/xmal) for creating a workshop where I could learn so much. I hope I haven't too poorly represented anyone's work here, and I apologize if I have, and would love to hear clarifications or thoughts on Twitter or via [email](mailto:bholt@cs.uw.edu).
