@@ -7,10 +7,10 @@ description: Potentially-helpful tidbits I've learned or made up.
 <ul class="media-list">
 {% for post in site.posts %}
     {% if post.shortnews %}
-        <li class="shortnews">
+        <!-- <li class="shortnews">
             <span class="date">{{ post.date | date_to_long_string }}</span>
             {{ post.content }}
-        </li>
+        </li> -->
     {% else %}
         <li class="media">
           <div class="panel panel-default">
