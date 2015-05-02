@@ -215,6 +215,15 @@ dl.people dd {
   font-style: italic;
 }
 
+hr.figureline {
+  display: none;
+}
+
+hr.madoko { border-bottom: 1px solid #e5e5e5; }
+figure { margin: 20px; }
+figure div { text-align: center; }
+span.heading-before { font-size: 50%; }
+
 @media print {
 
   body {
