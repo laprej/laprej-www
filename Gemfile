@@ -14,6 +14,10 @@ gem 'rinruby'
 gem 'pry'
 gem 'pry-byebug'
 
+group :jekyll_plugins do
+  gem 'jekyll-compose'
+end
+
 # gem 'jekyll-pandoc-multiple-formats', :git => 'https://github.com/fauno/jekyll-pandoc-multiple-formats.git'
 
 # gem 'knitr-ruby', '~> 0.0.4'
