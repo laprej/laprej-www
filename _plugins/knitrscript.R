@@ -8,7 +8,7 @@ chunk_opts <- eval(parse(text=sprintf('list(%s)',args[1])))
 knit_opts <- eval(parse(text=sprintf('list(%s)',args[2])))
 
 ## defaults
-opts_knit$set(base.url="", base.dir=".", root.dir=NULL, self.contained=FALSE, verbose=FALSE)
+opts_knit$set(base.url="", base.dir=".", root.dir=NULL, self.contained=T, verbose=F, base64_images=T)
 
 ## note that objects `.` are just to stop objects returned by function that doesn't need to be assigned (do.call, knitr) spitting NULLs into the stdout stream.
 

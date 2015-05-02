@@ -2,13 +2,19 @@
 source "https://rubygems.org"
 
 gem 'jekyll'
+gem 'jekyll-compose'
+gem 'jekyll-scholar'
+
 gem 'guard'
 gem 'guard-jekyll'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
 gem 'rinruby'
+
+gem 'pry'
+gem 'pry-byebug'
+
 # gem 'jekyll-pandoc-multiple-formats', :git => 'https://github.com/fauno/jekyll-pandoc-multiple-formats.git'
-gem 'jekyll-scholar'
 
 # gem 'knitr-ruby', '~> 0.0.4'
 # gem 'knitr-ruby', :git => 'https://github.com/bholt/knitr-ruby.git', :branch => 'patch-1'

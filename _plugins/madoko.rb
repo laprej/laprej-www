@@ -1,5 +1,6 @@
 require 'fileutils'
 require 'pry'
+require 'pry-byebug'
 require 'securerandom'
 
 module Jekyll
