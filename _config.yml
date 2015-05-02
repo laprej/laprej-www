@@ -37,6 +37,22 @@ knitr:
 #   #   epub:
 #   #   markdown:
 
+madoko:
+  Bibliography: /common.bib
+  Bib style: plainnat
+  Bib Search Url: google.com
+  Heading Depth: 0      # suppress numbering sections    
+  meta: |
+    ~Fig: label='Figure [@fig]{.figure-label}' .align-center 
+          after='&nl;&nl;\
+                 [[**&label;.** ]\
+                 {.caption-before}&caption;]\
+                 {.figure-caption html-elem=fig-caption}\
+                 &nl;{notag}&nl;'
+          toc=tof toc-line='&label;. &caption;'
+          html-elem=figure
+          html-elem=figure
+
 scholar:
   style: ieee
   locale: en
@@ -65,7 +81,12 @@ url: http://homes.cs.washington.edu/~bholt/
 
 permalink: /posts/:title.html
 
-exclude: [README.md, Makefile, .madoko]
+exclude:
+  - README.md
+  - Makefile
+  - .madoko
+  - common.bib
+  - common.R
 
 # Navigation bar links.
 navigation:
