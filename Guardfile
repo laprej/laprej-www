@@ -30,7 +30,7 @@ ignore /^figure/
 #   watch /.*/
 # end
 
-guard 'jekyll_plus', :serve => true do
+guard 'jekyll_plus', :serve => true, :drafts => true do
   watch /.*/
   ignore /^_site/
   ignore /^fig/
