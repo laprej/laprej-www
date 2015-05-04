@@ -78,7 +78,7 @@ The set of possible values is determined by the type of inconsistency or approxi
 
 On the other hand, the size could come from a HyperLogLog, which keeps track of the approximate number of unique elements probabilistically. Or it could just be a stale snapshot read.
 
-![diagram of approximate retweet count representations](../img/retwis-approx.svg){height=270px}
+![diagram of approximate retweet count representations](../img/retwis-approx.svg){max-height=270px}
 
 These ideas took shape during chats with my labmate [James][], first author on  [Uncertain&lt;T&gt;](http://research.microsoft.com/apps/pubs/default.aspx?id=208236). In that work, rather than returning a single result from something with known uncertainty (such as a GPS sensor), operations can return results as a probability distribution over possible values. Exposing the distribution to the program allows it to make decisions based on likelihoods, such as a warning when a value is outside a given range with high confidence. It seems like a similar type system could help distributed systems programmers reason about uncertainty resulting from weak consistency.
 
@@ -108,5 +108,5 @@ I will be beginning to answer some of these questions by implementing and evalua
 [MongoDB]: https://www.mongodb.org/
 [Allen Clement]: http://www.mpi-sws.org/~aclement/
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Disciplined inconsistency: getting distributed systems wrong — on your own terms. <a href="http://t.co/fFvg3zlJ3P">http://t.co/fFvg3zlJ3P</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/595019572693995520">May 4, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en" data-cards="hidden"><p lang="en" dir="ltr">Disciplined inconsistency: getting distributed systems wrong — on your own terms. <a href="http://t.co/fFvg3zlJ3P">http://t.co/fFvg3zlJ3P</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/595019572693995520">May 4, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
