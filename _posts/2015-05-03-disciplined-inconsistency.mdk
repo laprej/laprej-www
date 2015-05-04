@@ -108,4 +108,5 @@ I will be beginning to answer some of these questions by implementing and evalua
 [MongoDB]: https://www.mongodb.org/
 [Allen Clement]: http://www.mpi-sws.org/~aclement/
 
-<blockquote class="twitter-tweet" lang="en" data-cards="hidden"><p lang="en" dir="ltr">Learned a ton from chatting with the folks at PaPoC, here&#39;s my writeup (otherwise known as &quot;1001 ways to use CRDTs&quot;) <a href="http://t.co/2hQaHG8VHK">http://t.co/2hQaHG8VHK</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/593643055787352064">April 30, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Disciplined inconsistency: getting distributed systems wrong — on your own terms. <a href="http://t.co/fFvg3zlJ3P">http://t.co/fFvg3zlJ3P</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/595019572693995520">May 4, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
