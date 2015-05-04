@@ -22,7 +22,7 @@ tagline: University of Washington
     {% else %}
         <li class="bloglink">
             <span class="date">{{ post.date | date_to_long_string }}</span>
-            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
+            <a href="{{site.base}}{{ post.url }}">&raquo; {{ post.title }}</a>
         </li>
     {% endif %}
 {% endfor %}
