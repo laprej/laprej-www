@@ -46,10 +46,6 @@ Solving these problems requires being willing to change any part of the traditio
 
 ## Projects
 
-<div class="alert alert-info">Latest paper:
-  <a href="pubs/claret-papoc.pdf">Claret: Using Data Types for Highly Concurrent Transactions</a> to appear at <a href="http://papoc.di.uminho.pt/">PaPoC 2015</a>.
-</div>
-
 Read more about various work in progress and past on the [Projects](projects/index.html) page. A few highlights:
 
 - [Claret](projects/index.html#Claret): Bringing ADTs and approximate computing to NoSQL databases.
