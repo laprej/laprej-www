@@ -16,6 +16,19 @@ a:hover {
   text-decoration: none;
 }
 
+#feed-icon {
+  filter: grayscale(100%) opacity(0.5);
+  -webkit-filter: grayscale(100%) opacity(0.5);
+  height: 14px;
+/*  float: right;*/
+}
+
+#feed-icon:hover {
+  filter: grayscale(0%) opacity(1.0);
+  -webkit-filter: grayscale(0%) opacity(1.0);
+}
+
+
 /*p {
   margin: 0 0 4px;
 }*/
