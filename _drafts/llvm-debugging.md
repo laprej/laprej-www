@@ -108,7 +108,7 @@ Writing '/var/folders/w6/pf2p4_tx1097_3gc9_dl3yr00009sq/T/cfghello-6a63ec.dot'..
 Running '/usr/local/bin/dot' program...  done.
 ```
 
-<img src="{{ site.base }}/media/llvm/viewcfg.png" alt="Function::viewCFG()"/>
+<img src="{{ site.base }}/img/llvm-viewcfg.png" alt="Function::viewCFG()" class="img-responsive" />
 
 As with everything else in LLVM, the DOT graph printer is built to be extended, so you can define custom graphs for debugging your passes, or for visualizing the output of your tool. A good place to start looking is in the documentation for [DefaultDOTGraphTraits](http://llvm.org/docs/doxygen/html/structllvm_1_1DefaultDOTGraphTraits.html).
 
