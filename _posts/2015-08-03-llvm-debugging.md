@@ -194,4 +194,5 @@ Much more detailed instructions for all of this can be found in the [LLVM Source
 
 I hope that these tips were helpful. If you have other time-saving tricks in LLVM, just let me know on Twitter!
 
-
+<blockquote class="twitter-tweet" lang="en" data-cards="hidden"><p lang="en" dir="ltr">A couple tips for debugging LLVM. Pairs nicely with <a href="https://twitter.com/samps">@samps</a>&#39;s fantastic intro to LLVM.&#10;<a href="http://t.co/nza1ruk9SJ">http://t.co/nza1ruk9SJ</a></p>&mdash; Brandon Holt (@holtbg) <a href="https://twitter.com/holtbg/status/628375375618281472">August 4, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
