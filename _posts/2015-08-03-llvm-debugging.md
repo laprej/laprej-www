@@ -1,6 +1,5 @@
 ---
 title: LLVM Debugging Tips and Tricks
-date: 2015-08-03
 layout: post
 description: |
   LLVM is a fantastic tool for anyone interested in developing languages, optimizing their code, or even developing first-order architectural simulations. Part of what makes it so great is the wealth of great tools that come with it to help develop and debug passes. Unfortunately not all of them are very well-documented and many are not widely known. In this post I'll describe a few that I stumbled upon which may prove useful — things like printing all the basicblocks/instructions of a function, or inspecting successor/predecessor chains from the debugger (lldb).
@@ -8,17 +7,19 @@ description: |
 
 Back when I was working heavily with LLVM, I learned a bunch of little tricks that made my life so much easier. I meant to document them back when they were fresh in my mind, but didn't get around to it. Now recently I've been chatting with several colleagues at UW that are just getting started with LLVM, and thought I'd got back and put together a couple of the useful tricks I learned.
 
-This also follows on the heels of Adrian's [fantastic post](http://adriansampson.net/blog/llvm.html) on how to get up and running using LLVM for research, which I highly recommend to anyone who ever needs to *"do stuff with programs"*, in Adrian's words. Adrian covers all the basics of why LLVM, how to get started, and what some basic passes could look like. The tricks I'll lay out here have more to do with day-to-day debugging tasks.
+This also follows on the heels of Adrian's [fantastic post](http://adriansampson.net/blog/llvm.html) on how to get up and running using LLVM for research (which I highly recommend to anyone who ever needs to *"do stuff with programs"*). Adrian covers all the basics of why LLVM, how to get started, and what some basic passes could look like. The tricks I'll lay out here have more to do with day-to-day debugging tasks.
 
 ## Debugging with LLDB
 
 Imagine we want to poke around with something in the middle of our custom pass, to inspect how the data structures look, or chase down some bug. LLDB (LLVM's version of GDB), is a fantastic tool for playing with live code. It uses LLVM's formidable JIT tooling to interpret and run arbitrary code you give it (much more robustly than GDB ever has for me). This is extremely powerful especially as you're learning the ins and outs of LLVM's massive codebase.
 
-There's just a couple little tricks to getting LLDB to work nicely for us. First, we need to build with Debug symbols. The best way to do this is to tell CMake to enable Debug symbols. Because CMake is CMake, you need to actually blow away your existing `build/` directory and re-configure to change this, this time adding the option `-DCMAKE_BUILD_TYPE=Debug` (if you're worried about performance, you could also do `RelWithDebInfo` — this is the setting we recommend for building all of LLVM, but for my own code it's unlikely I'm doing enough work to worry about performance, at least while debugging).
+There's just a couple little tricks to getting LLDB to work nicely for us. First, we need to build with Debug symbols. The best way to do this is to tell CMake to enable Debug symbols. Because CMake is CMake, you need to actually blow away your existing `build/` directory and re-configure to change this, this time adding the option `-DCMAKE_BUILD_TYPE=Debug`:
 
 ```
 $ cmake .. -DCMAKE_BUILD_TYPE=Debug
 ```
+
+> **Aside:** If you're worried about performance, you could instead use `RelWithDebInfo` — this is the setting I recommend for building the rest of LLVM because otherwise it's painfully slow — but for my own code I build with `Debug` while developing.
 
 Let's say we want to play around with the FunctionPass from before and find out more about how Functions are structured. So we want to run our pass with LLDB and set a breakpoint in our code, let's say at line 20, inside our loop over basic blocks.
 
@@ -83,7 +84,7 @@ Notice how at first, it didn't know what were talking about with `Skeleton.cpp` 
 
 Almost everything in LLVM has a `dump()` method — definitely anything descending from `Value`, which includes `Instruction`, `BasicBlock`, `Function`, and even metadata (`MDNode`). This is *super* handy to use in your passes to find out what's going on. 
 
-**Protip:** C++-magic allows you to use the `<<` operator with anything with this `dump` method, so we could have just as easily written `errs() << "Basic block:\n" << bb << "\n";` above. However, in the debugger, we use `dump()` to print to the console.
+> **Protip:** LLVM's C++ magic allows you to use the `<<` operator with anything that has this `dump` method, so we could have just as easily written `errs() << "Basic block:\n" << bb << "\n";` above. However, in the debugger, we use `dump()` to print to the console.
 
 Now we can poke around a bit with LLVM. In `lldb`, `e` or `p` (for GDB compatibility) are just shortcuts for "evaluate expression".
 
@@ -185,7 +186,7 @@ Basic block:
   ret i32 0, !dbg !24
 ```
 
-Note: even after running with `-g`, some instructions *still won't have source location metdata*. That's because they don't meaningfully correspond to a line number. This is true for the `alloca` instructions inserted by the compiler for stack variables, and probably for any code you've generated yourself. Or for highly-optimized code. So don't fret if that happens.
+> **Note:** Even after running with `-g`, some instructions *still won't have source location metdata*. That's because they don't meaningfully correspond to a line number. This is true for the `alloca` instructions inserted by the compiler for stack variables, and probably for any code you've generated yourself. Or for highly-optimized code. So don't fret if you see it — and don't count on them being available everywhere.
 
 Much more detailed instructions for all of this can be found in the [LLVM Source Level Debugging docs](http://llvm.org/docs/SourceLevelDebugging.html#c-c-source-file-information).
 
