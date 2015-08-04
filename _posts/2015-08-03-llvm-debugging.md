@@ -5,13 +5,13 @@ description: |
   LLVM is a fantastic tool for anyone interested in developing languages, optimizing their code, or even developing first-order architectural simulations. Part of what makes it so great is the wealth of great tools that come with it to help develop and debug passes. Unfortunately not all of them are very well-documented and many are not widely known. In this post I'll describe a few that I stumbled upon which may prove useful — things like printing all the basicblocks/instructions of a function, or inspecting successor/predecessor chains from the debugger (lldb).
 ---
 
-Back when I was working heavily with LLVM, I learned a bunch of little tricks that made my life so much easier. I meant to document them back when they were fresh in my mind, but didn't get around to it. Now recently I've been chatting with several colleagues at UW that are just getting started with LLVM, and thought I'd got back and put together a couple of the useful tricks I learned.
+Back when I was working heavily with LLVM, I learned a bunch of little tricks that made my life so much easier. I meant to document them back when they were fresh in my mind, but didn't get around to it. Now recently I've been chatting with several colleagues at UW that are just getting started with LLVM, and thought I'd go back and put together a couple of the useful tricks I learned.
 
 This also follows on the heels of Adrian's [fantastic post](http://adriansampson.net/blog/llvm.html) on how to get up and running using LLVM for research (which I highly recommend to anyone who ever needs to *"do stuff with programs"*). Adrian covers all the basics of why LLVM, how to get started, and what some basic passes could look like. The tricks I'll lay out here have more to do with day-to-day debugging tasks.
 
 ## Debugging with LLDB
 
-Imagine we want to poke around with something in the middle of our custom pass, to inspect how the data structures look, or chase down some bug. LLDB (LLVM's version of GDB), is a fantastic tool for playing with live code. It uses LLVM's formidable JIT tooling to interpret and run arbitrary code you give it (much more robustly than GDB ever has for me). This is extremely powerful especially as you're learning the ins and outs of LLVM's massive codebase.
+Imagine we want to poke around with something in the middle of our custom pass, to inspect how the data structures look, or chase down some bug. LLDB (LLVM's version of GDB) is a fantastic tool for playing with live code. It uses LLVM's formidable JIT tooling to interpret and run arbitrary code you give it (much more robustly than GDB ever has for me). This is extremely powerful especially as you're learning the ins and outs of LLVM's massive codebase.
 
 There's just a couple little tricks to getting LLDB to work nicely for us. First, we need to build with Debug symbols. The best way to do this is to tell CMake to enable Debug symbols. Because CMake is CMake, you need to actually blow away your existing `build/` directory and re-configure to change this, this time adding the option `-DCMAKE_BUILD_TYPE=Debug`:
 
