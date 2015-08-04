@@ -1,9 +1,13 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'jekyll'
+# gem 'jekyll', '~>2.3' #, '>=3.0.0.beta'
+gem 'jekyll', '>=3.0.0.beta'
 gem 'jekyll-compose'
-gem 'jekyll-scholar'
+gem 'redcarpet'
+gem 'rouge'
+# gem 'jekyll-pygments'
+# gem 'jekyll-scholar'
 
 gem 'guard'
 gem 'guard-jekyll'
@@ -13,10 +17,6 @@ gem 'rinruby'
 
 gem 'pry'
 gem 'pry-byebug'
-
-group :jekyll_plugins do
-  gem 'jekyll-compose'
-end
 
 # gem 'jekyll-pandoc-multiple-formats', :git => 'https://github.com/fauno/jekyll-pandoc-multiple-formats.git'
 

@@ -5,4 +5,5 @@ fig/
 bin/
 files/
 .madoko/
+.jekyll-metadata
 

@@ -74,7 +74,14 @@ p img {
 
 .highlight, pre, code {
   font-family: Hasklig, monospace;
+  font-size: 12px;
   text-rendering: optimizeLegibility;
+}
+
+/* don't highlight errors in red */
+.highlight span.err {
+  color: inherit !important;
+  background-color: inherit !important;
 }
 
 .media {

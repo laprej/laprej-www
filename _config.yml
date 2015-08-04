@@ -1,7 +1,10 @@
 name: Brandon Holt
 description: Potentially helpful tips and tricks I've learned or made up.
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
+
+kramdown:
+  input: GFM    
 
 redcarpet:
     extensions: ["with_toc_data"]
@@ -9,7 +12,7 @@ redcarpet:
 # gems:
 #   - jekyll-knitr
 #   - 'jekyll-pandoc-multiple-formats'
-gems: ['jekyll/scholar']
+# gems: ['jekyll/scholar']
 
 keep_files:  ['fig']
 
