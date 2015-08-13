@@ -7,3 +7,4 @@ description: |
 
 By introducing data types into distributed data stores, programmers get to choose how to build their app but re-use common structures, while the data store can use this extra information to improve its own performance.
 
+<script src="https://gist.github.com/bholt/38fc80d5d5b377cb3302.js"></script>

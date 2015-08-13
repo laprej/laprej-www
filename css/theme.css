@@ -89,12 +89,14 @@ p img {
   margin-bottom: 4px;
 }
 
+div.header, div.header h2, div.panel-title, h1, h2, h3 {
+  font-family: Helvetica Neue;
+}
+
 div.header {
-  font-family: News Cycle;
   margin-bottom: 20px;
 }
 div.header h2, div.panel-title {
-  font-family: News Cycle;
   font-weight: normal;
 }
 
@@ -103,13 +105,18 @@ h1 {
   font-size: 30px;
 }
 
-h2 { font-size: 24px; }
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
 
-h3 { font-size: 18px; }
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
 
 h1, h2, h3 {
-  font-family: News Cycle;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .nav li a {
@@ -256,9 +263,9 @@ span.heading-before { font-size: 50%; }
 
   body {
     font-size: 12px;
-/*    font-family: Palatino;*/
+    font-family: Lora;
   }
-  
+    
   a[href]:after {
     content: none !important;
   }
