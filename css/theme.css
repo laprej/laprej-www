@@ -1,5 +1,9 @@
 
 @font-face { font-family: Hasklig; src: url('../fonts/Hasklig-Light.otf'); }
+@font-face { font-family: Lora; src: url('../fonts/Lora-Regular.ttf'); }
+@font-face { font-family: Lora; src: url('../fonts/Lora-Bold.ttf'); font-weight: bold; }
+@font-face { font-family: Lora; src: url('../fonts/Lora-Italic.ttf'); font-style: italic; }
+@font-face { font-family: Lora; src: url('../fonts/Lora-BoldItalic.ttf'); font-weight: bold; font-style: italic; }
 
 /* Space out content a bit */
 body {
