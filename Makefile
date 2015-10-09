@@ -41,3 +41,6 @@ build: setup
 
 deploy: clean build
 	rsync --compress --recursive --checksum --itemize-changes --perms --chmod=ug+rw,o+r --exclude=files/ --exclude=draft/ --exclude=pdf/ --exclude=private/ --delete _site/ $(CSEHOST):/cse/web/homes/bholt
+
+clean:
+	rm -rf _site
