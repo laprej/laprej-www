@@ -35,12 +35,12 @@ media: img/retwis-overview.png img/retwis-me-vs-ellen.png img/retwis-approx.svg
 
 setup:
 	bundle install
-	
+
 build: setup
 	bundle exec jekyll build --config _config.yml,_deploy.yml
 
 deploy: clean build
-	rsync --compress --recursive --checksum --itemize-changes --perms --chmod=ug+rw,o+r --exclude=files/ --exclude=draft/ --exclude=pdf/ --exclude=private/ --delete _site/ $(CSEHOST):/cse/web/homes/bholt
+	rsync --compress --recursive --checksum --itemize-changes --perms --chmod=ug+rw,o+r --exclude=files/ --exclude='drafts/*' --exclude=pdf/ --exclude=private/ --delete _site/ $(CSEHOST):/cse/web/homes/bholt
 
 clean:
 	rm -rf _site
