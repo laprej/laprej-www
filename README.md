@@ -58,3 +58,8 @@ Example knitr code:
 
 
 For best results on the web, use `dev='svg'` to generate plots in SVG.
+
+## Todo
+- [ ] Upgrade to Bootstrap v4 as in sampa-public
+- [ ] Refactor styles to use Sass/scss
+- [ ] Figure out what we can do better now with Jekyll 3
