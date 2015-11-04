@@ -10,6 +10,12 @@
 @font-face { font-family: Lato; src: url('../fonts/Lato-LightItalic.ttf'); font-style: italic; }
 @font-face { font-family: Lato; src: url('../fonts/Lato-SemiboldItalic.ttf'); font-weight: bold; font-style: italic; }
 
+@font-face { font-family: Merriweather; src: url('../fonts/Merriweather-Light.ttf'); }
+@font-face { font-family: Merriweather; src: url('../fonts/Merriweather-Bold.ttf'); font-weight: bold; }
+@font-face { font-family: Merriweather; src: url('../fonts/Merriweather-LightIt.ttf'); font-style: italic; }
+@font-face { font-family: Merriweather; src: url('../fonts/Merriweather-BoldIt.ttf'); font-weight: bold; font-style: italic; }
+
+
 /* Space out content a bit */
 body {
   font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
