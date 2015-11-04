@@ -4,22 +4,23 @@
    <meta charset="UTF-8">
    <link rel="shortcut icon" href="./.favicon.ico">
    <title>Drafts</title>
-
-   <link href="{{site.base}}/css/bootstrap.min.css" rel="stylesheet">        
+   <link href="/~bholt/css/bootstrap.min.css" rel="stylesheet">        
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
            
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-   <link href="{{site.base}}/css/madoko.css" rel="stylesheet">
-   <link href="{{site.base}}/css/theme.css" rel="stylesheet">
-   <link href="{{site.base}}/css/syntax.css" rel="stylesheet">
+   <link href="/~bholt/css/madoko.css" rel="stylesheet">
+   <link href="/~bholt/css/theme.css" rel="stylesheet">
+   <link href="/~bholt/css/syntax.css" rel="stylesheet">
 
+   <link rel="stylesheet" href="./.style.css">
+   
    <script src="./.sorttable.js"></script>
 </head>
 
 <body>
 <div id="container">
-	<h1>Directory Contents</h1>
+	<h1>Drafts</h1>
 
 	<table class="sortable">
 	    <thead>
