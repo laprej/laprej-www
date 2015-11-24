@@ -3,7 +3,7 @@ _site/
 fig/
 .bundle
 bin/
-files/
+
 .madoko/
 .jekyll-metadata
 
