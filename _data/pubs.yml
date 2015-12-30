@@ -14,6 +14,19 @@ lapre-wsc-2015:
   links:
     paper: /pubs/Delta.pdf
 
+gonsiorowski-pads-2015:
+  title: 'Improving Accuracy and Performance Through Automatic Model Generation for Gate-Level Circuit PDES with Reverse Computation'
+  authors:
+    - Elsa Gonsiorowski
+    - Justin M. LaPre
+    - Christopher D. Carothers
+  venue:
+    name: SIGSIM PADS '15
+    link: http://www.acm-sigsim-pads.org/Programs/PADS-2015-Program.htm
+    date: Jun 2015
+  links:
+    paper: /pubs/pads2015.pdf
+
 lapre-pads-2014:
   title: "LORAIN: A Step Closer to the PDES 'Holy Grail'"
   authors:

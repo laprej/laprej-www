@@ -82,6 +82,7 @@ I am interested in helping programs scale from workstations up to huge machines 
 ### Conference Papers
 
 - {% publication lapre-wsc-2015 %}
+- {% publication gonsiorowski-pads-2015 %}
 - {% publication lapre-pads-2014 %}
 - {% publication barnes-pads-2013 %}
 - {% publication lapre-autumnsim-2012 %}
