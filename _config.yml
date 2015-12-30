@@ -1,10 +1,10 @@
-name: Brandon Holt
+name: Justin M. LaPre
 description: Potentially helpful tips and tricks I've learned or made up.
 markdown: redcarpet
 highlighter: rouge
 
 kramdown:
-  input: GFM    
+  input: GFM
 
 redcarpet:
     extensions: ["with_toc_data"]
@@ -44,9 +44,9 @@ madoko:
   Bibliography: /common.bib
   Bib style: plainnat
   Bib Search Url: google.com
-  Heading Depth: 0      # suppress numbering sections    
+  Heading Depth: 0      # suppress numbering sections
   meta: |
-    ~Fig: label='Figure [@fig]{.figure-label}' .align-center 
+    ~Fig: label='Figure [@fig]{.figure-label}' .align-center
           after='&nl;&nl;\
                  [[**&label;.** ]\
                  {.caption-before}&caption;]\
@@ -80,7 +80,7 @@ base: ''
 
 front_page_news: 6
 
-url: http://homes.cs.washington.edu/~bholt/
+url: http://www.cs.rpi.edu/~laprej/
 
 permalink: /posts/:title.html
 
@@ -101,11 +101,11 @@ navigation:
       link: /cv.html
     - title: Posts
       link: /posts/
-    - title: 
-      link: http://github.com/bholt
+    - title:
+      link: http://github.com/laprej
       icon: /img/GitHub-Mark.png
       icon2x: /img/GitHub-Mark@2x.png
-    - title: 
-      link: http://twitter.com/holtbg
+    - title:
+      link: http://twitter.com/justinlapre
       icon: /img/twitter-logo.png
       icon2x: /img/twitter-logo@2x.png

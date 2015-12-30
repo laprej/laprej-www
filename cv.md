@@ -54,7 +54,7 @@ teaching:
 ---
 
 <p class="contact">
-<a href="mailto:bholt@cs.uw.edu"><span class="glyphicon glyphicon-envelope"></span> bholt@cs.uw.edu</a>
+<a href="mailto:laprej@cs.rpi.edu"><span class="glyphicon glyphicon-envelope"></span> laprej@cs.rpi.edu</a>
 </p>
 
 ## Research Interests
