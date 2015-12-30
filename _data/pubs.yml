@@ -1,4 +1,4 @@
-lorain:
+lapre-pads-2014:
   title: "LORAIN: A Step Closer to the PDES 'Holy Grail'"
   authors:
     - Justin M. LaPre
@@ -11,7 +11,7 @@ lorain:
   links:
     paper: /pubs/lorain.pdf
 
-warp-speed:
+barnes-pads-2013:
   title: 'Warp Speed: Executing Time Warp on 1,966,080 Cores'
   authors:
     - Peter D. Barnes Jr.
