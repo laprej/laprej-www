@@ -86,26 +86,6 @@ I am interested in helping programs scale from workstations up to huge machines 
 - {% publication barnes-pads-2013 %}
 - {% publication lapre-autumnsim-2012 %}
 
-### Workshop Papers
-
-- {% publication claret-papoc %}
-- {% publication grappa-wrsc %}
-- {% publication hotpar12 %}
-
-### Undergraduate Publications
-
-- {% publication jocse %}
-- {% publication peerreview %}
-
-## Internship Experience
-
-{% for i in page.internships %}
-<div>
-<strong>{{i.where}}</strong> — <em>{{i.who}}</em> — {{i.when}}
-{{i.what | markdownify}}
-</div>
-{% endfor %}
-
 ## Teaching Experience
 
 {% for i in page.teaching %}
