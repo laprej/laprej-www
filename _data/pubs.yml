@@ -1,3 +1,30 @@
+lorain:
+  title: "LORAIN: A Step Closer to the PDES 'Holy Grail'"
+  authors:
+    - Justin M. LaPre
+    - Elsa J. Gonsiorowski
+    - Christopher D. Carothers
+  venue:
+    name: SIGSIM PADS '14
+    link: http://www.acm-sigsim-pads.org/Programs/PADS-2014-Program.htm
+    date: May 2014
+  links:
+    paper: /pubs/lorain.pdf
+
+warp-speed:
+  title: 'Warp Speed: Executing Time Warp on 1,966,080 Cores'
+  authors:
+    - Peter D. Barnes Jr.
+    - Christopher D. Carothers
+    - David R. Jefferson
+    - Justin M. LaPre
+  venue:
+    name: SIGSIM PADS '13
+    link: http://www.acm-sigsim-pads.org/Programs/PADS-2013-Program.htm
+    date: May 2013
+  links:
+    paper: /pubs/p327-barnes.pdf
+
 claret-papoc:
   title: 'Claret: Using Data Types for Highly Concurrent Distributed Transactions'
   authors:
@@ -6,7 +33,7 @@ claret-papoc:
     - Dan Ports
     - Mark Oskin
     - Luis Ceze
-  venue: 
+  venue:
     name: Workshop on Principles and Practice of Consistency (PaPoC'15)
     link: http://papoc.di.uminho.pt
     date: Apr 2015
@@ -62,7 +89,7 @@ hotpar12:
   authors:
     - Brandon Myers
     - Brandon Holt
-  venue: 
+  venue:
     name: "USENIX Workshop on Hot Topics in Parallelism (HotPar'12)"
     link: https://www.usenix.org/conference/hotpar12
     date: Jul 2012
@@ -106,7 +133,7 @@ jocse:
   authors:
     - Brandon Holt
     - Dan Ernst
-  venue: 
+  venue:
     link: http://jocse.org
     name: "Journal of Computational Science Education, Vol 2"
     date: Dec 2011

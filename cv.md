@@ -81,6 +81,8 @@ I am interested in helping programs scale from workstations up to huge machines 
 
 ### Conference Papers
 
+- {% publication lorain %}
+- {% publication warp-speed %}
 - {% publication grappa-usenix %}
 - {% publication alembic %}
 - {% publication flatcombining %}
