@@ -1,3 +1,19 @@
+lapre-wsc-2015:
+  title: 'Time Warp State Restoration via Delta Encoding'
+  authors:
+    - Justin M. LaPre
+    - Elsa J. Gonsiorowski
+    - Christopher D. Carothers
+    - John Jenkins
+    - Philip Carns
+    - Robert Ross
+  venue:
+    name: WSC '15
+    link: http://www.wintersim.org/2015/
+    date: Dec 2015
+  links:
+    paper: /pubs/Delta.pdf
+
 lapre-pads-2014:
   title: "LORAIN: A Step Closer to the PDES 'Holy Grail'"
   authors:
