@@ -83,6 +83,7 @@ I am interested in helping programs scale from workstations up to huge machines 
 
 - {% publication lorain %}
 - {% publication warp-speed %}
+- {% publication lapre-autumnsim-2012 %}
 - {% publication grappa-usenix %}
 - {% publication alembic %}
 - {% publication flatcombining %}

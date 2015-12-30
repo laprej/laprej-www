@@ -25,6 +25,20 @@ warp-speed:
   links:
     paper: /pubs/p327-barnes.pdf
 
+lapre-autumnsim-2012:
+  title: 'Ultra Large-Scale Wireless Network Models Using Massively Parallel Discrete-Event Simulation'
+  authors:
+    - Justin M. LaPre
+    - Christopher D. Carothers
+    - Kenneth D. Renard
+    - Dale R. Shires
+  venue:
+    name: AutumnSim'12
+    link: http://scs.org/autumnsim/autumnsim2012
+    date: Oct 2012
+  links:
+    paper: /pubs/autumnsim2012.pdf
+
 claret-papoc:
   title: 'Claret: Using Data Types for Highly Concurrent Distributed Transactions'
   authors:
