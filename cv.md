@@ -87,6 +87,10 @@ I am interested in helping programs scale from workstations up to huge machines 
 - {% publication barnes-pads-2013 %}
 - {% publication lapre-autumnsim-2012 %}
 
+### Journal Papers
+
+- {% publication tyrrell-biomedicine-2004 %}
+
 ## Teaching Experience
 
 {% for i in page.teaching %}

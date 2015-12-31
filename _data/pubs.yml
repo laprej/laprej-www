@@ -68,6 +68,21 @@ lapre-autumnsim-2012:
   links:
     paper: /pubs/autumnsim2012.pdf
 
+tyrrell-biomedicine-2004:
+  title: 'Efficient migration of complex off-line computer vision software to real-time system implementation on generic computer hardware'
+  authors:
+    - James Alexander Tyrrell
+    - Justin M. LaPre
+    - Christopher D. Carothers
+    - Badrinath Roysam
+    - Charles V. Stewart
+  venue:
+    name: IEEE Transactions on Information Technology in Biomedicine
+    link: http://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=28955
+    date: Jun 2004
+  links:
+    paper: /pubs/01303557.pdf
+
 claret-papoc:
   title: 'Claret: Using Data Types for Highly Concurrent Distributed Transactions'
   authors:
