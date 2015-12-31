@@ -4,7 +4,7 @@ title: Home
 tagline: University of Washington
 ---
 
-<img src="img/seattle.jpg" class="img-rounded img-responsive"/>
+<img src="img/JustinBerkeley.jpg" class="img-rounded img-responsive"/>
 
 <div id="timeline" class="pull-right col-md-5">
 <a class="twitter-timeline pull-right" height=400px href="https://twitter.com/holtbg" data-widget-id="545291687996571648">Tweets by @holtbg</a>
