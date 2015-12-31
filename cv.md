@@ -79,4 +79,4 @@ I am interested in helping programs scale from workstations up to huge machines 
 <div><strong>{{i.position}}</strong> {{i.detail | markdownify}}</div>
 {% endfor %}
 
-### References Available Upon Request
+## References Available Upon Request
