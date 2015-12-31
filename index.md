@@ -33,8 +33,8 @@ tagline: University of Washington
 {% endif %}
 
 ## About Me
-I recently received my PhD in Computer Science at Rensselaer Polytechnic Institute under my advisor [Christopher Carothers](http://www.cs.rpi.edu/~chrisc).
-My research interests include parallel discrete-event simulations (PDES), optimistic simulation using Jefferson's Time Warp protocol, and how to reduce development time and complexity by leveraging the compiler.
+I recently completed my PhD in Computer Science at Rensselaer Polytechnic Institute under my advisor [Christopher Carothers](http://www.cs.rpi.edu/~chrisc).
+My research interests include high performance computing (HPC), parallel discrete-event simulations (PDES), optimistic simulation using Jefferson's Time Warp protocol, and how to reduce development time and complexity by leveraging the compiler.
 The majority of this research has been conducted using [Rensslaer's Optimistic Simulation System (ROSS)](https://github.com/carothersc/ROSS) which was developed by Dr. Carothers and his graduate students over the years.
 
 I am a grad student at the University of Washington, pursuing a PhD in Computer Science and Engineering. My research interests include exploring programming models, languages, and compilers for the purposes of exposing and expressing parallelism in a way that existing architectures can use it. My research is done as part of the Computer Architecture group at UW ([Sampa](http://sampa.cs.washington.edu)), with co-advisors [Luis Ceze](http://www.cs.washington.edu/homes/luisceze/) and [Mark Oskin](http://www.cs.washington.edu/homes/oskin). With them, I am working on the [Grappa](http://grappa.io) project, an effort to improve performance of irregular applications on commodity clusters in software.
