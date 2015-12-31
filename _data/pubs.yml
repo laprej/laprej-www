@@ -69,7 +69,7 @@ lapre-autumnsim-2012:
     paper: /pubs/autumnsim2012.pdf
 
 tyrrell-biomedicine-2004:
-  title: 'Efficient migration of complex off-line computer vision software to real-time system implementation on generic computer hardware'
+  title: 'Efficient Migration of Complex Off-line Computer Vision Software to Real-time System Implementation on Generic Computer Hardware'
   authors:
     - James Alexander Tyrrell
     - Justin M. LaPre
