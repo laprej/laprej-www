@@ -79,4 +79,8 @@ I am interested in helping programs scale from workstations up to huge machines 
 <div><strong>{{i.position}}</strong> {{i.detail | markdownify}}</div>
 {% endfor %}
 
-## References Available Upon Request
+### References
+
+* Christopher Carothers – Ph.D. Advisor – [chris.carothers AT gmail.com](mailto:chris.carothers AT gmail.com)
+* Chuck Stewart  – Computer Science Department Head – [cvstewart AT gmail.com](mailto:cvstewart AT gmail.com)
+* Anisha Smith – Former Student – [anishacsmith AT gmail.com](mailto:anishacsmith AT gmail.com)
