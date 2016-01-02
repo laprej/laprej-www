@@ -43,6 +43,11 @@ teaching:
     detail: |
       - C Programming for Engineers, Spring 2008
 
+service:
+  - position: Winter Simulation Conference
+    detail: |
+      - Network and Communications Track Co-Chair, Dec 2016
+
 ---
 
 <p class="contact">
@@ -78,6 +83,12 @@ By leveraging compiler tools and novel state-saving techniques, development of p
 ## Teaching Experience
 
 {% for i in page.teaching %}
+<div><strong>{{i.position}}</strong> {{i.detail | markdownify}}</div>
+{% endfor %}
+
+## Service
+
+{% for i in page.service %}
 <div><strong>{{i.position}}</strong> {{i.detail | markdownify}}</div>
 {% endfor %}
 
