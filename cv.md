@@ -50,7 +50,9 @@ teaching:
 </p>
 
 ## Research Interests
-I am interested in helping programs scale from workstations up to huge machines in order to solve the biggest problems in data-intensive and scientific computing workloads. To tackle this problem I design programming models and language features that express parallelism and locality, compilers that leverage that additional information to do aggressive optimization, and runtime systems that handle dynamism to make full use of each architecture's capabilities.
+My research over the past few years has primarily focused on improving performance of parallel discrete-event simulations.
+Such simulations have utility in a large range of applications such as simulating aircraft in the national air space or developing new radio protocols.
+By leveraging compiler tools and novel state-saving techniques, development of parallel code is simplified while maintaining a high-performance envelope.
 
 ## Education
 ##### [Rensselaer Polytechnic Institute](http://www.rpi.edu) — [Computer Science Department](http://www.cs.rpi.edu)
