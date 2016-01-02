@@ -3,7 +3,8 @@ PYTHON=python2.7
 # targets that aren't filenames
 .PHONY: all clean deploy
 
-CSEHOST := bicycle.cs.washington.edu
+CSEHOST := linux.cs.rpi.edu
+DIR := /cs/laprej/public.html
 deploy: BUILDARGS := --config _config.yml,_config_sandbox.yml
 
 define graffle2svg
@@ -40,8 +41,8 @@ build: setup
 	bundle exec jekyll build --config _config.yml,_deploy.yml
 
 deploy: clean build
-	rsync --compress --recursive --checksum --itemize-changes --perms --chmod=ug+rw,o+r --exclude=bin/ --exclude=drafts/ --exclude=pdf/ --exclude=private/ --delete _site/ $(CSEHOST):/cse/web/homes/bholt
-	scp -r drafts $(CSEHOST):/cse/web/homes/bholt
+	rsync --compress --recursive --checksum --itemize-changes --perms --chmod=ug+rw,o+r --exclude=bin/ --exclude=drafts/ --exclude=pdf/ --exclude=private/ --delete _site/ $(CSEHOST):$(DIR)
+	scp -r drafts $(CSEHOST):$(DIR)
 
 clean:
 	rm -rf _site
