@@ -39,7 +39,7 @@ teaching:
     detail: |
       - CSCI 4320/6340: Parallel Computing & Programming - with Christopher Carothers, Spring 2013
 
-  - position: Instructor at Mechanical Engineering Deptartment, SUNY Stony Brook
+  - position: Instructor at Mechanical Engineering Department, SUNY Stony Brook
     detail: |
       - C Programming for Engineers, Spring 2008
 
