@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-tagline: University of Washington
+tagline: Rensselaer Polytechnic Institute
 ---
 
 <img src="img/JustinBerkeley.jpg" class="img-rounded img-responsive"/>
