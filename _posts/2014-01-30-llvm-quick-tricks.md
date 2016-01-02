@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Quick LLVM Tricks
+published: false
 description: Reiterating a trick I learned for registering LLVM passes automatically with Clang, and some other gems.
 ---
 

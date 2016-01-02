@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Simulating an interactive Twitter workload
+published: false
 description: |
   My latest project has led me to try to simulate workloads from real-world social networks. Starting from Graph500's Kronecker graph and integrating with Retwis, with a sprinkle of my own retweet behavior, I came up with something that works for me that I thought I'd share.
 ---

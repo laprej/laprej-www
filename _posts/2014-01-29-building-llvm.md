@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building LLVM on OSX
+published: false
 description: Notes from how I've built LLVM to be most useful for me (and maybe for you, too).
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Scholarly markdown (with R) for fun and (non-monetary) profit
+published: false
 description: |
   We need ways to lower the barrier to writing up in-progress research, making it easier to explore data in the process of sharing your findings. I've pulled together some tools that use Markdown for writing and generate plots inline to make it easy to generate both webpages and conference submissions.
 ---

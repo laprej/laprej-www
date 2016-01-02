@@ -1,6 +1,7 @@
 ---
 title: Musings from PaPoC
 layout: default
+published: false
 description: |
   I had the privilege of presenting some of my work to many similarly-minded researchers at the PaPoC workshop last week. I got some great ideas from hearing about other relevant ongoing work and from insightful conversations with people there.
 ---

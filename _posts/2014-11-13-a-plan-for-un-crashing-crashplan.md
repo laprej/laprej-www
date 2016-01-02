@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A plan for un crashing CrashPlan"
+published: false
 description: |
   Some tricks for fixing CrashPlan's "unable to connect to backup service" error on Yosemite.
 ---

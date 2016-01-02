@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git Reflog"
+published: false
 description: "Ever screw up a rebase and lose your branch? Ever wish you could easily undo that nightmare of a merge? This trick will let you undo the worst kind of errors: version control mess-ups."
 ---
 
