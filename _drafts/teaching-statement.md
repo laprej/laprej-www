@@ -2,6 +2,35 @@
 title: Teaching Statement
 layout: default
 description: An online copy of my teaching statement and philosophy.
+
+teaching_statement:
+  - heading: Faster Iteration
+    text: |
+      All too often, novice programmers write 50, 100, or more lines of code only to discover that it does not compile.
+      While compiler error messages have been improving, message-parsing abilities by the student are often not mature enough to decipher the gibberish spewed from the compiler.
+      Any advice to "fix the first problem" invariably falls on deaf ears.
+      Encouraging students to adopt a *test driven development* (TDD) methodology can improve the way they develop their code in several ways.
+      First, the amount of code to examine is typically smaller.
+      Second, by focusing on one component at a time they are "nearer" to the source of the problem.
+      Third, it builds a sense of accomplishment as they eliminate bugs and see more and more passing tests.
+      The student needs to iterate faster when less experience is available.
+      As the student becomes more confident, less feedback is required.
+      As the student develops more proficiency allow increasing durations between feedback.
+
+  - heading: Thinking Creatively
+    text: |
+      The wealth of knowledge available to your average smartphone owner is mind-boggling; it no longer makes sense to have students memorize facts.
+      Pattern matching
+      Let your subconscious do the heavy lifting -- that's what it's good at
+      Learn to silence your mind
+
+  - heading: Engaging Students
+    text: |
+      In-class youtube breaks
+      Humor
+      Problem of the day
+      iPhones have destroyed attention spans
+
 ---
 <p class="text-justify">
 I consider myself a life-long student.
@@ -12,33 +41,6 @@ These are, in no particular order:
 (iii) engaging the students.
 </p>
 
-## Faster Iteration
-
-<p class="text-justify">
-All too often, novice programmers write 50, 100, or more lines of code only to discover that it does not compile.
-While compiler error messages have been improving, message-parsing abilities by the student are often not mature enough to decipher the gibberish spewed from the compiler.
-Any advice to "fix the first problem" invariably falls on deaf ears.
-Encouraging students to adopt a test driven development (TDD) methodology can improve the way they develop their code in several ways.
-First, the amount of code to examine is typically smaller.
-Second, by focusing on one component at a time they are "nearer" to the source of the problem.
-Third, it builds a sense of accomplishment as they eliminate bugs and see more and more passing tests.
-The student needs to iterate faster when less experience is available.
-As the student becomes more confident, less feedback is required.
-As the student develops more proficiency allow increasing durations between feedback.
-</p>
-
-## Thinking Creatively
-
-<p class="text-justify">
-The wealth of knowledge available to your average smartphone owner is mind-boggling; it no longer makes sense to have students memorize facts.
-Let your subconscious do the heavy lifting -- that's what it's good at
-Learn to silence your mind
-
-</p>
-
-## Engaging Students
-
-In-class youtube breaks
-Humor
-Problem of the day
-iPhones have destroyed attention spans
+{% for i in page.teaching_statement %}
+<div style="text-align:justify"><h2>{{i.heading}}</h2> {{i.text | markdownify}}</div>
+{% endfor %}
