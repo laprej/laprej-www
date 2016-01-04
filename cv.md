@@ -61,7 +61,7 @@ By leveraging compiler tools and novel state-saving techniques, development of p
 
 ## Education
 ##### [Rensselaer Polytechnic Institute](http://www.rpi.edu) — [Computer Science Department](http://www.cs.rpi.edu)
-- Ph.D. (Dec 2015)
+- Doctor of Philosophy (Dec 2015)
 - Master of Science (May 2005)
 - Bachelor of Science (May 2002)
 - **Advisor**: [Christopher Carothers](http://www.cs.rpi.edu/~chrisc)
