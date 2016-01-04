@@ -22,7 +22,7 @@ teaching_statement:
       First, the amount of code to examine is typically smaller.
       Second, by focusing on one component at a time they are "nearer" to the source of the problem.
       Third, it builds a sense of accomplishment as they eliminate bugs and see more and more tests passing.
-      The student needs to iterate faster when less experience is available.
+      Students needs to iterate faster when they have less experience.
       As the student becomes more confident and knowledgeable, less feedback is required.
 
   - heading: Problem Recognition
@@ -32,11 +32,8 @@ teaching_statement:
       A better tactic is building solid *pattern matching* skills.
       Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from scratch.
       Additionally, it is likely that a fair amount of code exists online that already solves this problem, at least partially.
-      Once the problem has been identified
-      Let your subconscious do the heavy lifting&#8212;that's what it's good at
-      Learn to silence your mind
-      There is no box!
-      Fostering critical thinking and alternative thinking methods to discover solutions
+      Seeing a variety of twists on known problems helps to improve problem recognition and increase insight into problems at a deeper level.
+      Exposure to a breadth of problems helps to foster critical thinking and alternative thinking methods to discover solutions.
 
   - heading: Engaging Students
     text: |
