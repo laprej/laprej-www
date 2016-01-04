@@ -10,7 +10,7 @@ teaching_statement:
       In my years of study, I have discovered trends that can help lead to a successful academic career.
       These are, in no particular order:
       (i) fast turnaround times for feedback through testing,
-      (ii) out-of-the-box thinking, and
+      (ii) recognizing familiar problems, and
       (iii) engaging the students.
 
   - heading: Faster Iteration
@@ -25,26 +25,28 @@ teaching_statement:
       The student needs to iterate faster when less experience is available.
       As the student becomes more confident and knowledgeable, less feedback is required.
 
-  - heading: Thinking Creatively
+  - heading: Problem Recognition
     text: |
-      The wealth of knowledge available to your average smartphone owner is mind-boggling; it no longer makes sense to have students memorize facts.
+      Incoming freshmen have been trained in passing standardized exams. 
+      Yet the wealth of knowledge available to your average smartphone owner is mind-boggling; it no longer makes sense to have students memorize facts.
       A better tactic is building solid *pattern matching* skills.
-      Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from the scratch.
+      Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from scratch.
       Additionally, it is likely that a fair amount of code exists online that already solves this problem, at least partially.
+      Once the problem has been identified
       Let your subconscious do the heavy lifting&#8212;that's what it's good at
       Learn to silence your mind
       There is no box!
-      Incoming freshman are taught to pass tests
       Fostering critical thinking and alternative thinking methods to discover solutions
 
   - heading: Engaging Students
     text: |
-      In-class youtube breaks
-      Humor
-      Problem of the day
-      iPhones have destroyed attention spans
-      Inspire a sense of community in the class room
-      Creates a comforting environment for students to take chances
+      I like to keep the atmosphere of my class light.
+      To break up long lectures, in addition to getting a drink and stretching, I find that students enjoy short and non-class-related YouTube videos.
+      I find that these introduce some degree of levity as well as helping the students relax.
+      By creating a comfortable environment, the students feel less inhibited asking and answering questions.
+      Another one of my favorite tactics I have picked up over the years is a short *problem of the day* (POTD).
+      The POTD must be (physically) handed in during class but the student need not even attempt it; the student's name on the paper is all that is required.
+      The benefits of this are twofold: it encourages attendance and gives the student further opportunities for studying the material.
 
 ---
 
