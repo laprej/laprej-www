@@ -23,15 +23,14 @@ teaching_statement:
       Second, by focusing on one component at a time they are "nearer" to the source of the problem.
       Third, it builds a sense of accomplishment as they eliminate bugs and see more and more tests passing.
       The student needs to iterate faster when less experience is available.
-      As the student becomes more confident, less feedback is required.
-      As the student develops more proficiency allow increasing durations between feedback.
+      As the student becomes more confident and knowledgeable, less feedback is required.
 
   - heading: Thinking Creatively
     text: |
       The wealth of knowledge available to your average smartphone owner is mind-boggling; it no longer makes sense to have students memorize facts.
       A better tactic is building solid *pattern matching* skills.
-      Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from the beginning;
-      a fair amount of code exists online that already solves this problem, at least partially.
+      Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from the scratch.
+      Additionally, it is likely that a fair amount of code exists online that already solves this problem, at least partially.
       Let your subconscious do the heavy lifting&#8212;that's what it's good at
       Learn to silence your mind
       There is no box!
