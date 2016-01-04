@@ -29,8 +29,10 @@ teaching_statement:
   - heading: Thinking Creatively
     text: |
       The wealth of knowledge available to your average smartphone owner is mind-boggling; it no longer makes sense to have students memorize facts.
-      Pattern matching
-      Let your subconscious do the heavy lifting -- that's what it's good at
+      A better tactic is building solid *pattern matching* skills.
+      Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from the beginning;
+      a fair amount of code exists online that already solves this problem, at least partially.
+      Let your subconscious do the heavy lifting&#8212;that's what it's good at
       Learn to silence your mind
       There is no box!
       Incoming freshman are taught to pass tests
