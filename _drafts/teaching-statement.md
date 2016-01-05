@@ -33,7 +33,7 @@ teaching_statement:
       Being able to recognize a spin on a graph coloring problem is far more useful than trying to attack the problem from scratch.
       Additionally, it is likely that a fair amount of code exists online that already solves this problem, at least partially.
       Seeing a variety of twists on known problems helps to improve problem recognition and increase insight into problems at a deeper level.
-      Exposure to a breadth of problems helps to foster critical thinking and alternative thinking methods to discover solutions.
+      Exposure to a breadth of problems helps to foster critical thinking abilities and to more quickly discover solutions.
 
   - heading: Engaging Students
     text: |
