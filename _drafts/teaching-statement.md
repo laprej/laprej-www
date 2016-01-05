@@ -19,7 +19,7 @@ teaching_statement:
       While compiler error messages have been improving, message-parsing abilities by the student are often not mature enough to decipher the gibberish spewed from the compiler.
       Any advice to "fix the first problem" invariably falls on deaf ears.
       Encouraging students to adopt a *test driven development* (TDD) methodology can improve the way they develop their code in several ways.
-      First, the amount of code to examine is typically smaller.
+      First, the amount of code to examine is typically smaller as the scope is reduced to simply passing the next test.
       Second, by focusing on one component at a time they are "nearer" to the source of the problem.
       Third, it builds a sense of accomplishment as they eliminate bugs and see more and more tests passing.
       Students needs to iterate faster when they have less experience.
