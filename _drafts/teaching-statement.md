@@ -41,7 +41,7 @@ teaching_statement:
       To break up long lectures, in addition to getting a drink and stretching, I find that students enjoy short and non-class-related YouTube videos.
       I find that these introduce some degree of levity as well as helping the students relax.
       By creating a comfortable environment, the students feel less inhibited asking and answering questions.
-      Another one of my favorite tactics I have picked up over the years is a short *problem of the day* (POTD).
+      Another one of my favorite tactics is a short *problem of the day* (POTD).
       The POTD must be (physically) handed in during class but the student need not even attempt it; the student's name on the paper is all that is required.
       The benefits of this are twofold: it encourages attendance and gives the student further opportunities for studying the material.
 
