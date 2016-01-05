@@ -8,7 +8,7 @@ teaching_statement:
     text: |
       I consider myself a life-long student.
       In my years of study, I have discovered trends that can help lead to a successful academic career.
-      These are, in no particular order:
+      These are:
       (i) fast turnaround times for feedback through testing,
       (ii) recognizing familiar problems, and
       (iii) engaging the students.
