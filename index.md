@@ -7,7 +7,7 @@ tagline: Rensselaer Polytechnic Institute
 <img src="img/JustinBerkeley.jpg" class="img-rounded img-responsive"/>
 
 <div id="timeline" class="pull-right col-md-5">
-<a class="twitter-timeline pull-right" height=400px href="https://twitter.com/holtbg" data-widget-id="545291687996571648">Tweets by @holtbg</a>
+<a class="twitter-timeline" href="https://twitter.com/laprej" data-widget-id="686692552041492480">Tweets by @laprej</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
