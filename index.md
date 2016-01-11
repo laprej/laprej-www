@@ -49,9 +49,7 @@ Solving these problems requires being willing to change any part of the traditio
 
 Read more about various work in progress and past on the [Projects](projects/index.html) page. A few highlights:
 
-- [Claret](projects/index.html#Claret): Bringing ADTs and approximate computing to NoSQL databases.
-- [Grappa](projects/index.html#Grappa): Picking up the slack in commodity clusters for irregular applications.
-- [Igor](projects/index.html#Igor): A system to make it easier to run parameter sweeps and collect data from experiments.
+- [LORAIN](projects/index.html#LORAIN): Automatically generating reverse event handlers to support optimistic PDES.
 
 ## Personal
 Despite appearances, in addition to locking myself up in a room coding all day, I do other things as well. I enjoy hiking, soccer, frisbee, and sci-fi. I particularly like mountains, in which Washington is not disappointing me.
