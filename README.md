@@ -1,7 +1,7 @@
 # Justin M. LaPre's Personal Webpage
 
 This is the source for my personal webpage, visible at:
-- https://www.cs.rpi.edu/~laprej
+- http://www.cs.rpi.edu/~laprej
 
 Created using [Jekyll](http://jekyllrb.com) & [Twitter Bootstrap](http://getbootstrap.com).
 
