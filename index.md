@@ -35,15 +35,20 @@ tagline: Rensselaer Polytechnic Institute
 ## About Me
 I recently completed my Ph.D. in Computer Science at Rensselaer Polytechnic Institute under my advisor [Christopher Carothers](http://www.cs.rpi.edu/~chrisc).
 My research interests include high performance computing (HPC), parallel discrete-event simulations (PDES), optimistic simulation using Jefferson's Time Warp protocol, and how to reduce development time and complexity by leveraging the compiler.
-The majority of this research has been conducted using [Rensslaer's Optimistic Simulation System (ROSS)](https://github.com/carothersc/ROSS) which was developed by Dr. Carothers and his graduate students over the years.
+The majority of this research has been conducted using [Rensselaer's Optimistic Simulation System (ROSS)](https://github.com/carothersc/ROSS) which was developed by Dr. Carothers and his graduate students over the years.
 
 ## Research Interests
-I'm interested in helping people solve tough problems using the most powerful computer they have available.
-Right now, the *tough problems* people seem to be facing involve analyzing and understanding large, irregular data sets (including such "Big Data" problems as social network analytics). These problems are particularly challenging because their execution is highly data-dependent and unpredictable, wreaking havoc on systems which are optimized for regular access patterns.
+I am interested in simulating bigger problems today than we did yesterday.
+And bigger again tomorrow.
+In order to keep expanding the size of the problems we are able to tackle, we need to keep improving the simulation software we have available.
 
-For many people — in particular, most data scientists — the *most powerful computer* they have access to is actually pretty beefy: a compute cluster, even if it's just an on-demand cluster from the cloud. These highly-parallel distributed-memory machines are notoriously difficult to do useful things with.
+In order to drive this progression forward, we must investigate multiple avenues of research.
+These include model refinement, data compression, and compiler-assisted tools to help develop robust, correct, and high-performance code.
+As the cost of data movement is beginning to dominate, it makes sense to question assumptions about where to perform computations on that data.
 
-Solving these problems requires being willing to change any part of the traditional "stack": hardware, compiler, runtime, programming language, or tools. I enjoy hacking LLVM to automatically extract communication, develop fancy C++11 interfaces to runtimes, and exploring how to leverage high-level program information to optimize low-level runtime calls.
+Additionally, new simulators will be needed to run on the supercomputers of tomorrow.
+Scaling issues must be addressed as these machines evolve in new and unforeseen ways e.g., power, threads per core, etc.
+In turn, modern software engineering techniques will be required to provide the foundation for building the next generation of simulation platforms and toolkits.
 
 ## Projects
 
