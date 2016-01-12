@@ -55,6 +55,3 @@ In turn, modern software engineering techniques will be required to provide the 
 Read more about various work in progress and past on the [Projects](projects/index.html) page. A few highlights:
 
 - [LORAIN](projects/index.html#LORAIN): Automatically generating reverse event handlers to support optimistic PDES.
-
-## Personal
-Despite appearances, in addition to locking myself up in a room coding all day, I do other things as well. I enjoy hiking, soccer, frisbee, and sci-fi. I particularly like mountains, in which Washington is not disappointing me.
