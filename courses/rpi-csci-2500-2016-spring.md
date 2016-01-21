@@ -4,7 +4,8 @@ title: CSCI 2500 Computer Organization
 description: Syllabus for CSCI 2500 Computer Organization.
 ---
 
-## Spring 2016 Syllabus for: CSCI 2500, Computer Organization
+## CSCI 2500, Computer Organization
+### Spring 2016
 
 Dr. Justin M. LaPre  
 Department of Computer Science  
@@ -32,7 +33,7 @@ include, but are not exclusively limited to:
 ### Required Textbooks
 
 Computer Organization & Design: The Hardware/Software Interface,
-5th Edition (2013), By Patterson and Hennessy.
+5th Edition (2013), by Patterson and Hennessy.
 [Amazon link.](http://amzn.com/0124077269)
 
 ### Optional Textbooks
