@@ -14,7 +14,7 @@ Rensselaer Polytechnic Institute
 e-mail: laprej@cs.rpi.edu  
 course website: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html  
 Office Hours: MRC 309a, Tuesday and Friday, 2 to 4 p.m. and by appointment.  
-Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 10:50 a.m.
+Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 9:50 a.m.
 
 ### Course Description and Textbook Information
 Introduction to computer organization, assembler language, and operating
