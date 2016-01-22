@@ -11,8 +11,8 @@ Dr. Justin M. LaPre
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180  
-e-mail: laprej@cs.rpi.edu  
-course website: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html  
+E-mail: laprej AT cs.rpi.edu  
+Course website: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html  
 Office Hours: MRC 309a, Tuesday and Friday, 2 to 4 p.m. and by appointment.  
 Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 9:50 a.m.
 
@@ -32,18 +32,17 @@ include, but are not exclusively limited to:
 
 ### Required Textbooks
 
-Computer Organization & Design: The Hardware/Software Interface,
-5th Edition (2013), by Patterson and Hennessy.
+*Computer Organization & Design: The Hardware/Software Interface,
+5th Edition* (2013), by Patterson and Hennessy.
 [Amazon link.](http://amzn.com/0124077269)
 
 ### Optional Textbooks
 
-\begin{itemize}
-\item {\em The C Language Reference Manual, Fifth Edition},
+*The C Language Reference Manual, 5th Edition* (2002),
 by Samuel P. Harbison, Guy L. Steele.
-\end{itemize}
+[Amazon link.](http://amzn.com/013089592X)
 
-\section{Performance Expectations}
+### Performance Expectations
 As a professor, student adviser and course instructor, I get asked,
 ``Is Comp Org Hard?''. The answer is that depends.  For many of you,
 Computer Organization is your first really hands on programming
@@ -77,15 +76,12 @@ found CS I and CS II challenging, then I suggest you start all the programming
 oriented assignments the day they are assigned. If any part of the assignment
 is unclear, please see Dr.  Carothers as soon as possible or e-mail him.
 
-\section{Graduate Teaching Assistants}
-We have two Graduate TAs assigned to our class. {\bf All office hours
-are typically held in the Amos Eaton, room 217, unless otherwise
-specified by the TA.}
+### Graduate Teaching Assistants
+We have two Graduate TAs assigned to our class.
+All office hours are typically held in the Amos Eaton, room 217, unless otherwise specified by the TA.
 
-\begin{enumerate}
-\item {\bf Deyang Gu (gud@rpi.edu):} Office hours: Wed. and Friday 10 am.. -- 12 p.m.
-\item {\bf Andrew Zonenberg (zonena@rpi.edu):} Office hours: Mon. and Thurs. 4--6 p.m.
-\end{enumerate}
+* Nikhil Mehta (mehtan4 AT rpi.edu): Office Hours: TBD
+* Yu Chen (cheny39 AT rpi.edu): Office Hours: TBD
 
 {\bf About TAs in this course:}. Much of the work of our TAs is the
 behind the scenes grading. {\em As you can imagine, with over 100
@@ -103,43 +99,37 @@ masters of either x86 nor MIPS assembly language. If you have complex
 debug questions regarding programming assignments, please see or
 e-mail Dr. Carothers.
 
-\section{Schedule of Topics}
+### Schedule of Topics
 
-\begin{itemize}
-\item Introduction to Unix and C: Assignment 1.
-\item History, Performance and Why Parallelism?: P\&H/Chapter 1 and class hand-out, Assignment 2.
-\item Assembly Language Programming MPIS and x86: P\&H/Chapter 2 and hand-outs, Assignments 3 and 4.
-\item Digital Logic: P\&H/Appendix B, Assignment 5.
-\item Computer Arithmetic: P\&H/Chapter 3, Assignment 6.
-\item Building a Processor: P\&H/Chapter 4, hand-out,  start of group project.
-\item Pipelining \& Multiprocessors: P\&H/Chapters 4 and 7 plus lecture notes, Assignment 7.
-\item Memory Hierarchy: P\&H, Chapter 5, finish-up group project.
-\end{itemize}
+* Introduction to Unix and C: Assignment 1.
+* History, Performance and Why Parallelism?: P\&H/Chapter 1 and class hand-out, Assignment 2.
+* Assembly Language Programming MPIS and x86: P\&H/Chapter 2 and hand-outs, Assignments 3 and 4.
+* Digital Logic: P\&H/Appendix B, Assignment 5.
+* Computer Arithmetic: P\&H/Chapter 3, Assignment 6.
+* Building a Processor: P\&H/Chapter 4, hand-out,  start of group project.
+* Pipelining \& Multiprocessors: P\&H/Chapters 4 and 7 plus lecture notes, Assignment 7.
+* Memory Hierarchy: P\&H, Chapter 5, finish-up group project.
 
-\section{Schedule of Homeworks and Quizzes and NO CLASS days}
+### Schedule of Homeworks and Quizzes and NO CLASS days
 
-\begin{itemize}
-\item Assignment 1 due on Tuesday, September  4th $\rightarrow$ Quiz 1 on Friday, September 7th.
-\item NO CLASS, Tuesday, September 18th, Rosh Hashanah.
-\item Assignment 2 due on Wednesday, September 19th $\rightarrow$ Quiz 2 on Friday, September 21th.
-\item Assignment 3 due on Tuesday, October 2nd $\rightarrow$ Quiz 3 on Friday, October 5th.
-\item NO CLASS, Tuesday October 9th, follows Monday class schedule.
-\item Assignment 4 due on Tuesday, October 16th $\rightarrow$ Quiz 4 on Friday, October   19st.
-\item Assignment 5 due on Tuesday, October 30th $\rightarrow$ Quiz 5 on Friday, November   2nd.
-\item Assignment 6 due on Tuesday, November  12th $\rightarrow$ Quiz 6 on Friday, November  15th.
-\item Friday, November 23rd, NO Class, part of Thanksgiving Holiday.
-\item Group Project due date, Friday November 30th.
-\item Assignment 7 due on Tuesday, December 4th $\rightarrow$ Quiz 7 on Friday, December  7th.
-\end{itemize}
+* Assignment 1 due on Tuesday, September  4th $\rightarrow$ Quiz 1 on Friday, September 7th.
+* NO CLASS, Tuesday, September 18th, Rosh Hashanah.
+* Assignment 2 due on Wednesday, September 19th $\rightarrow$ Quiz 2 on Friday, September 21th.
+* Assignment 3 due on Tuesday, October 2nd $\rightarrow$ Quiz 3 on Friday, October 5th.
+* NO CLASS, Tuesday October 9th, follows Monday class schedule.
+* Assignment 4 due on Tuesday, October 16th $\rightarrow$ Quiz 4 on Friday, October   19st.
+* Assignment 5 due on Tuesday, October 30th $\rightarrow$ Quiz 5 on Friday, November   2nd.
+* Assignment 6 due on Tuesday, November  12th $\rightarrow$ Quiz 6 on Friday, November  15th.
+* Friday, November 23rd, NO Class, part of Thanksgiving Holiday.
+* Group Project due date, Friday November 30th.
+* Assignment 7 due on Tuesday, December 4th $\rightarrow$ Quiz 7 on Friday, December  7th.
 
-\section{Grading and Other Class Policies}
+### Grading and Other Class Policies
 
-\begin{itemize}
-\item  42\%: 7 homeworks, 6 pts each -- due every other Tuesday.
-\item  49\%: 7 quizzes, 7 pts each, given in class every other Friday.
-\item   9\%: 1 project.
-\item  Bonus -- you can replace your lowest homework grade.
-\end{itemize}
+*  42\%: 7 homeworks, 6 pts each -- due every other Tuesday.
+*  49\%: 7 quizzes, 7 pts each, given in class every other Friday.
+*   9\%: 1 project.
+*  Bonus -- you can replace your lowest homework grade.
 
 {\bf Attendance Policy:} Attendance at lectures is not required, but
 be aware that I may include material not necessarily covered in the
