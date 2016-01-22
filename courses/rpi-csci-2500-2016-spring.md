@@ -53,9 +53,9 @@ assembly language programming grow by at least 10x. Additionally, if
 you are not fluent in the basic constructs of at least C++ programming
 such as classes, for-loops, while-loops, if-then-else statements
 coupled with the ability to take a relatively high-level problem
-description (i.e., {\em write a program that reads two variable
+description (i.e., write a program that reads two variable
 dimension NxN matrices from a file, multiplies them together and
-outputs the result in a matrix format}) and quickly break it down
+outputs the result in a matrix format) and quickly break it down
 mentally and construct a structured program to accomplish this task,
 you will find this course very difficult.
 
@@ -67,9 +67,9 @@ classes as well as prepare for the bi-weekly Computer Organization
 quizzes. Unsuccessful students have the feeling they are overwhelmed in an
 ever growing avalanche of homework and quizzes.
 
-If you start to get that overwhelmed feeling at all, {\bf ask for help and ask
+If you start to get that overwhelmed feeling at all, ask for help and ask
 for early -- do not wait until a few days before the assignment is
-due}. Additionally, if you feel you are not as strong of a programmer and
+due. Additionally, if you feel you are not as strong of a programmer and
 found CS I and CS II challenging, then I suggest you start all the programming
 oriented assignments the day they are assigned. If any part of the assignment
 is unclear, please see Dr.  Carothers as soon as possible or e-mail him.
@@ -134,7 +134,7 @@ except that there is no A+ nor is a D- allowed under the RPI Grade
 Modifier Policy.
 
 **Assignment Grading Criteria**: Programming assignments are graded
-as follows: 15\% for proper comments (e.g., each function should
+as follows: 15% for proper comments (e.g., each function should
 indicate what it does) and 85% for a correct working
 implementation. We typically divide the correctness points over key
 functions working. For example, reading - worth 10 points,
