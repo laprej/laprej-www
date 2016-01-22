@@ -39,7 +39,7 @@ include, but are not exclusively limited to:
 ### Optional Textbooks
 
 *The C Language Reference Manual, 5th Edition* (2002),
-by Samuel P. Harbison, Guy L. Steele.
+by Samuel P. Harbison and Guy L. Steele.
 [Amazon link.](http://amzn.com/013089592X)
 
 ### Performance Expectations
@@ -83,32 +83,16 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 * Nikhil Mehta (mehtan4 AT rpi.edu): Office Hours: TBD
 * Yu Chen (cheny39 AT rpi.edu): Office Hours: TBD
 
-{\bf About TAs in this course:}. Much of the work of our TAs is the
-behind the scenes grading. {\em As you can imagine, with over 100
-students, 7 homeworks, 7 quizzes, 1 bonus assignment and 1 group
-project, that makes for nearly 1600 potential grades for this one
-class. So, their grading load is substantial and this is on top of a
-full load of research and graduate coursework!} So, the TAs may not
-get time to fully delve into the subtle nuisances of different
-programming solutions etc. Additionally, an overwhelming majority of
-our TAs come from other institutions. The undergraduate courses may
-not precisely line-up with ours and the version of a Computer
-Organization course they took could be substantially different
-depending on the school. Consequently, our TAs are not necessarily
-masters of either x86 nor MIPS assembly language. If you have complex
-debug questions regarding programming assignments, please see or
-e-mail Dr. Carothers.
-
 ### Schedule of Topics
 
 * Introduction to Unix and C: Assignment 1.
-* History, Performance and Why Parallelism?: P\&H/Chapter 1 and class hand-out, Assignment 2.
-* Assembly Language Programming MPIS and x86: P\&H/Chapter 2 and hand-outs, Assignments 3 and 4.
-* Digital Logic: P\&H/Appendix B, Assignment 5.
-* Computer Arithmetic: P\&H/Chapter 3, Assignment 6.
-* Building a Processor: P\&H/Chapter 4, hand-out,  start of group project.
-* Pipelining \& Multiprocessors: P\&H/Chapters 4 and 7 plus lecture notes, Assignment 7.
-* Memory Hierarchy: P\&H, Chapter 5, finish-up group project.
+* History, Performance and Why Parallelism?: P&H/Chapter 1 and class hand-out, Assignment 2.
+* Assembly Language Programming MPIS and x86: P&H/Chapter 2 and hand-outs, Assignments 3 and 4.
+* Digital Logic: P&H/Appendix B, Assignment 5.
+* Computer Arithmetic: P&H/Chapter 3, Assignment 6.
+* Building a Processor: P&H/Chapter 4, hand-out,  start of group project.
+* Pipelining & Multiprocessors: P&H/Chapters 4 and 7 plus lecture notes, Assignment 7.
+* Memory Hierarchy: P&H, Chapter 5, finish-up group project.
 
 ### Schedule of Homeworks and Quizzes and NO CLASS days
 
@@ -164,9 +148,9 @@ points even if you spent 100 hours of time on it}.  Non-programming
 assignments/homeworks are graded on a per-problems basis. Typically 5
 problems will be given and each is worth 20 points.
 
-\section{Academic Integrity}
+### Academic Integrity
 
-{\bf While I strongly encourage you to form study groups and work
+While I strongly encourage you to form study groups and work
 together in learning this material, the course project, homeworks and
 programming assignments are to be done individually unless otherwise
 noted by the assignment/project specification. What this means is that
@@ -178,43 +162,31 @@ those students will automatically take a zero for the offense plus a 5
 point total average deduction. For a second offense, the student or
 students involved will fail this course and a report will be sent to
 the Dean of Students office which could result in additional
-disciplinary action.}
+disciplinary action.
 
-\section{Learning Outcomes}
+### Learning Outcomes
 By the end of this course, you will be able to:
 
-\begin{enumerate}
-\item {\em Apply the concepts of the {\bf C programming language} to the 
-construction of moderately complex software implementation problems}.
-
-\item {\em Apply the concepts of {\bf assembly language} to correct and efficient translation
-of a given C programming language into the course required assembly language(s).}
-
-\item {\em Apply the concepts of {\bf integer and floating point formats} to convert
+* Apply the concepts of the C programming language to the
+construction of moderately complex software implementation problems.
+* Apply the concepts of assembly language to correct and efficient translation
+of a given C programming language into the course required assembly language(s).
+* Apply the concepts of integer and floating point formats to convert
 from the base-10 integer or scientific format into the correct machine
-readable binary format}.
-
-\item {\em Apply the concepts of {\bf Boolean Algebra} to simplify given Boolean equations}
-
-\item {\em Apply the concepts of {\bf K-Maps} to the problem of Boolean expression simplification}.
-
-\item {\em Apply the concepts of {\bf Performance}  to the analysis of computer performance problems}.
-
-\item {\em Apply the concepts of a {\bf multicycle datapath and control} by showing in
+readable binary format.
+* Apply the concepts of Boolean Algebra to simplify given Boolean equations.
+* Apply the concepts of K-Maps to the problem of Boolean expression simplification.
+* Apply the concepts of Performance to the analysis of computer performance problems.
+* Apply the concepts of a multicycle datapath and control by showing in
 written form the processing steps that different classes of
 instructions require as they move through the datapath and control
-hardware structures.}
-
-\item {\em Apply the concepts of a {\bf pipelined datapath and control} by showing in
+hardware structures.
+* Apply the concepts of a pipelined datapath and control by showing in
 written form the processing steps that different classes of
 instructions require as they move through the datapath and control
-hardware structures.}
-
-\item {\em Apply the concepts of {\bf caching and memory hierarchy} to solve a problem which
+hardware structures.
+* Apply the concepts of caching and memory hierarchy to solve a problem which
 requires you to design the ``best'' cache system given particular
-design constraints.}
-
-\item {\em Apply the concepts of {\bf parallel programming} to the construction/implementation 
-of a correct and efficiently executing multithreaded program}.
-\end{enumerate}
-\end{document}
+design constraints.
+* Apply the concepts of parallel programming to the construction/implementation
+of a correct and efficiently executing multithreaded program.
