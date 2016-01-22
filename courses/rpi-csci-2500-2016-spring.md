@@ -16,7 +16,7 @@ Course website: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html
 Office Hours: MRC 309a, Tuesday and Friday, 2 to 4 p.m. and by appointment.  
 Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 9:50 a.m.
 
-### Course Description and Textbook Information
+### Course Description
 Introduction to computer organization, assembler language, and operating
 systems with a heavy emphasis on systems and low-level programming. Topics
 include, but are not exclusively limited to:
@@ -32,14 +32,12 @@ include, but are not exclusively limited to:
 
 ### Required Textbooks
 
-*Computer Organization & Design: The Hardware/Software Interface,
-5th Edition* (2013), by Patterson and Hennessy.
+*Computer Organization & Design: The Hardware/Software Interface, 5th Edition* (2013), by Patterson and Hennessy.
 [Amazon link.](http://amzn.com/0124077269)
 
 ### Optional Textbooks
 
-*The C Language Reference Manual, 5th Edition* (2002),
-by Samuel P. Harbison and Guy L. Steele.
+*The C Language Reference Manual, 5th Edition* (2002), by Samuel P. Harbison and Guy L. Steele.
 [Amazon link.](http://amzn.com/013089592X)
 
 ### Performance Expectations
@@ -87,7 +85,7 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 
 * Introduction to Unix and C: Assignment 1.
 * History, Performance and Why Parallelism?: P&H/Chapter 1 and class hand-out, Assignment 2.
-* Assembly Language Programming MPIS and x86: P&H/Chapter 2 and hand-outs, Assignments 3 and 4.
+* Assembly Language Programming MIPS and x86: P&H/Chapter 2 and hand-outs, Assignments 3 and 4.
 * Digital Logic: P&H/Appendix B, Assignment 5.
 * Computer Arithmetic: P&H/Chapter 3, Assignment 6.
 * Building a Processor: P&H/Chapter 4, hand-out,  start of group project.
@@ -110,23 +108,24 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 
 ### Grading and Other Class Policies
 
-*  42\%: 7 homeworks, 6 pts each -- due every other Tuesday.
-*  49\%: 7 quizzes, 7 pts each, given in class every other Friday.
-*   9\%: 1 project.
+*  42%: 7 homeworks, 6 pts each -- due every other Tuesday.
+*  49%: 7 quizzes, 7 pts each, given in class every other Friday.
+*   9%: 1 project.
 *  Bonus -- you can replace your lowest homework grade.
 
-{\bf Attendance Policy:} Attendance at lectures is not required, but
+**Attendance Policy**: Attendance at lectures is not required, but
 be aware that I may include material not necessarily covered in the
 text or on the web page.  You are responsible for all announcements
 made in lecture (e.g., any change in due dates).
+Additionally, you are responsible for the **problem of the day**.
 
-{\bf Late Assignments Policy:} Late assignments will not be
+**Late Assignments Policy**: Late assignments will not be
 graded. You will get a zero for that assignment, except under
 extenuating circumstances, such as illness, family death etc. If you
 are ill, please be prepared to provide a note from the heath center or
 your own family physician.
 
-{\bf Grade Modifiers Policy:} Grade modifiers will be used in this
+**Grade Modifiers Policy**: Grade modifiers will be used in this
 class. Nominally, for example, you expect to earn a B- if your score
 is greater than 79.5 and less than 83.0, B if your score is greater
 than 83 and less than 86, B+ if your score is greater than 86 and less
@@ -134,17 +133,17 @@ than 89.5. The same modifier points occur for the A, C and D ranges
 except that there is no A+ nor is a D- allowed under the RPI Grade
 Modifier Policy.
 
-{\bf Assignment Grading Criteria:} Programming assignments are graded
+**Assignment Grading Criteria**: Programming assignments are graded
 as follows: 15\% for proper comments (e.g., each function should
-indicate what it does) and 85\% for a correct working
+indicate what it does) and 85% for a correct working
 implementation. We typically divide the correctness points over key
-functions working. For example, {\em reading - worth 10 points}, {\em
-writing -- worth 10 points} as file correctly, and then {\em doing the
-calculation correctly -- worth 65 points}. Note that programs that
+functions working. For example, reading - worth 10 points,
+writing -- worth 10 points as file correctly, and then doing the
+calculation correctly -- worth 65 points. Note that programs that
 either don't compile or generate a ``core dump'' typically get no more
-than 20 points of the 85. {\bf Thus, your max score for a ``properly
+than 20 points of the 85. Thus, your max score for a ``properly
 commented'' program that fails in some fundamental way is only 35
-points even if you spent 100 hours of time on it}.  Non-programming
+points even if you spent 100 hours of time on it.  Non-programming
 assignments/homeworks are graded on a per-problems basis. Typically 5
 problems will be given and each is worth 20 points.
 
@@ -177,7 +176,7 @@ readable binary format.
 * Apply the concepts of Boolean Algebra to simplify given Boolean equations.
 * Apply the concepts of K-Maps to the problem of Boolean expression simplification.
 * Apply the concepts of Performance to the analysis of computer performance problems.
-* Apply the concepts of a multicycle datapath and control by showing in
+* Apply the concepts of a multi-cycle datapath and control by showing in
 written form the processing steps that different classes of
 instructions require as they move through the datapath and control
 hardware structures.
@@ -189,4 +188,4 @@ hardware structures.
 requires you to design the ``best'' cache system given particular
 design constraints.
 * Apply the concepts of parallel programming to the construction/implementation
-of a correct and efficiently executing multithreaded program.
+of a correct and efficiently executing multi-threaded program.
