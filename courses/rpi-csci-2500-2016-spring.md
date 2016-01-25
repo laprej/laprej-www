@@ -94,18 +94,6 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 
 ### Schedule of Homeworks and Quizzes and NO CLASS days
 
-* Assignment 1 due on Tuesday, September  4th $\rightarrow$ Quiz 1 on Friday, September 7th.
-* NO CLASS, Tuesday, September 18th, Rosh Hashanah.
-* Assignment 2 due on Wednesday, September 19th $\rightarrow$ Quiz 2 on Friday, September 21th.
-* Assignment 3 due on Tuesday, October 2nd $\rightarrow$ Quiz 3 on Friday, October 5th.
-* NO CLASS, Tuesday October 9th, follows Monday class schedule.
-* Assignment 4 due on Tuesday, October 16th $\rightarrow$ Quiz 4 on Friday, October   19st.
-* Assignment 5 due on Tuesday, October 30th $\rightarrow$ Quiz 5 on Friday, November   2nd.
-* Assignment 6 due on Tuesday, November  12th $\rightarrow$ Quiz 6 on Friday, November  15th.
-* Friday, November 23rd, NO Class, part of Thanksgiving Holiday.
-* Group Project due date, Friday November 30th.
-* Assignment 7 due on Tuesday, December 4th $\rightarrow$ Quiz 7 on Friday, December  7th.
-
 * Assignment 1 due on Tuesday, February 2nd $\rightarrow$ Quiz 1 on Friday, February 5th.
 * February 15, 2016 - February 16, 2016	President's Day holiday-- No classes.
 * Assignment 2 due on Wednesday, February 16th $\rightarrow$ Quiz 2 on Friday, February 19th.
