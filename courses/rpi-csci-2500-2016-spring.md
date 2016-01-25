@@ -108,22 +108,24 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 
 ### Grading and Other Class Policies
 
-*  5%: Problem of the day
+*  4%: Problem of the day
 *  10%: Lab sections
-*  42%: 7 homeworks, 6 pts each -- due every other Tuesday.
-*  49%: 7 quizzes, 7 pts each, given in class every other Friday.
+*  35%: 7 homeworks, 5 pts each -- due every other Tuesday.
+*  42%: 7 quizzes, 6 pts each, given in class every other Friday.
 *   9%: 1 project.
-*  Bonus -- you can replace your lowest homework grade.
 
 **Attendance Policy**: Attendance at lectures is not required, but
 be aware that I may include material not necessarily covered in the
 text or on the web page.  You are responsible for all announcements
 made in lecture (e.g., any change in due dates).
-Additionally, you are responsible for the **problem of the day**.
+Additionally, you *are* responsible for the **problem of the day**.
 
 **Problem of the day**: Each day in lecture you are to turn in the problem assigned from the previous lecture.
 The twist is that actually solving the problem is optional, i.e., you will receive full credit by simply putting your name on the page.
 With a very high likelihood, students actually attempting to solve the problem will achieve a deeper understanding of the material than those that simply write their name on the paper.
+
+**Lab Sections**: Lab attendance is mandatory and you will be graded.
+Keeping up with the labs will be the best way for your to make sure that you do not fall behind.
 
 **Late Assignments Policy**: Late assignments will not be
 graded. You will get a zero for that assignment, except under
