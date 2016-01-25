@@ -12,7 +12,7 @@ Department of Computer Science
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180  
 E-mail: laprej AT cs.rpi.edu  
-Course website: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html  
+Course web site: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html  
 Office Hours: MRC 309a, Tuesday and Friday, 2 to 4 p.m. and by appointment.  
 Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 9:50 a.m.
 
@@ -92,18 +92,18 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 * Pipelining & Multiprocessors: P&H/Chapters 4 and 7 plus lecture notes, Assignment 7.
 * Memory Hierarchy: P&H, Chapter 5, finish-up group project.
 
-### Schedule of Homeworks and Quizzes and NO CLASS days
+### Schedule of Homework and Quizzes and NO CLASS days
 
-* Assignment 1 due on Tuesday, February 2nd $\rightarrow$ Quiz 1 on Friday, February 5th.
-* February 15, 2016 - February 16, 2016	President's Day holiday-- No classes.
-* Assignment 2 due on Wednesday, February 16th $\rightarrow$ Quiz 2 on Friday, February 19th.
-* Assignment 3 due on Tuesday, March 1st $\rightarrow$ Quiz 3 on Friday, March 4th.
-* SPRING BREAK March 14, 2016 - March 18, 2016
-* Assignment 4 due on Tuesday, March 22nd $\rightarrow$ Quiz 4 on Friday, March 25th.
-* Assignment 5 due on Tuesday, April 5th $\rightarrow$ Quiz 5 on Friday, April 8th.
-* Assignment 6 due on Tuesday, April 19th $\rightarrow$ Quiz 6 on Friday, April 22nd.
+* Assignment 1 due on Tuesday, February 2nd.  Quiz 1 on Friday, February 5th.
+* February 15, 2016 - February 16, 2016	President's Day holiday -- No classes.
+* Assignment 2 due on Wednesday, February 16th.  Quiz 2 on Friday, February 19th.
+* Assignment 3 due on Tuesday, March 1st.  Quiz 3 on Friday, March 4th.
+* SPRING BREAK March 14, 2016 -- March 18, 2016
+* Assignment 4 due on Tuesday, March 22nd.  Quiz 4 on Friday, March 25th.
+* Assignment 5 due on Tuesday, April 5th.  Quiz 5 on Friday, April 8th.
+* Assignment 6 due on Tuesday, April 19th.  Quiz 6 on Friday, April 22nd.
 * Group Project due date, Friday April 29th.
-* Assignment 7 due on Tuesday, May 3rd $\rightarrow$ Quiz 7 on Friday, May 6th.
+* Assignment 7 due on Tuesday, May 3rd.  Quiz 7 on Friday, May 6th.
 
 ### Grading and Other Class Policies
 
