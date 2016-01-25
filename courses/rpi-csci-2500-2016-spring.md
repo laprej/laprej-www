@@ -12,8 +12,9 @@ Department of Computer Science
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180  
 E-mail: laprej AT cs.rpi.edu  
-Course web site: www.rpi.edu/~carotc/COURSES/CSCI-2500/FALL-2012/index.html  
-Office Hours: MRC 309a, Tuesday and Friday, 2 to 4 p.m. and by appointment.  
+Course web site: [http://www.cs.rpi.edu/~laprej/courses/rpi-csci-2500-2016-spring.html](http://www.cs.rpi.edu/~laprej/courses/rpi-csci-2500-2016-spring.html) OR  
+[http://github.com/RPI-CSCI-2500-2016-Spring/syllabus](http://github.com/RPI-CSCI-2500-2016-Spring/syllabus)  
+Office Hours: Amos Eaton 119, Tuesday and Friday, 10 a.m. to noon (and by appointment).  
 Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 9:50 a.m.
 
 ### Course Description
@@ -158,7 +159,7 @@ written form the processing steps that different classes of
 instructions require as they move through the datapath and control
 hardware structures.
 * Apply the concepts of caching and memory hierarchy to solve a problem which
-requires you to design the ``best'' cache system given particular
+requires you to design the "best" cache system given particular
 design constraints.
 * Apply the concepts of parallel programming to the construction/implementation
 of a correct and efficiently executing multi-threaded program.
