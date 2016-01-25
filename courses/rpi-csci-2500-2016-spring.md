@@ -40,40 +40,6 @@ include, but are not exclusively limited to:
 *The C Language Reference Manual, 5th Edition* (2002), by Samuel P. Harbison and Guy L. Steele.
 [Amazon link.](http://amzn.com/013089592X)
 
-### Performance Expectations
-As a professor, student adviser and course instructor, I get asked,
-``Is Comp Org Hard?''. The answer is that depends.  For many of you,
-Computer Organization is your first really hands on programming
-oriented course. So, I have found over the years that students who
-truly enjoy the ``Art'' and ``Science'' of programming, perform very
-well in the class. However, students who struggled with the
-programming assignments in CS I or CS II, unfortunately have done even
-worse in this course. The reason is that the details for low-level
-assembly language programming grow by at least 10x. Additionally, if
-you are not fluent in the basic constructs of at least C++ programming
-such as classes, for-loops, while-loops, if-then-else statements
-coupled with the ability to take a relatively high-level problem
-description (i.e., write a program that reads two variable
-dimension NxN matrices from a file, multiplies them together and
-outputs the result in a matrix format) and quickly break it down
-mentally and construct a structured program to accomplish this task,
-you will find this course very difficult.
-
-Another compounding factor is time management. If you are able to complete the
-Computer Organizations programming assignments relatively quickly, say 10
-hours, as opposed to getting stuck on a bug for nearly 40 hours, successful
-Computer Organization students tend to stay rested, have more time for other
-classes as well as prepare for the bi-weekly Computer Organization
-quizzes. Unsuccessful students have the feeling they are overwhelmed in an
-ever growing avalanche of homework and quizzes.
-
-If you start to get that overwhelmed feeling at all, ask for help and ask
-for early -- do not wait until a few days before the assignment is
-due. Additionally, if you feel you are not as strong of a programmer and
-found CS I and CS II challenging, then I suggest you start all the programming
-oriented assignments the day they are assigned. If any part of the assignment
-is unclear, please see Dr.  Carothers as soon as possible or e-mail him.
-
 ### Graduate Teaching Assistants
 We have two Graduate TAs assigned to our class.
 All office hours are typically held in the Amos Eaton, room 217, unless otherwise specified by the TA.
