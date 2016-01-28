@@ -5,6 +5,7 @@ description: Syllabus for CSCI 2500 Computer Organization.
 ---
 
 ## CSCI 2500, Computer Organization
+
 ### Spring 2016
 
 Dr. Justin M. LaPre  
@@ -28,7 +29,7 @@ include, but are not exclusively limited to:
 * Advanced architectures including RISC architectures and parallel architectures.
 * Operating systems virtual memory, processes and interprocess communication.
 
-**Prerequisite** CSCI 1200 (CS II).
+**Prerequisite** CSCI 1200 (Data Structures).
 
 ### Required Textbooks
 
