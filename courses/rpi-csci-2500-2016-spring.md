@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Syllabus
+layout: default
+title: CSCI 2500 Computer Organization
 description: Syllabus for CSCI 2500 Computer Organization.
 ---
 
