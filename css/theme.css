@@ -20,7 +20,7 @@
 body {
   font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 15px;
   padding-top: 5px;
   padding-bottom: 10px;
 }
@@ -32,7 +32,7 @@ a:hover {
 #feed-icon {
   filter: grayscale(100%) opacity(0.5);
   -webkit-filter: grayscale(100%) opacity(0.5);
-  height: 14px;
+  height: 15px;
 /*  float: right;*/
 }
 
@@ -47,7 +47,7 @@ a:hover {
 }*/
 
 blockquote {
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
 }
 
