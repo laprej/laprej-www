@@ -42,3 +42,4 @@ By creating a comfortable environment, the students feel less inhibited asking a
 Another one of my favorite tactics is a short *problem of the day* (POTD).
 The POTD must be (physically) handed in during class but the student need not even attempt it; the student's name on the paper is all that is required.
 The benefits of this are twofold: it encourages attendance and gives the student further opportunities for studying the material.
+As an added bonus, the POTD gives me further insight into the students who are putting forth more effort than their colleagues; this data comes in handy when deciding if a borderline student deserves a "bump."
