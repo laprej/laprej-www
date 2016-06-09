@@ -10,6 +10,8 @@ They should never be considered, "set in stone" but rather in a constant state o
 ## Software engineering
 
 This first item arguably has the least amount of actual research potential insofar as good practices rarely result in publishable work.
+Base all underlying guiding principles of good software engineering
+Before any research is undertaken, the code must be in a understandable and malleable state.
 That does not diminish the importance of good software engineering practices including:
 1) test-driven development
 2) proper documentation including both developer and user perspectives, and
@@ -17,7 +19,8 @@ That does not diminish the importance of good software engineering practices inc
 
 Some projects are short and others are long.
 You never know how long a project will last.
-By adopting good software engineering principles and utilizing them throughout the life of the project, it will make refactoring easier as well as introducing new, possibly research-worthy features into your code base.
+By adopting good software engineering principles and utilizing them throughout the life of the project, it will make refactoring easier.
+This includes introducing new research features into your code base.
 
 Computer scientists work in and develop algorithms.
 These algorithms are ultimately realized in code, written by humans, and therefore susceptible to errors.
@@ -26,11 +29,23 @@ We must strive to eliminate these errors through tried and tested methodologies.
 ## Compilers
 
 Compilers are the gate-keepers for new software systems.
-If you cannot articulate yourself in a clear manner to the compiler, then your compiler cannot generate high performance or easily parallelizable code.
+If you cannot articulate yourself in a clear manner to the compiler, then your compiler cannot generate high performing or well-parallelized code.
+Additionally, developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis and race conditions in parallel code can also be detected.
+
 
 ## Cloud-based resources
+
+Supercomputers can be terribly expensive.
+Aside from the cost of the hardware and requiring sufficient space, the power and cooling costs alone can easily exceed one million dollars annually.
+On the other hand, Amazon and friends offer on-demand cloud-based services for a fraction of the cost of an in-house supercomputer.
+
+## Containers
+
+Containers offer new opportunities to develop and deploy in a fast manner.
 
 ## Future PDES systems
 
 Future PDES systems must be modular.
 They must also be easily extendible.
+Support introspection
+A lot of old assumptions are due for re-visitation.
