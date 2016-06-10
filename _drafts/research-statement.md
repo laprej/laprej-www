@@ -32,7 +32,11 @@ Compilers are the gate-keepers for new software systems.
 If you cannot articulate yourself in a clear manner to the compiler, then your compiler cannot generate high performing or well-parallelized code.
 Additionally, developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis and race conditions in parallel code can also be detected.
 
+Compilers can be used to great effect.
+Useful for transformation passes through the code to exploit hidden parallel portions.
+Advent of C++11/14 drastically reduces the copy overheads (new pointer types require "move" operators, etc.)
 
+<!--
 ## Cloud-based resources
 
 Supercomputers can be terribly expensive.
@@ -42,6 +46,7 @@ On the other hand, Amazon and friends offer on-demand cloud-based services for a
 ## Containers
 
 Containers offer new opportunities to develop and deploy in a fast manner.
+-->
 
 ## Future PDES systems
 
