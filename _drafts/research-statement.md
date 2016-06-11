@@ -9,8 +9,9 @@ They should never be considered, "set in stone" but rather in a constant state o
 
 ## Future Simulation systems
 
+Parallel discrete-event simulation (PDES) is a valuable tool for many scientists and engineers.
+From simulating the national air space to prototyping a large-scale radio protocols before deployment, PDES has the potential to save large sums of money and minimize the time required to arrive at a functional design.
 XPDES.
-PDES uses and applications.
 Make them easier to use.
 Future PDES systems must be modular.
 They must also be easily extendible.
