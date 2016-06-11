@@ -7,6 +7,27 @@ description: An online copy of my research statement.
 The following paragraphs reflect some of my *current* guiding principles for research.
 They should never be considered, "set in stone" but rather in a constant state of question, refinement, and hopefully improvement.
 
+## Future Simulation systems
+
+XPDES.
+PDES uses and applications.
+Make them easier to use.
+Future PDES systems must be modular.
+They must also be easily extendible.
+Support introspection.
+A lot of old assumptions are due for re-visitation.
+
+## Compilers
+
+Compilers are the gate-keepers for new software systems.
+If you cannot articulate yourself in a clear manner to the compiler, then your compiler cannot generate high performing or well-parallelized code.
+Additionally, developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis and race conditions in parallel code can also be detected.
+
+OpenMP
+Compilers can be used to great effect.
+Useful for transformation passes through the code to exploit hidden parallel portions.
+Advent of C++11/14 drastically reduces the copy overheads (new pointer types require "move" operators, etc.)
+
 ## Software engineering
 
 This first item arguably has the least amount of actual research potential insofar as good practices rarely result in publishable work.
@@ -28,16 +49,6 @@ This includes introducing new research features into your code base.
 
 We must strive to eliminate these errors through tried and tested methodologies.
 
-## Compilers
-
-Compilers are the gate-keepers for new software systems.
-If you cannot articulate yourself in a clear manner to the compiler, then your compiler cannot generate high performing or well-parallelized code.
-Additionally, developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis and race conditions in parallel code can also be detected.
-
-Compilers can be used to great effect.
-Useful for transformation passes through the code to exploit hidden parallel portions.
-Advent of C++11/14 drastically reduces the copy overheads (new pointer types require "move" operators, etc.)
-
 <!--
 ## Cloud-based resources
 
@@ -49,10 +60,3 @@ On the other hand, Amazon and friends offer on-demand cloud-based services for a
 
 Containers offer new opportunities to develop and deploy in a fast manner.
 -->
-
-## Future PDES systems
-
-Future PDES systems must be modular.
-They must also be easily extendible.
-Support introspection
-A lot of old assumptions are due for re-visitation.
