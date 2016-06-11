@@ -17,19 +17,16 @@ some approaches leave too much performance untapped due to their conservative na
 The difficulty in developing such systems can be daunting yet provides some excellent opportunities.
 Simulation engines would benefit greatly from being capable of greater degrees of introspection.
 Additionally, redesigning to increase modularity will make changes more localized and easier to perform.
-Building tools to reduce the burden of creating such simulations can benefit everyone.
-Increase productivity.
-Make them easier to use.
-They must also be easily extendible.
-A lot of old assumptions are due for re-visitation.
+Building tools to reduce the complexity of creating simulation models will naturally lead to increases in productivity as well as greater possibilities for publication.
+Many of the "common-sense" assumptions are due for re-visitation and a simplified code-base will greatly aid in reaffirming these hypotheses.
 
 ## Compilers
 
-Compilers are the gate-keepers for new software systems.
-If you cannot articulate yourself in a clear manner to the compiler, then your compiler cannot generate high performing or well-parallelized code.
-Additionally, developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis and race conditions in parallel code can also be detected.
+Compiler technology has grown by leaps and bounds in the past decade.
+Code compiles faster and yields terrifyingly accurate correction predictions.
+Developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis; race conditions in parallel code can often be detected.
 
-OpenMP
+While technologies such as OpenMP can lessen the burden of parallelizing code, there is no silver bullet.
 Compilers can be used to great effect.
 Useful for transformation passes through the code to exploit hidden parallel portions.
 Advent of C++11/14 drastically reduces the copy overheads (new pointer types require "move" operators, etc.)
