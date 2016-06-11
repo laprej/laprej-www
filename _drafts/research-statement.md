@@ -11,11 +11,16 @@ They should never be considered, "set in stone" but rather in a constant state o
 
 Parallel discrete-event simulation (PDES) is a valuable tool for many scientists and engineers.
 From simulating the national air space to prototyping a large-scale radio protocols before deployment, PDES has the potential to save large sums of money and minimize the time required to arrive at a functional design.
-XPDES.
+While the potential uses are vast, truly taking advantage of PDES can be challenging:
+some approaches leave too much performance untapped due to their conservative nature while others require complicated and unconventional methods to correct out-of-order event executions.
+
+The difficulty in developing such systems can be daunting yet provides some excellent opportunities.
+Simulation engines would benefit greatly from being capable of greater degrees of introspection.
+Additionally, redesigning to increase modularity will make changes more localized and easier to perform.
+Building tools to reduce the burden of creating such simulations can benefit everyone.
+Increase productivity.
 Make them easier to use.
-Future PDES systems must be modular.
 They must also be easily extendible.
-Support introspection.
 A lot of old assumptions are due for re-visitation.
 
 ## Compilers
