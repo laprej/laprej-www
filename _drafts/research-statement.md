@@ -36,24 +36,16 @@ Again, many assumptions require re-evaluation.
 
 ## Software Engineering
 
-This first item arguably has the least amount of actual research potential insofar as good practices rarely result in publishable work.
+This last item arguably has the least amount of actual research potential insofar as good practices rarely result in publishable work.
 Before any research is undertaken, the code must be in a understandable and malleable state.
 That does not diminish the importance of good software engineering practices including:
 1) test-driven development,
 2) continuous integration, and
 3) proper documentation including both developer and user perspectives.
 
-Computer scientists work in and develop algorithms.
-These algorithms are ultimately realized in code, written by humans, and therefore susceptible to typical development cycles such as designing, coding, and debugging.
-By adopting good software engineering principles and utilizing them throughout the life of the project, it will make refactoring easier.
-
-Base all underlying guiding principles of good software engineering
-Some projects are short and others are long.
-You never know how long a project will last.
-
-This includes introducing new research features into your code base.
-
-We must strive to eliminate these errors through tried and tested methodologies.
+Computer scientists work with and develop algorithms.
+These algorithms are ultimately realized in code, written by humans, and therefore susceptible to typical development cycles such as designing, coding, and debugging; these cycles can add up to months or years.
+By adopting good software engineering principles and utilizing them throughout the life of the project, it will make refactoring project code easier and lead to more well-defined and frequent publications.
 
 <!--
 ## Cloud-based resources
