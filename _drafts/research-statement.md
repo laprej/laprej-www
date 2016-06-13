@@ -5,7 +5,7 @@ description: An online copy of my research statement.
 ---
 
 The following paragraphs reflect some of my *current* guiding principles for research.
-They should never be considered, "set in stone" but rather in a constant state of question, refinement, and hopefully improvement.
+They should never be considered "set in stone" but rather in a constant state of question, refinement, and improvement.
 
 ## Future Simulation Systems
 
