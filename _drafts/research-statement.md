@@ -57,11 +57,8 @@ Compressing these modifications further reduces memory pressures and allows for 
 
 ### Future Simulation Systems
 
-Parallel discrete-event simulation (PDES) is a valuable tool for many scientists and engineers.
-From simulating the national air space to prototyping a large-scale radio protocols before deployment, PDES has the potential to save large sums of money and minimize the time required to arrive at a functional design.
-While the potential uses are vast, truly taking advantage of PDES can be challenging:
+While the potential uses of simulations are vast, truly taking advantage of PDES can be challenging:
 some approaches leave too much performance untapped due to their conservative nature while others require complicated and unconventional methods to correct out-of-order event executions.
-
 The difficulty in developing such systems can be daunting yet provides some excellent opportunities.
 Simulation engines would benefit greatly from being capable of greater degrees of introspection.
 Additionally, redesigning to increase modularity will make changes more localized and easier to perform.
@@ -73,7 +70,6 @@ Many of the "common-sense" assumptions are due for re-visitation and a simplifie
 Compiler technology has grown by leaps and bounds in the past decade.
 Code compiles faster and yields terrifyingly accurate correction predictions.
 Developers are becoming more dependent on the compiler through the increasing use of bug-finding tools via static and dynamic analysis; race conditions in parallel code can often be detected.
-
 Analysis and transformation passes on the code may be capable of discovering and exploiting parallel portions.
 For example, OpenMP offers users the ability to direct the compiler's parallelization efforts.
 While technologies such as OpenMP can lessen the burden of parallelizing code, there is no silver bullet.
@@ -90,7 +86,6 @@ That does not diminish the importance of good software engineering practices inc
 1) test-driven development,
 2) continuous integration, and
 3) proper documentation including both developer and user perspectives.
-
 Computer scientists work with and develop algorithms.
 These algorithms are ultimately realized in code, written by humans, and therefore susceptible to typical development cycles such as designing, coding, and debugging; these cycles can add months or years to a project.
 By adopting good software engineering principles and utilizing them throughout the life of the project, refactoring project code will be easier and will lead to more well-defined and frequent publications.
