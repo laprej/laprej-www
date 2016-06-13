@@ -4,6 +4,57 @@ layout: default
 description: An online copy of my research statement.
 ---
 
+Parallel discrete-event simulation (PDES) is a valuable tool for many scientists and engineers.
+From simulating the national air space to prototyping a large-scale radio protocols before deployment, PDES has the potential to save large sums of money and minimize the time required to arrive at a functional design.
+My work builds a foundation which explores multiple avenues of improving performance through:
+avoiding problematic simulation scenarios,
+data structure refinement,
+compiler-assisted techniques,
+and novel state-saving implementations.
+These approaches outline a recipe for achieving scalable performance across a wide array of discrete-event simulation experiments.
+
+### Model-Driven Improvements
+
+First is the  model based approach.
+This  area may  contain  the  greatest possible  range  of optimizations.
+Small changes to model behavior or algorithms may yield orders of magnitude in performance improvements.
+This is particularly true when dealing with the "broadcast" problem, i.e., where sending  one event may generate ``receive'' events on many other nodes.
+Such exponential event growth  can be difficult for  simulation engines to handle  in a performance-sensitive  manner.
+By  converting the  wireless broadcast model into  a model similar  to a token-ring, we are  able to bypass this performance-crushing phenomenon.
+
+### Improving Massively Parallel Simulator Scalability
+
+The second concern is how do we enable a PDES engine on an extreme-scale number of cores (e.g., one million and beyond).
+Various data structures are required to work in concert for the proper execution of the simulation;
+poor  choices may impact the speed  of the simulation.
+Small-scale performance  must sometimes be  sacrificed to achieve  the desired scalability.
+For  example,  our   target  simulation  engine,  ROSS, previously  used  hash tables  to  track  remote events.
+While  this performed well  for many  years, this strategy  was destined  to break when  scaling  up  to  millions of  cores.
+Specifically,  each  core maintained a unique hash table for all cores in the system which collectively consumed many times the available memory.
+Replacing millions  of  hash  tables  with   a  single per-node tree  yields  a  substantial improvement in memory usage and  enables a ROSS  simulation to scale to nearly two million cores.
+
+### Compiler-Assisted Model Development
+
+Next  we explore  compiler-assisted  tools  for developing  optimistic simulation  models.
+Optimistic approaches are able to uncover a model's inherent parallelism via speculative execution.
+Upon detection of an erroneous simulator state, the  event handler is effectively undone or  rolled back.
+State-saving is  a  memory-heavy  approach to  this problem.
+Reverse   computation  is  an  effective   and  lightweight solution,  though  it  requires  considerable effort  from  the  model developer.
+Offloading   this  responsibility  to  the   compiler  is non-trivial, but our results are promising:
+the LORAIN tool is capable of identifying state changes,
+instrumenting forward event handlers,
+automatically generating reverse event handlers,
+and restoring original state values.
+Initial results show at  most  a 3%  slowdown  over  hand-written code.
+Considering  the relative  difficulty of  constructing a  valid reverse  event handler, this has the potential to dramatically reduce optimistic model development time.
+
+### Delta Encoding
+
+Finally,  we investigate  delta encoding  of state  differences.
+This method  was inspired  by source  control systems  (e.g.,  git) in which the *modifications* to the state are stored as opposed to the  entirety  of the  state  information.
+Saving state changes  is  often significantly  smaller than saving the state  as  a whole  which leads to  eased pressure on the memory subsystem.
+Compressing these modifications further reduces memory pressures and allows for greater potential parallelism to be exploited within the optimistic simulation runtime.
+
 The following paragraphs reflect some of my *current* guiding principles for research.
 They should never be considered "set in stone" but rather in a constant state of question, refinement, and improvement.
 
