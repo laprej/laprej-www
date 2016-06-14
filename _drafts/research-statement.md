@@ -18,7 +18,7 @@ These approaches outline a recipe for achieving scalable performance across a wi
 First is the  model based approach.
 This  area may  contain  the  greatest possible  range  of optimizations.
 Small changes to model behavior or algorithms may yield orders of magnitude in performance improvements.
-This is particularly true when dealing with the "broadcast" problem, i.e., where sending  one event may generate ``receive'' events on many other nodes.
+This is particularly true when dealing with the "broadcast" problem, i.e., where sending  one event may generate ``receive'' events on many other nodes [1].
 Such exponential event growth  can be difficult for  simulation engines to handle  in a performance-sensitive  manner.
 By  converting the  wireless broadcast model into  a model similar  to a token-ring, we are  able to bypass this performance-crushing phenomenon.
 
@@ -29,7 +29,7 @@ Various data structures are required to work in concert for the proper execution
 poor  choices may impact the speed  of the simulation.
 Small-scale performance  must sometimes be  sacrificed to achieve  the desired scalability.
 For  example,  our   target  simulation  engine,  ROSS, previously  used  hash tables  to  track  remote events.
-While  this performed well  for many  years, this strategy  was destined  to break when  scaling  up  to  millions of  cores.
+While  this performed well  for many  years, this strategy  was destined  to break when  scaling  up  to  millions of  cores [2].
 Specifically,  each  core maintained a unique hash table for all cores in the system which collectively consumed many times the available memory.
 Replacing millions  of  hash  tables  with   a  single per-node tree  yields  a  substantial improvement in memory usage and  enables a ROSS  simulation to scale to nearly two million cores.
 
@@ -41,7 +41,7 @@ Upon detection of an erroneous simulator state, the  event handler is effectivel
 State-saving is  a  memory-heavy  approach to  this problem.
 Reverse   computation  is  an  effective   and  lightweight solution,  though  it  requires  considerable effort  from  the  model developer.
 Offloading   this  responsibility  to  the   compiler  is non-trivial, but our results are promising:
-the LORAIN tool is capable of identifying state changes,
+the LORAIN tool [3] is capable of identifying state changes,
 instrumenting forward event handlers,
 automatically generating reverse event handlers,
 and restoring original state values.
@@ -50,7 +50,7 @@ Considering  the relative  difficulty of  constructing a  valid reverse  event h
 
 ### Delta Encoding
 
-Finally,  we investigate  delta encoding  of state  differences.
+Finally,  we investigate  delta encoding  of state  differences [4].
 This method  was inspired  by source  control systems  (e.g.,  git) in which the *modifications* to the state are stored as opposed to the  entirety  of the  state  information.
 Saving state changes  is  often significantly  smaller than saving the state  as  a whole  which leads to  eased pressure on the memory subsystem.
 Compressing these modifications further reduces memory pressures and allows for greater potential parallelism to be exploited within the optimistic simulation runtime.
@@ -101,3 +101,9 @@ On the other hand, Amazon and friends offer on-demand cloud-based services for a
 
 Containers offer new opportunities to develop and deploy in a fast manner.
 -->
+#### References
+
+[1]: J. M. LaPre, C. D. Carothers, K. D. Renard, and D. R. Shires, “Ultra large-scale wireless network models using massively parallel discrete-event simulation,” in Autumn Simulation Multi-Conf., San Diego, CA, USA, Oct. 2012, pp. 122-129.  
+[2]: P. D. Barnes, Jr., C. D. Carothers, D. R. Jefferson, and J. M. LaPre, “Warp speed: Executing Time Warp on 1,966,080 cores,” in Proc. 2013 Conf. on Principles of Advanced Discrete Simulation, ser. SIGSIM-PADS ’13, Montreal, QC, Canada, May 2013, pp. 327–336.  
+[3]: J. M. LaPre, E. J. Gonsiorowski, and C. D. Carothers, “LORAIN: A step closer to the PDES ‘Holy Grail’,” in Proc. 2nd Conf. Principles of Advanced Discrete Simulation, ser. SIGSIM-PADS ’14, Denver, CO, USA, May 2014, pp. 3–14.  
+[4]: J. M. LaPre, E. J. Gonsiorowski, C. D. Carothers, J. Jenkins, P. Carns, and R. Ross, “Time Warp state restoration via delta encoding,” in Proc. 2015 Winter Simulation Conf., ser. WSC ’15, Huntington Beach, CA, USA, Dec. 2015, pp. 3025–3036.
