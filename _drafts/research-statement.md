@@ -103,7 +103,7 @@ Containers offer new opportunities to develop and deploy in a fast manner.
 -->
 #### References
 
-[1]: J. M. LaPre, C. D. Carothers, K. D. Renard, and D. R. Shires, “Ultra large-scale wireless network models using massively parallel discrete-event simulation,” in Autumn Simulation Multi-Conf., San Diego, CA, USA, Oct. 2012, pp. 122-129.  
-[2]: P. D. Barnes, Jr., C. D. Carothers, D. R. Jefferson, and J. M. LaPre, “Warp speed: Executing Time Warp on 1,966,080 cores,” in Proc. 2013 Conf. on Principles of Advanced Discrete Simulation, ser. SIGSIM-PADS ’13, Montreal, QC, Canada, May 2013, pp. 327–336.  
-[3]: J. M. LaPre, E. J. Gonsiorowski, and C. D. Carothers, “LORAIN: A step closer to the PDES ‘Holy Grail’,” in Proc. 2nd Conf. Principles of Advanced Discrete Simulation, ser. SIGSIM-PADS ’14, Denver, CO, USA, May 2014, pp. 3–14.  
-[4]: J. M. LaPre, E. J. Gonsiorowski, C. D. Carothers, J. Jenkins, P. Carns, and R. Ross, “Time Warp state restoration via delta encoding,” in Proc. 2015 Winter Simulation Conf., ser. WSC ’15, Huntington Beach, CA, USA, Dec. 2015, pp. 3025–3036.
+[1]: J. M. LaPre, C. D. Carothers, K. D. Renard, and D. R. Shires, "Ultra large-scale wireless network models using massively parallel discrete-event simulation," in Autumn Simulation Multi-Conf., San Diego, CA, USA, Oct. 2012, pp. 122-129.  
+[2]: P. D. Barnes, Jr., C. D. Carothers, D. R. Jefferson, and J. M. LaPre, "Warp speed: Executing Time Warp on 1,966,080 cores," in Proc. 2013 Conf. on Principles of Advanced Discrete Simulation, ser. SIGSIM-PADS '13, Montreal, QC, Canada, May 2013, pp. 327-336.  
+[3]: J. M. LaPre, E. J. Gonsiorowski, and C. D. Carothers, "LORAIN: A step closer to the PDES Holy Grail," in Proc. 2nd Conf. Principles of Advanced Discrete Simulation, ser. SIGSIM-PADS '14, Denver, CO, USA, May 2014, pp. 3-14.  
+[4]: J. M. LaPre, E. J. Gonsiorowski, C. D. Carothers, J. Jenkins, P. Carns, and R. Ross, "Time Warp state restoration via delta encoding," in Proc. 2015 Winter Simulation Conf., ser. WSC '15, Huntington Beach, CA, USA, Dec. 2015, pp. 3025-3036.
