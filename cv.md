@@ -18,22 +18,6 @@ internships:
       - Implemented various software components on a real-time/embedded platform (Green Hills INTEGRITY)
       - Extensive use of C/C++, TCP/IP, and CORBA
 
-  - who: Technical Intern
-    where: Intel Corporation, Hillsboro, OR
-    when:  Summer 2000
-    what: |
-      - Designed and integrated Real-Time Kernel Services for Linux
-      - Investigated and measured kernel interrupt latencies
-      - Updated latency causal analysis tools to Linux 2.3/2.4
-
-  - who: Summer Intern
-    where: American Power Conversion, West Kingston, RI
-    when:  Summer 1999
-    what: |
-      - Developed a preliminary prototype for PowerChute2000
-      - Promoted to PowerChute network shutdown team member
-      - Lead software tester for PowerChute network shutdown
-
 teaching:
   - position: Adjunct Instructor at Rensselaer Polytechnic Institute
     detail: |
@@ -43,7 +27,7 @@ teaching:
     detail: |
       - CSCI 4320/6340: Parallel Computing & Programming - for Dr. Christopher Carothers, Spring 2013
 
-  - position: Instructor at Mechanical Engineering Department, SUNY Stony Brook
+  - position: Instructor at Mechanical Engineering Department, Stony Brook University
     detail: |
       - C Programming for Engineers, Spring 2008
 
@@ -64,11 +48,14 @@ Such simulations have utility in a large range of applications such as simulatin
 By leveraging compiler tools and novel state-saving techniques, development of parallel code is simplified while maintaining a high-performance envelope.
 
 ## Education
-##### [Rensselaer Polytechnic Institute](http://www.rpi.edu) — [Computer Science Department](http://www.cs.rpi.edu)
-- Doctor of Philosophy (Dec 2015)
-- Master of Science (May 2005)
-- Bachelor of Science (May 2002)
-- **Advisor**: [Christopher Carothers](http://www.cs.rpi.edu/~chrisc)
+
+#### [Rensselaer Polytechnic Institute](http://www.rpi.edu) — [Computer Science Department](http://www.cs.rpi.edu)
+- Doctor of Philosophy, Computer Science (Dec 2015)
+- Master of Science, Computer Science (May 2005)
+- Bachelor of Science, Computer Science (May 2002)
+
+#### [Stony Brook University](http://www.stonybrook.edu) - [Computer Science Department](http://www.cs.stonybrook.edu)
+- Master of Science, Computer Science & Engineering (Dec 2008)
 
 ## Publications
 
