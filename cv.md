@@ -3,6 +3,13 @@ layout: default
 title: Curriculum Vitae
 
 internships:
+  - who: Computer Scientist
+    where: Center for Computational Innovations, Rensselaer Polytechnic Institute, Troy, NY
+    when: May 2014 &#8212; Present
+    what: |
+      - Improve modeling and simulation codes to exploit HPC resources
+      - Collaborate with various DOE labs and industrial partners
+    
   - who: Summer Intern
     where: Army Research Labs, Aberdeen Proving Ground, MD
     when:  Summers 2010 &#8212; 2012
