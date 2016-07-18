@@ -3,32 +3,36 @@ layout: default
 title: Curriculum Vitae
 
 internships:
-  - who: Software Engineer Intern
-    where: Twitter
-    when:  Summer 2014
+  - who: Summer Intern
+    where: Army Research Labs, Aberdeen Proving Ground, MD
+    when:  Summers 2010 &#8212; 2012
     what: |
-      - Worked on improving usability of large-scale data analytics tools (Twitter's *Scalding* tool).
+      - Developed large-scale radio simulations
+      - Remotely collaborated with colleagues during academic year
 
-  - who: Research Intern
-    where: Microsoft Research (Redmond)
-    when:  Summer 2013
+  - who: Software Engineer
+    where: ViaSat Incorporated, Carlsbad, CA
+    when:  March 2005 &#8212; July 2006
     what: |
-      - Worked on autotuning cluster-scale deep neural networks.
-      - Automatic optimization of locality using simple cache models and parameterizable scheduling
+      - Developed next generation of Software-Defined Radios for the U.S. Navy
+      - Implemented various software components on a real-time/embedded platform (Green Hills INTEGRITY)
+      - Extensive use of C/C++, TCP/IP, and CORBA
 
-  - who: Software Intern
-    where: "Cray, Inc."
-    when:  Summer 2011
+  - who: Technical Intern
+    where: Intel Corporation, Hillsboro, OR
+    when:  Summer 2000
     what: |
-      - Worked with and evaluated Cray’s parallel productivity language, Chapel
-      - Developed and optimized HPC benchmarks using MPI and Chapel
+      - Designed and integrated Real-Time Kernel Services for Linux
+      - Investigated and measured kernel interrupt latencies
+      - Updated latency causal analysis tools to Linux 2.3/2.4
 
-  - who: Software Development Intern
-    where: Epic
-    when:  Summer 2009
+  - who: Summer Intern
+    where: American Power Conversion, West Kingston, RI
+    when:  Summer 1999
     what: |
-      - Designed and developed software for Epic’s Stork application using Caché and VisualBasic
-      - Collaborated with Epic team members and physicians to integrate my project with Epic’s software
+      - Developed a preliminary prototype for PowerChute2000
+      - Promoted to PowerChute network shutdown team member
+      - Lead software tester for PowerChute network shutdown
 
 teaching:
   - position: Adjunct Instructor at Rensselaer Polytechnic Institute
@@ -37,7 +41,7 @@ teaching:
 
   - position: Teaching Assistant at Rensselaer Polytechnic Institute
     detail: |
-      - CSCI 4320/6340: Parallel Computing & Programming - with Christopher Carothers, Spring 2013
+      - CSCI 4320/6340: Parallel Computing & Programming - for Dr. Christopher Carothers, Spring 2013
 
   - position: Instructor at Mechanical Engineering Department, SUNY Stony Brook
     detail: |
@@ -84,6 +88,13 @@ By leveraging compiler tools and novel state-saving techniques, development of p
 
 {% for i in page.teaching %}
 <div><strong>{{i.position}}</strong> {{i.detail | markdownify}}</div>
+{% endfor %}
+
+## Work Experience
+
+{% for i in page.internships %}
+<div><strong>{{i.where}}</strong> — <em>{{i.who}}</em> — {{i.when}}
+{{i.what | markdownify}}</div>
 {% endfor %}
 
 ## Service
