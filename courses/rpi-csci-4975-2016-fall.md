@@ -21,19 +21,23 @@ This topics course will be compiler-oriented with a focus on the LLVM compiler i
 
 **Prerequisite** Undergraduate level CSCI 2300 Minimum Grade of D and Undergraduate level CSCI 2500 Minimum Grade of D.
 
-### Required Textbooks
+### Optional Textbooks
 
 *Getting Started with LLVM Core Libraries*, by Lopes and Auler.
 [Amazon link.](https://amzn.com/B00N2RWMSQ)
 
 ### Schedule of Topics
 
+* Weekly student presentations from [llvm.org/pubs](http://llvm.org/pubs/)
+* What is LLVM?
 * Three-address code
 * Static Single Assignment (SSA)
-* C++ metaprogramming (light!)
+* Control flow graphs (CFGs)
+* C++ meta-programming (light!)
 * Code transformations & optimizations
 * Debug Info (DI)
-* Control flow graphs (CFGs)
+* (Maybe) libClang / libTooling / clang frontend
+* Presentations of final projects
 
 * Introduction to Unix and C: Assignment 1.
 * History, Performance and Why Parallelism?: P&H/Chapter 1 and class hand-out, Assignment 2.
@@ -119,30 +123,11 @@ the Dean of Students office which could result in additional
 disciplinary action.
 
 ### Learning Outcomes
-By the end of this course, you will be able to:
+By the end of this course, you will:
 
-* Understand the various passes a compiler makes through your code.
-* 
-* Apply the concepts of the C programming language to the
-construction of moderately complex software implementation problems.
-* Apply the concepts of assembly language to correct and efficient translation
-of a given C programming language into the course required assembly language(s).
-* Apply the concepts of integer and floating point formats to convert
-from the base-10 integer or scientific format into the correct machine
-readable binary format.
-* Apply the concepts of Boolean Algebra to simplify given Boolean equations.
-* Apply the concepts of K-Maps to the problem of Boolean expression simplification.
-* Apply the concepts of Performance to the analysis of computer performance problems.
-* Apply the concepts of a multi-cycle datapath and control by showing in
-written form the processing steps that different classes of
-instructions require as they move through the datapath and control
-hardware structures.
-* Apply the concepts of a pipelined datapath and control by showing in
-written form the processing steps that different classes of
-instructions require as they move through the datapath and control
-hardware structures.
-* Apply the concepts of caching and memory hierarchy to solve a problem which
-requires you to design the "best" cache system given particular
-design constraints.
-* Apply the concepts of parallel programming to the construction/implementation
-of a correct and efficiently executing multi-threaded program.
+* Have gained a deeper understanding of the LLVM compiler
+* Understand the various passes a compiler makes through your code
+* Understand and use advanced C++ techniques and design patterns
+* Be able to read control flow graphs
+* Be able to read and write valid LLVM virtual instruction streams
+* Have completed an LLVM project of interest to you
