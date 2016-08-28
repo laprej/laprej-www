@@ -33,6 +33,7 @@ This topics course will be compiler-oriented with a focus on the LLVM compiler i
 * Three-address code
 * Static Single Assignment (SSA)
 * Control flow graphs (CFGs)
+* Dominators
 * C++ meta-programming (light!)
 * Code transformations & optimizations
 * Debug Info (DI)
