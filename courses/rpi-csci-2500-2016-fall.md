@@ -46,9 +46,9 @@ include, but are not exclusively limited to:
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
 
-* Peter Horak (email: Piazza): Office Hours: TBD
-* Muhammad Ishaq (email: Piazza): Office Hours: Amos Eaton 119 lounge, Wednesday, 2 p.m. to 3 p.m.
-* Nikhil Mehta (email: Piazza): Office Hours: TBD
+* Peter Horak (email: Piazza): TBD
+* Muhammad Ishaq (email: Piazza): Amos Eaton 119 lounge, Wednesday, 2 p.m. to 3 p.m.
+* Nikhil Mehta (email: Piazza): TBD
 
 ### Schedule of Topics
 
