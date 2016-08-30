@@ -6,16 +6,19 @@ description: Syllabus for CSCI 2500 Computer Organization.
 
 ## CSCI 2500, Computer Organization
 
-### Spring 2016
+### Fall 2016
 
 Dr. Justin M. LaPre  
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180  
 E-mail: jlapre+CompOrgS16 AT gmail.com  
-Course web site: [http://rpi-csci-2500-2016-spring.github.io](http://rpi-csci-2500-2016-spring.github.io)  
-Office Hours: Amos Eaton 132, Tuesday and Friday, 10 a.m. to noon (and by appointment).  
-Class Time and Location: Ricketts 203, Tuesdays and Fridays, 8 a.m. to 9:50 a.m.
+Course web site: [http://piazza.com/rpi/fall2016/csci2500](http://piazza.com/rpi/fall2016/csci2500)  
+Office Hours: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).  
+Class Time and Location: Sage 3303, Tuesdays and Fridays, 12 p.m. to 1:50 p.m.
+
+**Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
+You will be notified of any changes made.**
 
 ### Course Description
 Introduction to computer organization, assembler language, and operating
@@ -38,15 +41,15 @@ include, but are not exclusively limited to:
 
 ### Optional Textbooks
 
-*The C Language Reference Manual, 5th Edition* (2002), by Samuel P. Harbison and Guy L. Steele.
-[Amazon link.](http://amzn.com/013089592X)
+*C Programming: Language: A Step by Step Beginner's Guide to Learn C Programming in 7 Days* (2016), by Darrell L. Graham.
+[Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF 2016-08-29**
 
 ### Graduate Teaching Assistants
-We have two Graduate TAs assigned to our class.
-All office hours are typically held in the Amos Eaton, room 217, unless otherwise specified by the TA.
+We have three Graduate TAs assigned to our class.
 
-* Nikhil Mehta (mehtan4 AT rpi.edu): Office Hours: Amos Eaton 217, Wednesday, 4 p.m. to 5 p.m. and Thursday, 4 p.m. to 5 p.m.
-* Yu Chen (cheny39 AT rpi.edu): Office Hours: Amos Eaton 217, Friday, 5 p.m. to 7 p.m.
+* Peter Horak: Office Hours: TBD
+* Muhammad Ishaq: Office Hours: Amos Eaton 119 lounge, Wednesday, 2 p.m. to 3 p.m.
+* Nikhil Mehta: Office Hours: TBD
 
 ### Schedule of Topics
 
