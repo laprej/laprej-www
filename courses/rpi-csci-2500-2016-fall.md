@@ -48,7 +48,7 @@ We have three Graduate TAs assigned to our class.
 
 * Peter Horak (email: Piazza): Amos Eaton 127, Thursdays 5 p.m. to 7 p.m.
 * Muhammad Ishaq (email: Piazza): Amos Eaton 119 lounge, Wednesday, 2 p.m. to 3 p.m.
-* Nikhil Mehta (email: Piazza): TBD
+* Nikhil Mehta (email: Piazza): Amos Eaton 119 lounge, Monday 2 p.m. to 4 p.m. and Wednesday, 4 p.m. to 6 p.m.
 
 ### Schedule of Topics
 
