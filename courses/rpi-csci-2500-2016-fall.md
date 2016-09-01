@@ -63,7 +63,7 @@ We have three Graduate TAs assigned to our class.
 
 ### Schedule of Homework and Quizzes and NO CLASS days
 
-* Assignment 1 due on Tuesday, September 6th.  Quiz 1 on Friday, September 9th.
+* Assignment 1 due on Wednesday, September 7th.  Quiz 1 on Friday, September 9th.
 * Assignment 2 due on Tuesday, September 20th.  Quiz 2 on Friday, September 23rd.
 * Assignment 3 due on Tuesday, October 4th.  Quiz 3 on Friday, October 7th.
 * October 11th, Monday schedule, no class.
