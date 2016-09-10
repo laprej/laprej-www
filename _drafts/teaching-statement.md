@@ -43,3 +43,12 @@ Another one of my favorite tactics is a short *problem of the day* (POTD).
 The POTD must be (physically) handed in during class but the student need not even attempt it; the student's name on the paper is all that is required.
 The benefits of this are twofold: it encourages attendance and gives the student further opportunities for studying the material.
 As an added bonus, the POTD gives me further insight into the students who are putting forth more effort than their colleagues; this data comes in handy when deciding if a borderline student deserves a "bump."
+
+## Small Group Approach
+
+While the previous comments are appropriate for a large lecture-style class, I have had the pleasure of teaching a smaller topic-oriented class.
+My primary responsibility in this case is coaching the students towards reachable and achievable goals.
+Student-led discussion lends itself to collaborative learning.
+Small groups of upper-class students have much more experience to draw from and need less direct instruction.
+In these situations I take an approach more in line with *guided facilitation* in which the student groups explore different possibilities while I am there to manage and support them.
+Learning is often a two-way street: naturally the students are learning from me but I am simultaneously learning from them using this methodology.
