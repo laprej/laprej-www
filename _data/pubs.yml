@@ -1,3 +1,13 @@
+gonsiorowski-tomacs:
+  title: 'Automatic Model Generation for Gate-Level Circuit PDES with Reverse Computation'
+  authors:
+    - Elsa Gonsiorowski
+    - Christopher D. Carothers
+    - Justin M. LaPre
+  venue:
+    name: 'ACM Transactions on Modeling and Computer Simulation (TOMACS): Best of PADS 2015 Special Issue.'
+    date: Currently under review
+
 lapre-wsc-2015:
   title: 'Time Warp State Restoration via Delta Encoding'
   authors:

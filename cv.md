@@ -80,6 +80,7 @@ By leveraging compiler tools and novel state-saving techniques, development of p
 
 ### Journal Papers
 
+- {% publication gonsiorowski-tomacs %}
 - {% publication tyrrell-biomedicine-2004 %}
 
 ## Teaching Experience
