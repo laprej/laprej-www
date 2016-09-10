@@ -31,8 +31,10 @@ internships:
       - Collaborated with Epic team members and physicians to integrate my project with Epic’s software
 
 teaching:
-  - position: Adjunct Instructor at Rensselaer Polytechnic Institute
+  - position: Non-tenured Faculty at Rensselaer Polytechnic Institute
     detail: |
+      - CSCI 4975/6975: LLVM: A Compiler Case Study, Fall 2016
+      - CSCI 2500: Computer Organization, Fall 2016
       - CSCI 2500: Computer Organization, Spring 2016
 
   - position: Teaching Assistant at Rensselaer Polytechnic Institute
