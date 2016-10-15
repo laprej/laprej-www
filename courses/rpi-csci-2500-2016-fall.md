@@ -65,13 +65,13 @@ We have three Graduate TAs assigned to our class.
 
 * Assignment 1 due on Wednesday, September 7th.  Quiz 1 on Friday, September 9th.
 * Assignment 2 due on Tuesday, September 20th.  Quiz 2 on Friday, September 23rd.
-* Assignment 3 due on Tuesday, October 4th.  Quiz 3 on Friday, October 7th.
+* Assignment 3 due on Tuesday, October 4th.  Quiz 3 on Friday, October 14th.
 * October 11th, Monday schedule, no class.
-* Assignment 4 due on Tuesday, October 18th.  Quiz 4 on Friday, October 21st.
-* Assignment 5 due on Tuesday, November 1st.  Quiz 5 on Friday, November 4th.
-* Assignment 6 due on Tuesday, November 15th.  Quiz 6 on Friday, November 18th.
+* Assignment 4 due on Tuesday, October 18th.  Quiz 4 on Friday, October 28th.
+* Assignment 5 due on Tuesday, November 1st.  Quiz 5 on Friday, November 11th.
+* Assignment 6 due on Tuesday, November 15th.  Quiz 6 on Friday, November 29th.
 * November 25th, Thanksgiving Holiday, no class.
-* Assignment 7 due on Tuesday, November 29th.  Quiz 7 on Friday, December 2nd.
+* Assignment 7 due on Tuesday, November 29th.  Quiz 7 on Friday, December 9th.
 * Group Project due date, Friday December 9th.
 
 ### Grading and Other Class Policies
