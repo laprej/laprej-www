@@ -127,6 +127,7 @@ commented" program that fails in some fundamental way is only 35
 points even if you spent 100 hours of time on it.  Non-programming
 assignments/homeworks are graded on a per-problems basis. Typically 5
 problems will be given and each is worth 20 points.
+These should be typed up using a word processor of your choice e.g., MS Word, LaTeX, etc.
 
 ### Academic Integrity
 
