@@ -6,15 +6,15 @@ description: Syllabus for CSCI 2500 Computer Organization.
 
 ## CSCI 2500, Computer Organization
 
-### Fall 2016
+### Spring 2017
 
 Dr. Justin M. LaPre  
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
-Course web site: [http://piazza.com/rpi/fall2016/csci2500](http://piazza.com/rpi/fall2016/csci2500)  
+Course web site: [https://piazza.com/rpi/spring2017/csci2500](https://piazza.com/rpi/spring2017/csci2500)  
 Office Hours: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).  
-Class Time and Location: Sage 3303, Tuesdays and Fridays, 12 p.m. to 1:50 p.m.
+Class Time and Location: DCC 318, Mondays and Thursdays, 4 p.m. to 5:50 p.m.
 
 **Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
 You will be notified of any changes made.**
@@ -41,14 +41,14 @@ include, but are not exclusively limited to:
 ### Optional Textbooks
 
 *C Programming: Language: A Step by Step Beginner's Guide to Learn C Programming in 7 Days* (2016), by Darrell L. Graham.
-[Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF 2016-08-29**
+[Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF 2017-01-16**
 
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
 
-* Peter Horak (email: Piazza): Amos Eaton 127, Thursdays 5 p.m. to 7 p.m.
-* Muhammad Ishaq (email: Piazza): Amos Eaton 119 lounge, Wednesday, 2 p.m. to 3 p.m.
-* Nikhil Mehta (email: Piazza): Amos Eaton 119 lounge, Monday 2 p.m. to 4 p.m. and Wednesday, 4 p.m. to 6 p.m.
+* Jassiem Ifill: TBD
+* Muhammad Ishaq: TBD
+* Shama Kollya: TBD
 
 ### Schedule of Topics
 
@@ -78,11 +78,12 @@ We have three Graduate TAs assigned to our class.
 
 *  4%: Problem of the day
 *  10%: Lab sections
-*  35%: 7 homeworks, 5 pts each -- due every other Tuesday.
+*  30%: 6 homeworks, 5 pts each -- due every other Tuesday.
 *  42%: 7 quizzes, 6 pts each, given in class every other Friday.
-*   9%: 1 project.
+*  14%: 1 project.
 
-**We will also be using Submitty (AKA the homework server).  Stay tuned.**
+**We will also be using Submitty (AKA the homework server).  Details
+  will follow on Piazza.**
 
 **Attendance Policy**: Attendance at lectures is not required, but
 be aware that I may include material not necessarily covered in the
@@ -90,18 +91,24 @@ text or on the web page.  You are responsible for all announcements
 made in lecture (e.g., any change in due dates).
 Additionally, you *are* responsible for the **problem of the day**.
 
-**Problem of the day**: Each day in lecture you are to turn in the problem assigned from the previous lecture.
-Students are excused from handing this in on quiz days; turn it in at the beginning of the following lecture.
-The twist is that actually solving the problem is optional, i.e., you will receive full credit by simply putting your name on the page.
-With a very high likelihood, students actually attempting to solve the problem will achieve a deeper understanding of the material than those that simply write their name on the paper.
+**Problem of the day**: Each day in lecture you are to turn in the
+problem assigned from the previous lecture.  The twist is that
+actually solving the problem is optional, i.e., you will receive full
+credit by simply putting your name on the page.  With a very high
+likelihood, students actually attempting to solve the problem will
+achieve a deeper understanding of the material than those that simply
+write their name on the paper.  Students are excused from handing this
+in on quiz days; turn it in at the beginning of the following lecture.
 
 **Lab Sections**: Lab attendance is mandatory and you will be graded.
-Keeping up with the labs will be the best way for your to make sure that you do not fall behind.
+Keeping up with the labs will be the best way for your to make sure
+that you do not fall behind.
 
-**Late Assignments Policy**: Three late days are permitted for assignments.
-They will be consumed in whole day increments. In other words, if you are one hour late, that will
-count as one day. 25 hours late will count as two days, etc. Once these are exhausted, late assignments
-will not be graded.
+**Late Assignments Policy**: Three late days are permitted for
+assignments.  They will be consumed in whole day increments. In other
+words, if you are one hour late, that will count as one day. 25 hours
+late will count as two days, etc. Once these are exhausted, late
+assignments will not be graded.
 
 **Grade Disputes**: Grade disputes must be made within 10 days.
 After 10 days has elapsed, the grade on record will stand.
@@ -114,60 +121,65 @@ than 89.5. The same modifier points occur for the A, C and D ranges
 except that there is no A+ nor is a D- allowed under the RPI Grade
 Modifier Policy.
 
-**Assignment Grading Criteria**: Programming assignments are graded
-as follows: 15% for proper comments (e.g., each function should
-indicate what it does) and 85% for a correct working
-implementation. We typically divide the correctness points over key
-functions working. For example, reading - worth 10 points,
-writing -- worth 10 points as file correctly, and then doing the
-calculation correctly -- worth 65 points. Note that programs that
-either don't compile or generate a `core dump` typically get no more
-than 20 points of the 85. Thus, your max score for a "properly
-commented" program that fails in some fundamental way is only 35
-points even if you spent 100 hours of time on it.  Non-programming
-assignments/homeworks are graded on a per-problems basis. Typically 5
-problems will be given and each is worth 20 points.
-These should be typed up using a word processor of your choice e.g., MS Word, LaTeX, etc.
+**Assignment Grading Criteria**: Programming assignments are graded as
+follows: 15% for proper comments (e.g., each function should indicate
+what it does) and 85% for a correct working implementation. We
+typically divide the correctness points over key functions
+working. For example, reading -- worth 10 points, writing -- worth 10
+points as file correctly, and then doing the calculation correctly --
+worth 65 points. Note that programs that either don't compile or
+generate a `core dump` typically get no more than 20 points of the
+85. Thus, your max score for a "properly commented" program that fails
+in some fundamental way is only 35 points even if you spent 100 hours
+of time on it.  Non-programming assignments/homeworks are graded on a
+per-problems basis. Typically 5 problems will be given and each is
+worth 20 points.  These should be typed up using a word processor of
+your choice e.g., MS Word, LaTeX, etc.  These must be submitted on
+Submitty as well.
 
 ### Academic Integrity
 
-While I strongly encourage you to form study groups and work
-together in learning this material, the course project, homeworks and
+While I strongly encourage you to form study groups and work together
+in learning this material, the course project, homeworks and
 programming assignments are to be done individually unless otherwise
 noted by the assignment/project specification. What this means is that
 you should do whatever is necessary to ensure your work remains your
-work. For example, in doing programming assignments you might want to
-prepend variable names with your initials. If during in the grading
-process, it is determined that students shared or duplicated work,
-those students will automatically take a zero for the offense plus a 5
-point total average deduction. For a second offense, the student or
-students involved will fail this course and a report will be sent to
-the Dean of Students office which could result in additional
-disciplinary action.
+work. If during in the grading process, it is determined that students
+shared or duplicated work, those students will automatically score a
+zero for the offense.  For a second offense, the student or students
+involved will fail this course and a report will be sent to the Dean
+of Students office which could result in additional disciplinary
+action.  Additionally, undergraduates offenders cannot mentor in the
+future.  In the event a graduate student is caught cheating, that
+student will fail.
 
 ### Learning Outcomes
 By the end of this course, you will be able to:
 
-* Apply the concepts of the C programming language to the
-construction of moderately complex software implementation problems.
-* Apply the concepts of assembly language to correct and efficient translation
-of a given C programming language into the course required assembly language(s).
+* Apply the concepts of the C programming language to the construction
+of moderately complex software implementation problems.
+* Apply the concepts of assembly language to correct and efficient
+translation of a given C programming language into the course required
+assembly language(s).
 * Apply the concepts of integer and floating point formats to convert
 from the base-10 integer or scientific format into the correct machine
 readable binary format.
 * Apply the concepts of Boolean Algebra to simplify given Boolean equations.
-* Apply the concepts of K-Maps to the problem of Boolean expression simplification.
-* Apply the concepts of Performance to the analysis of computer performance problems.
-* Apply the concepts of a multi-cycle datapath and control by showing in
-written form the processing steps that different classes of
+* Apply the concepts of K-Maps to the problem of Boolean expression
+  simplification.
+* Apply the concepts of Performance to the analysis of computer
+  performance problems.
+* Apply the concepts of a multi-cycle datapath and control by showing
+in written form the processing steps that different classes of
 instructions require as they move through the datapath and control
 hardware structures.
 * Apply the concepts of a pipelined datapath and control by showing in
 written form the processing steps that different classes of
 instructions require as they move through the datapath and control
 hardware structures.
-* Apply the concepts of caching and memory hierarchy to solve a problem which
-requires you to design the "best" cache system given particular
-design constraints.
-* Apply the concepts of parallel programming to the construction/implementation
-of a correct and efficiently executing multi-threaded program.
+* Apply the concepts of caching and memory hierarchy to solve a
+problem which requires you to design the "best" cache system given
+particular design constraints.
+* Apply the concepts of parallel programming to the
+construction/implementation of a correct and efficiently executing
+multi-threaded program.
