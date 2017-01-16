@@ -25,23 +25,32 @@ systems with a heavy emphasis on systems and low-level programming. Topics
 include, but are not exclusively limited to:
 
 * Organization/design of processors, memory and I/O.
-* Numeric representation including binary integer and floating point number systems.
-* Digital logic including Boolean algebra, gates, digital logic circuits, and memory.
-* Assembly language including instruction formats, addressing modes, instruction types, flow of control, the assembly process, macros, linking, loading.
-* Advanced architectures including RISC architectures and parallel architectures.
-* Operating systems virtual memory, processes and interprocess communication.
+* Numeric representation including binary integer and floating point
+  number systems.
+* Digital logic including Boolean algebra, gates, digital logic
+  circuits, and memory.
+* Assembly language including instruction formats, addressing modes,
+  instruction types, flow of control, the assembly process, macros,
+  linking, loading.
+* Advanced architectures including RISC architectures and parallel
+  architectures.
+* Operating systems virtual memory, processes and interprocess
+  communication.
 
 **Prerequisite** CSCI 1200 (Data Structures).
 
 ### Required Textbooks
 
-*Computer Organization & Design: The Hardware/Software Interface, 5th Edition* (2013), by Patterson and Hennessy.
+*Computer Organization & Design: The Hardware/Software Interface, 5th
+Edition* (2013), by Patterson and Hennessy.
 [Amazon link.](http://amzn.com/0124077269)
 
 ### Optional Textbooks
 
-*C Programming: Language: A Step by Step Beginner's Guide to Learn C Programming in 7 Days* (2016), by Darrell L. Graham.
-[Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF 2017-01-16**
+*C Programming: Language: A Step by Step Beginner's Guide to Learn C
+Programming in 7 Days* (2016), by Darrell L. Graham.
+[Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF
+2017-01-16**
 
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
@@ -53,33 +62,43 @@ We have three Graduate TAs assigned to our class.
 ### Schedule of Topics
 
 * Introduction to Unix and C: Assignment 1.
-* History, Performance and Why Parallelism?: P&H/Chapter 1 and class hand-out, Assignment 2.
-* Assembly Language Programming MIPS and x86: P&H/Chapter 2 and hand-outs, Assignments 3 and 4.
+* History, Performance and Why Parallelism?: P&H/Chapter 1 and class
+  hand-out, Assignment 2.
+* Assembly Language Programming MIPS and x86: P&H/Chapter 2 and
+  hand-outs, Assignments 3 and 4.
 * Digital Logic: P&H/Appendix B, Assignment 5.
 * Computer Arithmetic: P&H/Chapter 3, Assignment 6.
 * Building a Processor: P&H/Chapter 4, hand-out,  start of group project.
-* Pipelining & Multiprocessors: P&H/Chapters 4 and 7 plus lecture notes, Assignment 7.
+* Pipelining & Multiprocessors: P&H/Chapters 4 and 7 plus lecture
+  notes, Assignment 7.
 * Memory Hierarchy: P&H, Chapter 5, finish-up group project.
 
 ### Schedule of Homework and Quizzes and NO CLASS days
 
-* Assignment 1 due on Wednesday, September 7th.  Quiz 1 on Friday, September 9th.
-* Assignment 2 due on Tuesday, September 20th.  Quiz 2 on Friday, September 23rd.
-* Assignment 3 due on Tuesday, October 4th.  Quiz 3 on Friday, October 14th.
-* October 11th, Monday schedule, no class.
-* Assignment 4 due on Tuesday, October 18th.  Quiz 4 on Friday, October 28th.
-* Assignment 5 due on Tuesday, November 1st.  Quiz 5 on Friday, November 11th.
-* Assignment 6 due on Tuesday, November 15th.  Quiz 6 on Tuesday, November 29th.
-* November 25th, Thanksgiving Holiday, no class.
-* Assignment 7 due on Tuesday, November 29th.  Quiz 7 on Friday, December 9th.
-* Group Project due date, Friday December 9th.
+* Assignment 1 due on Wednesday, September 7th.  Quiz 1 on Thursday,
+  February 2nd.
+* Assignment 2 due on Monday, September 20th.  Quiz 2 on Thursday,
+  Feburary 16th.
+* February 21st, Monday schedule, we have class.
+* Assignment 3 due on Monday, October 4th.  Quiz 3 on Thursday, March
+  2nd.
+* Assignment 4 due on Monday, October 18th.  Quiz 4 on Thursday,
+  March 23rd.
+* April 5th, no lab.
+* Assignment 5 due on Monday, November 1st.  Quiz 5 on Thursday,
+  April 6th.
+* Assignment 6 due on Monday, November 15th.  Quiz 6 on Thursday,
+  April 20th.
+* Assignment 7 due on Tuesday, November 29th.  Quiz 7 on Monday,
+  May 1st.
+* Group Project due date, Wednesday May 3rd.
 
 ### Grading and Other Class Policies
 
 *  4%: Problem of the day
 *  10%: Lab sections
 *  30%: 6 homeworks, 5 pts each -- due every other Tuesday.
-*  42%: 7 quizzes, 6 pts each, given in class every other Friday.
+*  42%: 7 quizzes, 6 pts each, given in class every other Thursday.
 *  14%: 1 project.
 
 **We will also be using Submitty (AKA the homework server).  Details
