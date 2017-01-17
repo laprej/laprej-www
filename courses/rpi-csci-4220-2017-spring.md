@@ -13,50 +13,32 @@ Department of Computer Science
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
 Course web site: [https://piazza.com/rpi/spring2017/csci4220](https://piazza.com/rpi/spring2017/csci4220)  
-Office Hours: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).  
-Class Time and Location: DCC 318, Mondays and Thursdays, 4 p.m. to 5:50 p.m.
+Office Hours: Amos Eaton 206, Tuesday and Friday, 4 p.m. to 6 p.m. (and by appointment).  
+Class Time and Location: Amos Eaton 214, Mondays and Thursdays, 6 p.m. to 7:50 p.m.
 
 **Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
 You will be notified of any changes made.**
 
 ### Course Description
-Introduction to computer organization, assembler language, and operating
-systems with a heavy emphasis on systems and low-level programming. Topics
-include, but are not exclusively limited to:
 
-* Organization/design of processors, memory and I/O.
-* Numeric representation including binary integer and floating point
-  number systems.
-* Digital logic including Boolean algebra, gates, digital logic
-  circuits, and memory.
-* Assembly language including instruction formats, addressing modes,
-  instruction types, flow of control, the assembly process, macros,
-  linking, loading.
-* Advanced architectures including RISC architectures and parallel
-  architectures.
-* Operating systems virtual memory, processes and interprocess
-  communication.
+Programming with an overview of the principles of computer networks,
+including an overview of the OSI reference model and various popular
+network protocol suites. Concentration on Unix interprocess
+communication (IPC), network programming using TCP and UDP, as well as
+client-side and mobile programming. Programming projects in C are required.
 
-**Prerequisite** CSCI 1200 (Data Structures).
+**Prerequisite** CSCI 4210 (Operating Systems).
 
 ### Required Textbooks
 
-*Computer Organization & Design: The Hardware/Software Interface, 5th
-Edition* (2013), by Patterson and Hennessy.
-[Amazon link.](http://amzn.com/0124077269)
-
-### Optional Textbooks
-
-*C Programming: Language: A Step by Step Beginner's Guide to Learn C
-Programming in 7 Days* (2016), by Darrell L. Graham.
-[Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF
-2017-01-16**
+*Unix Network Programming, Volume 1: The Sockets Networking API, 3rd
+Edition* (2003), by W. Richard Stevens et al.
+[Amazon link.](http://a.co/aE8mNZ4)
 
 ### Graduate Teaching Assistants
-We have three Graduate TAs assigned to our class.
+We have two Graduate TAs assigned to our class.
 
-* Jassiem Ifill: TBD
-* Muhammad Ishaq: TBD
+* Yu Chen: TBD
 * Shama Kollya: TBD
 
 ### Schedule of Topics
