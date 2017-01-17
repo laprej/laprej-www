@@ -1,10 +1,10 @@
 ---
 layout: default
-title: CSCI 2500 Computer Organization
-description: Syllabus for CSCI 2500 Computer Organization.
+title: CSCI 4220 Network Programming
+description: Syllabus for CSCI 4220 Network Programming.
 ---
 
-## CSCI 2500, Computer Organization
+## CSCI 4220, Network Programming
 
 ### Spring 2017
 
@@ -12,7 +12,7 @@ Dr. Justin M. LaPre
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
-Course web site: [https://piazza.com/rpi/spring2017/csci2500](https://piazza.com/rpi/spring2017/csci2500)  
+Course web site: [https://piazza.com/rpi/spring2017/csci4220](https://piazza.com/rpi/spring2017/csci4220)  
 Office Hours: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).  
 Class Time and Location: DCC 318, Mondays and Thursdays, 4 p.m. to 5:50 p.m.
 
