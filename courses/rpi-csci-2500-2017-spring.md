@@ -75,21 +75,21 @@ We have three Graduate TAs assigned to our class.
 
 ### Schedule of Homework and Quizzes and NO CLASS days
 
-* Assignment 1 due on Wednesday, September 7th.  Quiz 1 on Thursday,
+* Assignment 1 due on Friday, February 3rd.  Quiz 1 on Thursday,
   February 2nd.
-* Assignment 2 due on Monday, September 20th.  Quiz 2 on Thursday,
+* Assignment 2 due on Friday, February 17th.  Quiz 2 on Thursday,
   Feburary 16th.
 * February 21st, Monday schedule, we have class.
-* Assignment 3 due on Monday, October 4th.  Quiz 3 on Thursday, March
+* Assignment 3 due on Friday, March 3rd.  Quiz 3 on Thursday, March
   2nd.
-* Assignment 4 due on Monday, October 18th.  Quiz 4 on Thursday,
+* Assignment 4 due on Friday, March 24th.  Quiz 4 on Thursday,
   March 23rd.
 * April 5th, no lab.
-* Assignment 5 due on Monday, November 1st.  Quiz 5 on Thursday,
+* Assignment 5 due on Friday, April 7th.  Quiz 5 on Thursday,
   April 6th.
-* Assignment 6 due on Monday, November 15th.  Quiz 6 on Thursday,
+* Assignment 6 due on Friday, April 21st.  Quiz 6 on Thursday,
   April 20th.
-* Assignment 7 due on Tuesday, November 29th.  Quiz 7 on Monday,
+* Assignment 7 due on Friday, April 28th.  Quiz 7 on Monday,
   May 1st.
 * Group Project due date, Wednesday May 3rd.
 
@@ -111,7 +111,7 @@ made in lecture (e.g., any change in due dates).
 Additionally, you *are* responsible for the **problem of the day**.
 
 **Problem of the day**: Each day in lecture you are to turn in the
-problem assigned from the previous lecture.  The twist is that
+(dated) problem assigned from the previous lecture.  The twist is that
 actually solving the problem is optional, i.e., you will receive full
 credit by simply putting your name on the page.  With a very high
 likelihood, students actually attempting to solve the problem will
