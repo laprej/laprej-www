@@ -56,22 +56,22 @@ We have two Graduate TAs assigned to our class.
 11  TCP congestion control, ACK, windows, etc  
 12  Broadcasting  
 13  Bit Torrent / DHT / P2P  
-14  TCP sockets (SOCK_STREAM), all the functions  
-15  xxxxxxx  
+14  TCP sockets (SOCK_STREAM)  
+15  Overflow Days  
 SPRING BREAK  
 16  select (I/O Multiplexing)  
 17  Socket Options  
-18  IPv4/IPv6 addressing, DNS, gethost*(), nslookup  
-19  IPv4/IPv6 addressing, DNS, gethost*(), nslookup  
+18  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
+19  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
 20  HTTP  
-21  xxxxxxx  
+21  Overflow Days  
 22  SSL  
 23  RPI Sec A (SSL-related?)  
 24  MPI  
 25  RPI Sec B  
 26  
 27  
-28  xxxxxxx  
+28  Overflow Days  
 
 ### Schedule of Assignments and Quizzes and NO CLASS days
 
