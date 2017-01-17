@@ -43,19 +43,37 @@ We have two Graduate TAs assigned to our class.
 
 ### Schedule of Topics
 
-* Introduction to Unix and C: Assignment 1.
-* History, Performance and Why Parallelism?: P&H/Chapter 1 and class
-  hand-out, Assignment 2.
-* Assembly Language Programming MIPS and x86: P&H/Chapter 2 and
-  hand-outs, Assignments 3 and 4.
-* Digital Logic: P&H/Appendix B, Assignment 5.
-* Computer Arithmetic: P&H/Chapter 3, Assignment 6.
-* Building a Processor: P&H/Chapter 4, hand-out,  start of group project.
-* Pipelining & Multiprocessors: P&H/Chapters 4 and 7 plus lecture
-  notes, Assignment 7.
-* Memory Hierarchy: P&H, Chapter 5, finish-up group project.
+1  History / OSI model  
+2  C background  
+3  Unix commands  
+4  High level UDP and TCP/IP  
+5  Byte ordering, socket creation, misc. inet functions  
+6  Client / server model  
+7  Client / server model  
+8  UDP sockets  
+9  Bonjour (Zeroconf) / Service Dicovery  
+10  TCP 3 Way Handshake, TCP States, TCP Close  
+11  TCP congestion control, ACK, windows, etc  
+12  Broadcasting  
+13  Bit Torrent / DHT / P2P  
+14  TCP sockets (SOCK_STREAM), all the functions  
+15  xxxxxxx  
+SPRING BREAK  
+16  select (I/O Multiplexing)  
+17  Socket Options  
+18  IPv4/IPv6 addressing, DNS, gethost*(), nslookup  
+19  IPv4/IPv6 addressing, DNS, gethost*(), nslookup  
+20  HTTP  
+21  xxxxxxx  
+22  SSL  
+23  RPI Sec A (SSL-related?)  
+24  MPI  
+25  RPI Sec B  
+26  
+27  
+28  xxxxxxx  
 
-### Schedule of Homework and Quizzes and NO CLASS days
+### Schedule of Assignments and Quizzes and NO CLASS days
 
 * Assignment 1 due on Friday, February 3rd.  Quiz 1 on Thursday,
   February 2nd.
