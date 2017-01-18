@@ -27,6 +27,11 @@ network protocol suites. Concentration on Unix interprocess
 communication (IPC), network programming using TCP and UDP, as well as
 client-side and mobile programming. Programming projects in C are required.
 
+The first 20-30 minutes of lecture will be covered by Dr. Holzbauer.
+Mondays will typically be guided RFC study (or something similar)
+while Thursdays will quiz you on the topics from the previous lecture.
+Afterwards, Dr. LaPre will continue with the remainder of lecture.
+
 **Prerequisite** CSCI 4210 (Operating Systems).
 
 ### Required Textbooks
@@ -73,33 +78,19 @@ SPRING BREAK
 27  
 28  Overflow Days  
 
-### Schedule of Assignments and Quizzes and NO CLASS days
+### Schedule of Projects and altered class days
 
-* Assignment 1 due on Friday, February 3rd.  Quiz 1 on Thursday,
-  February 2nd.
-* Assignment 2 due on Friday, February 17th.  Quiz 2 on Thursday,
-  Feburary 16th.
+* Project 1 out on Thursday, February 16th, due February 27th.
 * February 21st, Monday schedule, we have class.
-* Assignment 3 due on Friday, March 3rd.  Quiz 3 on Thursday, March
-  2nd.
-* Assignment 4 due on Friday, March 24th.  Quiz 4 on Thursday,
-  March 23rd.
-* April 5th, no lab.
-* Assignment 5 due on Friday, April 7th.  Quiz 5 on Thursday,
-  April 6th.
-* Assignment 6 due on Friday, April 21st.  Quiz 6 on Thursday,
-  April 20th.
-* Assignment 7 due on Friday, April 28th.  Quiz 7 on Monday,
-  May 1st.
-* Group Project due date, Wednesday May 3rd.
+* Project 2 out on Monday, February 27th, due March 9th.
+* Project 3 out on Monday, March 20th, due April 3rd.
+* Project 4 out on Monday, April 3rd, due April 17th.
+* Project 5 out on Monday, April 17th, due May 1st.
 
 ### Grading and Other Class Policies
 
-*  4%: Problem of the day
-*  10%: Lab sections
-*  30%: 6 homeworks, 5 pts each -- due every other Tuesday.
-*  42%: 7 quizzes, 6 pts each, given in class every other Thursday.
-*  14%: 1 project.
+*  70%: 5 programming projects (14 points each)
+*  30%: In-class quizzes (Thursdays)
 
 **We will also be using Submitty (AKA the homework server).  Details
   will follow on Piazza.**
@@ -119,11 +110,7 @@ achieve a deeper understanding of the material than those that simply
 write their name on the paper.  Students are excused from handing this
 in on quiz days; turn it in at the beginning of the following lecture.
 
-**Lab Sections**: Lab attendance is mandatory and you will be graded.
-Keeping up with the labs will be the best way for your to make sure
-that you do not fall behind.
-
-**Late Assignments Policy**: Three late days are permitted for
+**Late Projects Policy**: Three late days are permitted for
 assignments.  They will be consumed in whole day increments. In other
 words, if you are one hour late, that will count as one day. 25 hours
 late will count as two days, etc. Once these are exhausted, late
@@ -150,11 +137,7 @@ worth 65 points. Note that programs that either don't compile or
 generate a `core dump` typically get no more than 20 points of the
 85. Thus, your max score for a "properly commented" program that fails
 in some fundamental way is only 35 points even if you spent 100 hours
-of time on it.  Non-programming assignments/homeworks are graded on a
-per-problems basis. Typically 5 problems will be given and each is
-worth 20 points.  These should be typed up using a word processor of
-your choice e.g., MS Word, LaTeX, etc.  These must be submitted on
-Submitty as well.
+of time on it.
 
 ### Academic Integrity
 
@@ -173,32 +156,17 @@ future.  In the event a graduate student is caught cheating, that
 student will fail.
 
 ### Learning Outcomes
+
 By the end of this course, you will be able to:
+
+* Understand the OSI reference model and a variety of network
+  protocols.
+
+* Implement specific network programming constructs on Unix platforms
+  to create robust real-world sockets-based applications.
+
+* Design and implement client/server programs using a variety of
+  protocols and platforms.
 
 * Apply the concepts of the C programming language to the construction
 of moderately complex software implementation problems.
-* Apply the concepts of assembly language to correct and efficient
-translation of a given C programming language into the course required
-assembly language(s).
-* Apply the concepts of integer and floating point formats to convert
-from the base-10 integer or scientific format into the correct machine
-readable binary format.
-* Apply the concepts of Boolean Algebra to simplify given Boolean equations.
-* Apply the concepts of K-Maps to the problem of Boolean expression
-  simplification.
-* Apply the concepts of Performance to the analysis of computer
-  performance problems.
-* Apply the concepts of a multi-cycle datapath and control by showing
-in written form the processing steps that different classes of
-instructions require as they move through the datapath and control
-hardware structures.
-* Apply the concepts of a pipelined datapath and control by showing in
-written form the processing steps that different classes of
-instructions require as they move through the datapath and control
-hardware structures.
-* Apply the concepts of caching and memory hierarchy to solve a
-problem which requires you to design the "best" cache system given
-particular design constraints.
-* Apply the concepts of parallel programming to the
-construction/implementation of a correct and efficiently executing
-multi-threaded program.
