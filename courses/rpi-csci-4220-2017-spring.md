@@ -56,7 +56,7 @@ We have two Graduate TAs assigned to our class.
 6  Client / server model  
 7  Client / server model  
 8  UDP sockets  
-9  Bonjour (Zeroconf) / Service Dicovery  
+9  Bonjour (Zeroconf) / Service Discovery  
 10  TCP 3 Way Handshake, TCP States, TCP Close  
 11  TCP congestion control, ACK, windows, etc  
 12  Broadcasting  
