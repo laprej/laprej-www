@@ -33,6 +33,8 @@ internships:
 teaching:
   - position: Non-tenured Faculty at Rensselaer Polytechnic Institute
     detail: |
+      - CSCI 4220: Network Programming, Spring 2017
+      - CSCI 2500: Computer Organization, Spring 2017
       - CSCI 4975/6975: LLVM: A Compiler Case Study, Fall 2016
       - CSCI 2500: Computer Organization, Fall 2016
       - CSCI 2500: Computer Organization, Spring 2016
