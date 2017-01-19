@@ -14,7 +14,8 @@ Department of Computer Science
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
 Course web site: [https://piazza.com/rpi/spring2017/csci4220](https://piazza.com/rpi/spring2017/csci4220)  
-Office Hours: Amos Eaton 206, Tuesday and Friday, 4 p.m. to 5 p.m. (and by appointment).  
+Dr. LaPre Office Hours: Amos Eaton 206, Tuesday and Friday, 4 p.m. to 5 p.m. (and by appointment).  
+Dr. Holzbauer Office Hours: MRC 304, Thursday, 4:30 pm to 5:30 pm.  
 Class Time and Location: Amos Eaton 214, Mondays and Thursdays, 6 p.m. to 7:50 p.m.
 
 **Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
