@@ -9,6 +9,7 @@ description: Syllabus for CSCI 4220 Network Programming.
 ### Spring 2017
 
 Dr. Justin M. LaPre  
+Dr. Herbert O. Holzbauer  
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
@@ -48,35 +49,35 @@ We have two Graduate TAs assigned to our class.
 
 ### Schedule of Topics
 
-1  History / OSI model  
-2  C background  
-3  Unix commands  
-4  High level UDP and TCP/IP  
-5  Byte ordering, socket creation, misc. inet functions  
-6  Client / server model  
-7  Client / server model  
-8  UDP sockets  
-9  Bonjour (Zeroconf) / Service Discovery  
-10  TCP 3 Way Handshake, TCP States, TCP Close  
-11  TCP congestion control, ACK, windows, etc  
-12  Broadcasting  
-13  Bit Torrent / DHT / P2P  
-14  TCP sockets (SOCK_STREAM)  
-15  Overflow Days  
+1/19  History / OSI model  
+1/23  C background  
+1/26  Unix commands  
+1/30  High level UDP and TCP/IP  
+2/2  Byte ordering, socket creation, misc. inet functions  
+2/6  Client / server model  
+2/9  Client / server model  
+2/13  UDP sockets  
+2/16  Bonjour (Zeroconf) / Service Discovery  
+2/21  TCP 3 Way Handshake, TCP States, TCP Close  
+2/23  TCP congestion control, ACK, windows, etc  
+2/27  Broadcasting  
+3/2  Bit Torrent / DHT / P2P  
+3/6  TCP sockets (SOCK_STREAM)  
+3/9  Overflow Days  
 SPRING BREAK  
-16  select (I/O Multiplexing)  
-17  Socket Options  
-18  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
-19  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
-20  HTTP  
-21  Overflow Days  
-22  SSL  
-23  RPI Sec A (SSL-related?)  
-24  MPI  
-25  RPI Sec B  
-26  
-27  
-28  Overflow Days  
+3/20  select (I/O Multiplexing)  
+3/23  Socket Options  
+3/27  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
+3/30  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
+4/3  HTTP  
+4/6  Overflow Days  
+4/10  SSL  
+4/13  RPI Sec A (SSL-related?)  
+4/17  MPI  
+4/20  RPI Sec B  
+4/24  
+4/27  
+5/1  Overflow Days  
 
 ### Schedule of Projects and altered class days
 
