@@ -126,6 +126,8 @@ generate a `core dump` typically get no more than 20 points of the
 in some fundamental way is only 35 points even if you spent 100 hours
 of time on it.
 
+**Compatibility**: All assignments MUST compile and run on Ubuntu 14.04.
+
 ### Academic Integrity
 
 While I strongly encourage you to form study groups and work together
