@@ -100,16 +100,6 @@ SPRING BREAK
 be aware that I may include material not necessarily covered in the
 text or on the web page.  You are responsible for all announcements
 made in lecture (e.g., any change in due dates).
-Additionally, you *are* responsible for the **problem of the day**.
-
-**Problem of the day**: Each day in lecture you are to turn in the
-(dated) problem assigned from the previous lecture.  The twist is that
-actually solving the problem is optional, i.e., you will receive full
-credit by simply putting your name on the page.  With a very high
-likelihood, students actually attempting to solve the problem will
-achieve a deeper understanding of the material than those that simply
-write their name on the paper.  Students are excused from handing this
-in on quiz days; turn it in at the beginning of the following lecture.
 
 **Late Projects Policy**: Three late days are permitted for
 assignments.  They will be consumed in whole day increments. In other
@@ -121,12 +111,8 @@ assignments will not be graded.
 After 10 days has elapsed, the grade on record will stand.
 
 **Grade Modifiers Policy**: Grade modifiers will be used in this
-class. Nominally, for example, you expect to earn a B- if your score
-is greater than 79.5 and less than 83.0, B if your score is greater
-than 83 and less than 86, B+ if your score is greater than 86 and less
-than 89.5. The same modifier points occur for the A, C and D ranges
-except that there is no A+ nor is a D- allowed under the RPI Grade
-Modifier Policy.
+class. See the course catalog for more details.  There is no A+ nor is
+a D- allowed under the RPI Grade Modifier Policy.
 
 **Assignment Grading Criteria**: Programming assignments are graded as
 follows: 15% for proper comments (e.g., each function should indicate
