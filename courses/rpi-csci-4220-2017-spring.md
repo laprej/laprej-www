@@ -32,7 +32,9 @@ client-side and mobile programming. Programming projects in C are required.
 The first 20-30 minutes of lecture will be covered by Dr. Holzbauer.
 Mondays will typically be guided RFC study (or something similar)
 while Thursdays will quiz you on the topics from the previous lecture.
-Afterwards, Dr. LaPre will continue with the remainder of lecture.
+Additionally, students SHOULD bring their laptops on Thursdays as they
+will be required for the online quiz.  Afterwards, Dr. LaPre will
+continue with the remainder of lecture.
 
 **Prerequisite** CSCI 4210 (Operating Systems).
 
