@@ -156,6 +156,18 @@ worth 20 points.  These should be typed up using a word processor of
 your choice e.g., MS Word, LaTeX, etc.  These must be submitted on
 Submitty as well.
 
+### Students With Special Needs
+
+Federal law requires all colleges and universities to provide
+specified types of assistance to students with disabilities.  If you
+require such assistance, please obtain an authorizing memo from
+Disability Services for Students by contacting the Student Health
+Center.  Information about a student's special needs will be treated
+as confidential.  Please submit a copy of your authorizing memo to
+your professor well in advance of any affected exam or
+assignment. Failure to do so may result in a lack of special
+accommodations.
+
 ### Academic Integrity
 
 While I strongly encourage you to form study groups and work together

@@ -131,6 +131,18 @@ of time on it.
 
 **Compatibility**: All assignments MUST compile and run on Ubuntu 14.04.
 
+### Students With Special Needs
+
+Federal law requires all colleges and universities to provide
+specified types of assistance to students with disabilities.  If you
+require such assistance, please obtain an authorizing memo from
+Disability Services for Students by contacting the Student Health
+Center.  Information about a student's special needs will be treated
+as confidential.  Please submit a copy of your authorizing memo to
+your professor well in advance of any affected exam or
+assignment. Failure to do so may result in a lack of special
+accommodations.
+
 ### Academic Integrity
 
 While I strongly encourage you to form study groups and work together
