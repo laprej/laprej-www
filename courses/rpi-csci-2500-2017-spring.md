@@ -8,7 +8,7 @@ description: Syllabus for CSCI 2500 Computer Organization.
 
 ### Spring 2017
 
-Dr. Justin M. LaPre  
+Dr. Justin M. LaPre (laprej AT cs.rpi.edu)  
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
@@ -55,9 +55,9 @@ Programming in 7 Days* (2016), by Darrell L. Graham.
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
 
-* Jassiem Ifill: TBD
+* Jassiem Ifill (ifillj AT rpi.edu): Amos Eaton 119A, Tuesday, 6 p.m. to 8 p.m.
 * Muhammad Ishaq: TBD
-* Shama Kollya: TBD
+* Shama Kollya (kollys AT rpi.edu): TBD, Friday, 10 a.m. to 12 p.m.
 
 ### Schedule of Topics
 
@@ -78,18 +78,17 @@ We have three Graduate TAs assigned to our class.
 * Assignment 1 due on Friday, February 3rd.  Quiz 1 on Thursday,
   February 2nd.
 * Assignment 2 due on Friday, February 17th.  Quiz 2 on Thursday,
-  Feburary 16th.
+  February 16th.
 * February 21st, Monday schedule, we have class.
 * Assignment 3 due on Friday, March 3rd.  Quiz 3 on Thursday, March
   2nd.
 * Assignment 4 due on Friday, March 24th.  Quiz 4 on Thursday,
   March 23rd.
 * April 5th, no lab.
-* Assignment 5 due on Friday, April 7th.  Quiz 5 on Thursday,
-  April 6th.
-* Assignment 6 due on Friday, April 21st.  Quiz 6 on Thursday,
+* Quiz 5 on Thursday, April 6th.
+* Assignment 5 due on Friday, April 21st.  Quiz 6 on Thursday,
   April 20th.
-* Assignment 7 due on Friday, April 28th.  Quiz 7 on Monday,
+* Assignment 6 due on Friday, April 28th.  Quiz 7 on Monday,
   May 1st.
 * Group Project due date, Wednesday May 3rd.
 
@@ -122,6 +121,13 @@ in on quiz days; turn it in at the beginning of the following lecture.
 **Lab Sections**: Lab attendance is mandatory and you will be graded.
 Keeping up with the labs will be the best way for your to make sure
 that you do not fall behind.
+
+**Group Project**: The group project allows for groups of up to 3-4
+students to collaborate on a larger assignment than the individual
+assignments typically require.  15% of each student's grade will be
+determined by their peers.  If two students code the entire project
+while a third does nothing, that student should not expect the same
+score as the rest of the team.
 
 **Late Assignments Policy**: Three late days are permitted for
 assignments.  They will be consumed in whole day increments. In other
