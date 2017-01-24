@@ -55,9 +55,17 @@ Programming in 7 Days* (2016), by Darrell L. Graham.
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
 
-* Jassiem Ifill (ifillj AT rpi.edu): Amos Eaton 119A, Tuesday, 6 p.m. to 8 p.m.
-* Muhammad Ishaq: Amos Eaton 127 (conference room), Wednesday, 2 p.m. to 4 p.m.
-* Shama Kollya (kollys AT rpi.edu): TBD, Friday, 10 a.m. to 12 p.m.
+* Jassiem Ifill (ifillj AT rpi.edu): Amos Eaton 119A, Tuesday, 6
+  p.m. to 8 p.m.
+* Muhammad Ishaq (ishaq AT ishaq.pk): Amos Eaton 127 (conference
+  room), Wednesday, 2 p.m. to 4 p.m.
+* Shama Kollya (kollys AT rpi.edu): Amos Eaton 127, Friday, 10 a.m. to
+  12 p.m.
+
+**While email addresses are supplied for all course staff, please
+  prefer to use Piazza instead of email unless the matter is
+  specifically about you.  For example, a family emergency, illness,
+  etc.**
 
 ### Schedule of Topics
 
