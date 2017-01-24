@@ -56,22 +56,19 @@ Programming in 7 Days* (2016), by Darrell L. Graham.
 We have three Graduate TAs assigned to our class.
 
 * Jassiem Ifill (ifillj AT rpi.edu): Amos Eaton 119A, Tuesday, 6 p.m. to 8 p.m.
-* Muhammad Ishaq: TBD
+* Muhammad Ishaq: Amos Eaton 127 (conference room), Wednesday, 2 p.m. to 4 p.m.
 * Shama Kollya (kollys AT rpi.edu): TBD, Friday, 10 a.m. to 12 p.m.
 
 ### Schedule of Topics
 
 * Introduction to Unix and C: Assignment 1.
-* History, Performance and Why Parallelism?: P&H/Chapter 1 and class
-  hand-out, Assignment 2.
-* Assembly Language Programming MIPS and x86: P&H/Chapter 2 and
-  hand-outs, Assignments 3 and 4.
-* Digital Logic: P&H/Appendix B, Assignment 5.
-* Computer Arithmetic: P&H/Chapter 3, Assignment 6.
-* Building a Processor: P&H/Chapter 4, hand-out,  start of group project.
-* Pipelining & Multiprocessors: P&H/Chapters 4 and 7 plus lecture
-  notes, Assignment 7.
-* Memory Hierarchy: P&H, Chapter 5, finish-up group project.
+* History, Performance and Why Parallelism?: P&H/Chapter 1, Assignment 2.
+* Assembly Language Programming MIPS: P&H/Chapter 2 and hand-outs, Assignments 3.
+* Digital Logic: P&H/Appendix B.
+* Computer Arithmetic: P&H/Chapter 3, Assignment 4.
+* Building a Processor, Pipelining: P&H/Chapter 4, start of group project.
+* Memory Hierarchy: P&H, Chapter 5, Assignment 5.
+* Parallel Computing: P&H Chapter 6, Assignment 6.
 
 ### Schedule of Homework and Quizzes and NO CLASS days
 
