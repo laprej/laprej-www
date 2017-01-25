@@ -47,8 +47,8 @@ Edition* (2003), by W. Richard Stevens et al.
 ### Graduate Teaching Assistants
 We have two Graduate TAs assigned to our class.
 
-* Yu Chen: TBD
-* Shama Kollya: TBD
+* Yu Chen (cheny39 AT rpi.edu): Amos Eaton 127, Thursdays, 1 p.m. to 3 p.m.
+* Shama Kollya (kollys AT rpi.edu): No scheduled office hours.
 
 ### Schedule of Topics
 
