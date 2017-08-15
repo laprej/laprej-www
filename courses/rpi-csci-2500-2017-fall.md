@@ -6,7 +6,7 @@ description: Syllabus for CSCI 2500 Computer Organization.
 
 ## CSCI 2500, Computer Organization
 
-### Spring 2017
+### Fall 2017
 
 Dr. Justin M. LaPre (laprej AT cs.rpi.edu)  
 Department of Computer Science  
