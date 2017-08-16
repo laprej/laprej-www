@@ -8,13 +8,13 @@ description: Syllabus for CSCI 2500 Computer Organization.
 
 ### Fall 2017
 
-Dr. Justin M. LaPre (laprej AT cs.rpi.edu)  
+Dr. Herbert Holzbauer (holzbh AT cs.rpi.edu) & Dr. Justin M. LaPre (laprej AT cs.rpi.edu)  
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
-Course web site: [https://piazza.com/rpi/spring2017/csci2500](https://piazza.com/rpi/spring2017/csci2500)  
+Course web site: [https://piazza.com/rpi/fall2017/csci2500](https://piazza.com/rpi/fall2017/csci2500)  
 Office Hours: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).  
-Class Time and Location: DCC 318, Mondays and Thursdays, 4 p.m. to 5:50 p.m.
+Class Time and Location: Sage 3303, Tuesdays and Fridays, 12 p.m. to 1:50 p.m.
 
 **Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
 You will be notified of any changes made.**
@@ -50,7 +50,7 @@ Edition* (2013), by Patterson and Hennessy.
 *C Programming: Language: A Step by Step Beginner's Guide to Learn C
 Programming in 7 Days* (2016), by Darrell L. Graham.
 [Amazon link.](https://amzn.com/B01H0LBF9Q) **FREE KINDLE EDITION AS OF
-2017-01-16**
+2017-08-16**
 
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
