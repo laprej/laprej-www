@@ -55,12 +55,10 @@ Programming in 7 Days* (2016), by Darrell L. Graham.
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
 
-* Jassiem Ifill (ifillj AT rpi.edu): Amos Eaton 119A, Tuesday, 6
-  p.m. to 8 p.m.
 * Muhammad Ishaq (ishaq AT ishaq.pk): Amos Eaton 127 (conference
   room), Wednesday, 2 p.m. to 4 p.m.
-* Shama Kollya (kollys AT rpi.edu): Amos Eaton 127, Friday, 10 a.m. to
-  12 p.m.
+* Shengxuan Liu (lius16 AT rpi.edu): TBD
+* Georgios Mavroudeas (mavrog2 AT rpi.edu): TBD
 
 **While email addresses are supplied for all course staff, please
   prefer to use Piazza instead of email unless the matter is
@@ -80,22 +78,21 @@ We have three Graduate TAs assigned to our class.
 
 ### Schedule of Homework and Quizzes and NO CLASS days
 
-* Assignment 1 due on Friday, February 3rd.  Quiz 1 on Thursday,
-  February 2nd.
-* Assignment 2 due on Friday, February 17th.  Quiz 2 on Thursday,
-  February 16th.
-* February 21st, Monday schedule, we have class.
-* Assignment 3 due on Friday, March 3rd.  Quiz 3 on Thursday, March
-  2nd.
-* Assignment 4 due on Friday, March 24th.  Quiz 4 on Thursday,
-  March 23rd.
-* April 5th, no lab.
-* Quiz 5 on Thursday, April 6th.
-* Assignment 5 due on Friday, April 21st.  Quiz 6 on Thursday,
-  April 20th.
-* Assignment 6 due on Friday, April 28th.  Quiz 7 on Monday,
-  May 1st.
-* Group Project due date, Wednesday May 3rd.
+* Assignment 1 due on Wednesday, September 13th.  Quiz 1 on Tuesday,
+  September 12th.
+* Assignment 2 due on Wednesday, September 27th.  Quiz 2 on Tuesday,
+  September 26th.
+* October 10th, Monday schedule, no class.
+* Assignment 3 due on Wednesday, October 11th.  Quiz 3 on Friday, October
+  13th.
+* Assignment 4 due on Wednesday, October 25th.  Quiz 4 on Friday,
+  October 27th.
+* Quiz 5 on Friday, November 10th.  Group project posted.
+* Assignment 5 due on Wednesday, November 29th.  Quiz 6 on Tuesday,
+  November 28th.
+* Group Project due date, Friday December 8th.
+* Assignment 6 due on Wednesday, December 13th.  Quiz 7 on Tuesday,
+  December 12th.
 
 ### Grading and Other Class Policies
 
@@ -108,7 +105,7 @@ We have three Graduate TAs assigned to our class.
   will follow on Piazza.**
 
 **Attendance Policy**: Attendance at lectures is not required, but
-be aware that I may include material not necessarily covered in the
+be aware that we may include material not necessarily covered in the
 text or on the web page.  You are responsible for all announcements
 made in lecture (e.g., any change in due dates).
 
