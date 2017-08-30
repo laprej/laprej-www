@@ -132,14 +132,6 @@ assignments will not be graded.
 **Grade Disputes**: Grade disputes must be made within 10 days.
 After 10 days has elapsed, the grade on record will stand.
 
-**Grade Modifiers Policy**: Grade modifiers will be used in this
-class. Nominally, for example, you expect to earn a B- if your score
-is greater than 79.5 and less than 83.0, B if your score is greater
-than 83 and less than 86, B+ if your score is greater than 86 and less
-than 89.5. The same modifier points occur for the A, C and D ranges
-except that there is no A+ nor is a D- allowed under the RPI Grade
-Modifier Policy.
-
 **Assignment Grading Criteria**: Programming assignments are graded as
 follows: 15% for proper comments (e.g., each function should indicate
 what it does) and 85% for a correct working implementation. We
