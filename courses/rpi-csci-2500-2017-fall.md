@@ -13,7 +13,11 @@ Department of Computer Science
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
 Course web site: [https://piazza.com/rpi/fall2017/csci2500](https://piazza.com/rpi/fall2017/csci2500)  
-Office Hours: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).  
+Office Hours:
+
+* Holzbauer: Amos Eaton 205, TBD
+* LaPre: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).
+
 Class Time and Location: Sage 3303, Tuesdays and Fridays, 12 p.m. to 1:50 p.m.
 
 **Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
@@ -97,8 +101,8 @@ We have three Graduate TAs assigned to our class.
 ### Grading and Other Class Policies
 
 *  14%: Lab sections
-*  30%: 6 homeworks, 5 pts each -- due every other Tuesday.
-*  42%: 7 quizzes, 6 pts each, given in class every other Thursday.
+*  30%: 6 homeworks, 5 pts each -- due every other Wednesday.
+*  42%: 7 quizzes, 6 pts each, given in class every other week on Tuesdays or Fridays.
 *  14%: 1 project.
 
 **We will also be using Submitty (AKA the homework server).  Details
