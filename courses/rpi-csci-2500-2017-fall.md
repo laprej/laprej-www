@@ -170,10 +170,10 @@ noted by the assignment/project specification. What this means is that
 you should do whatever is necessary to ensure your work remains your
 work. If during in the grading process, it is determined that students
 shared or duplicated work, those students will automatically score a
-zero for the offense.  For a second offense, the student or students
-involved will fail this course and a report will be sent to the Dean
-of Students office which could result in additional disciplinary
-action.  Additionally, undergraduates offenders cannot mentor in the
+zero for the offense and a report will be sent to the Dean of Students
+Office which could result in additional disciplinary action.  For a
+second offense, the student or students involved will fail this
+course.  Additionally, undergraduates offenders cannot mentor in the
 future.  In the event a graduate student is caught cheating, that
 student will fail.
 
