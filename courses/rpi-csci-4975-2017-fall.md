@@ -66,8 +66,7 @@ well as a significant final project.
 * Code transformations & optimizations
 * Debug Info (DI)
 * (Maybe) libClang / libTooling / clang frontend
-* Weekly assigned paper discussion
-* Weekly student presentations from [llvm.org/pubs](http://llvm.org/pubs/)
+* Periodic assigned paper discussion
 * Presentations of final projects
 
 ### Schedule of Homework and NO CLASS days
@@ -86,8 +85,7 @@ well as a significant final project.
 
 * 60%: Four homeworks
 * 25%: Final project
-* 10%: Paper presentation
-* 5%: Participation
+* 15%: Participation
 
 **Attendance Policy**: As this is a seminar, attendance at lectures is
 *strongly encouraged*.  You are responsible for all announcements made
