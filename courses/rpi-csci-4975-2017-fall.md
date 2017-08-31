@@ -62,7 +62,7 @@ well as a significant final project.
 * Static Single Assignment (SSA)
 * Control flow graphs (CFGs)
 * Dominators
-* C++ meta-programming (light!)
+* C++ template metaprogramming (CRTP)
 * Code transformations & optimizations
 * Debug Info (DI)
 * (Maybe) libClang / libTooling / clang frontend
