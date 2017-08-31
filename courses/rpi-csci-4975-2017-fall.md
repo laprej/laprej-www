@@ -6,7 +6,7 @@ description: Syllabus for CSCI 4975/6975 A Compiler Case Study LLVM
 
 ## CSCI 4975/6975: A Compiler Case Study: LLVM
 
-### Fall 2016
+### Fall 2017
 
 Dr. Justin M. LaPre  
 Department of Computer Science  
@@ -69,15 +69,15 @@ well as a significant final project.
 
 ### Schedule of Homework and NO CLASS days
 
-* September 5, 2016 - Labor Day -- no classes.
-* September 15, 2016 - Homework 1 is due.
-* October 6, 2016 - Homework 2 is due.
-* October 10, 2016 - Columbus Day -- no classes.
-* October 11, 2016 - Classes Resume -- Follow MONDAY class schedule.
-* October 27, 2016 - Homework 3 is due.
-* November 17, 2016 - Homework 4 is due.
-* November 24, 2016 - Thanksgiving break -- no classes.
-* November 28, 2016 onward - final project presentations.
+* September 4, 2017 - Labor Day -- no classes.
+* September 14, 2017 - Homework 1 is due.
+* October 5, 2017 - Homework 2 is due.
+* October 9, 2017 - Columbus Day -- no classes.
+* October 10, 2017 - Classes Resume -- Follow MONDAY class schedule.
+* October 26, 2017 - Homework 3 is due.
+* November 16, 2017 - Homework 4 is due.
+* November 23, 2017 - Thanksgiving break -- no classes.
+* November 27, 2017 onward - final project presentations.
 
 ### Grading and Other Class Policies
 
