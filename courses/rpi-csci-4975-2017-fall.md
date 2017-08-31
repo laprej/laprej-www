@@ -54,8 +54,9 @@ well as a significant final project.
 ### Schedule of Topics
 
 * What is LLVM?
-* Scanning
-* Parsing
+* Scanning, regular expressions
+* Parsing, context-free grammars
+* Abstract Syntax Trees (ASTs)
 * Intermediate representation (IR)
 * Three-address code
 * Static Single Assignment (SSA)
