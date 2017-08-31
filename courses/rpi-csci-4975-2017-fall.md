@@ -12,17 +12,36 @@ Dr. Justin M. LaPre
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180  
-Course web site: [http://piazza.com/rpi/fall2016/csci49756975](http://piazza.com/rpi/fall2016/csci49756975)  
+Course web site: [http://piazza.com/rpi/fall2017/csci49756975](http://piazza.com/rpi/fall2017/csci49756975)  
 Office Hours: after class or by appointment.  
-Class Time and Location: MR 6 PM, Sage 2704
+Class Time and Location: Monday and Thursday 12 p.m. to 1:50 p.m., Sage 2704
 
-**Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
-You will be notified of any changes made.**
+**Like the Constitution, this syllabus should be considered a "living
+document" in that it is subject to change.  You will be notified of
+any changes made.**
 
 ### Course Description
-This topics course will be compiler-oriented with a focus on the LLVM compiler in particular. LLVM is a state-of-the-art compiler that enjoys both academic interest as well as widespread industry adoption. It is a large codebase written using modern C++ techniques and design patterns; students are expected to not only read but learn from existing code. Seminal compiler/LLVM-specific papers will be assigned and critiqued on a weekly basis. Topics will include compiler backend issues such as control flow graphs, intermediate representation (IR), and compiler optimizations. Assignments will include writing various LLVM passes as well as a significant final project.
 
-**Prerequisite** Undergraduate level CSCI 2300 Minimum Grade of D and Undergraduate level CSCI 2500 Minimum Grade of D.
+This topics course will be compiler-oriented  with a focus on the LLVM
+compiler  in particular.   LLVM  is a  state-of-the-art compiler  that
+enjoys  both   academic  interest  as  well   as  widespread  industry
+adoption. It is  a large codebase written using  modern C++ techniques
+and design patterns; students are expected  to not only read but learn
+from  existing code.   Seminal  compiler/LLVM-specific  papers may  be
+assigned and  critiqued.  As  many of  you have  not taken  a compiler
+course yet, we will cover  some preliminary theory.  Additional topics
+will  include compiler  backend issues  such as  control flow  graphs,
+intermediate       representation       (IR),       and       compiler
+optimizations. Assignments will include writing various LLVM passes as
+well as a significant final project.
+
+**Prerequisite** Undergraduate level CSCI 2300 Minimum Grade of D and
+  Undergraduate level CSCI 2500 Minimum Grade of D.
+
+### Textbook
+
+*Engineering a Compiler*, by Cooper and Torczon.
+[Amazon link.](https://amzn.com/B00J5AS70G)
 
 ### Optional Textbooks
 
@@ -31,9 +50,6 @@ This topics course will be compiler-oriented with a focus on the LLVM compiler i
 
 *Compilers: Principles, Techniques, and Tools*, by Aho, Lam, Ullman, and Sethi.
 [Amazon link.](https://amzn.com/B009TGD06W)
-
-*Engineering a Compiler*, by Cooper and Torczon.
-[Amazon link.](https://amzn.com/B00J5AS70G)
 
 ### Schedule of Topics
 
@@ -70,39 +86,33 @@ This topics course will be compiler-oriented with a focus on the LLVM compiler i
 * 10%: Paper presentation
 * 5%: Participation
 
-**Attendance Policy**: As this is a seminar, attendance at lectures is *strongly encouraged*.
-You are responsible for all announcements made in lecture (e.g., any change in due dates) as well as any material posted on the course web page.
+**Attendance Policy**: As this is a seminar, attendance at lectures is
+*strongly encouraged*.  You are responsible for all announcements made
+in lecture (e.g., any change in due dates) as well as any material
+posted on the course web page.
 
-**Late Assignments Policy**: Three late days are permitted for assignments.
-They will be consumed in whole day increments. In other words, if you are one hour late, that will
-count as one day. 25 hours late will count as two days, etc. Once these are exhausted, late assignments
-will not be graded.
+**Late Assignments Policy**: Three late days are permitted for
+assignments.  They will be consumed in whole day increments. In other
+words, if you are one hour late, that will count as one day. 25 hours
+late will count as two days, etc. Once these are exhausted, late
+assignments will not be graded.
 
 **Grade Disputes**: Grade disputes must be made within 10 days.
 After 10 days has elapsed, the grade on record will stand.
 
-**Grade Modifiers Policy**: Grade modifiers will be used in this
-class. Nominally, for example, you expect to earn a B- if your score
-is greater than 79.5 and less than 83.0, B if your score is greater
-than 83 and less than 86, B+ if your score is greater than 86 and less
-than 89.5. The same modifier points occur for the A, C and D ranges
-except that there is no A+ nor is a D- allowed under the RPI Grade
-Modifier Policy.
-
 ### Academic Integrity
 
-While I strongly encourage you to form study groups and work
-together in learning this material, the course project, homeworks and
+While I strongly encourage you to form study groups and work together
+in learning this material, the course project, homeworks and
 programming assignments are to be done individually unless otherwise
 noted by the assignment/project specification. What this means is that
 you should do whatever is necessary to ensure your work remains your
-work. If during in the grading
-process, it is determined that students shared or duplicated work,
-those students will automatically receive a zero for the offense.
-For a second offense, the student or
-students involved will fail this course and a report will be sent to
-the Dean of Students office which could result in additional
-disciplinary action.
+work. If during in the grading process, it is determined that students
+shared or duplicated work, those students will automatically receive a
+zero for the offense.  For a second offense, the student or students
+involved will fail this course and a report will be sent to the Dean
+of Students office which could result in additional disciplinary
+action.
 
 ### Learning Outcomes
 By the end of this course, you will:
