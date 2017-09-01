@@ -100,10 +100,10 @@ We have three Graduate TAs assigned to our class.
 
 ### Grading and Other Class Policies
 
-*  14%: Lab sections
+*  18%: Lab sections
 *  30%: 6 homeworks, 5 pts each -- due every other Wednesday.
 *  42%: 7 quizzes, 6 pts each, given in class every other week on Tuesdays or Fridays.
-*  14%: 1 project.
+*  10%: 1 project.
 
 **We will also be using Submitty (AKA the homework server).  Details
   will follow on Piazza.**
