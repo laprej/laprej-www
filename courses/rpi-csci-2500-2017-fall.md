@@ -130,7 +130,7 @@ words, if you are one hour late, that will count as one day. 25 hours
 late will count as two days, etc. Once these are exhausted, late
 assignments will not be graded.
 
-**Grade Disputes**: Grade disputes must be made within 10 days.
+**Grade Disputes**: Grade disputes must be made in person within 10 days.
 After 10 days has elapsed, the grade on record will stand.
 
 **Assignment Grading Criteria**: Programming assignments are graded as
