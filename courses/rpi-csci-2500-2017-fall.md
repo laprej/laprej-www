@@ -59,10 +59,9 @@ Programming in 7 Days* (2016), by Darrell L. Graham.
 ### Graduate Teaching Assistants
 We have three Graduate TAs assigned to our class.
 
-* Muhammad Ishaq (ishaq AT ishaq.pk): Amos Eaton 127 (conference
-  room), Wednesday, 2 p.m. to 4 p.m.
-* Shengxuan Liu (lius16 AT rpi.edu): TBD
-* Georgios Mavroudeas (mavrog2 AT rpi.edu): TBD
+* Muhammad Ishaq (ishaq AT ishaq.pk): TBD, Monday, 4 p.m. to 6 p.m.
+* Shengxuan 'Leo' Liu (lius16 AT rpi.edu): TBD
+* Georgios Mavroudeas (mavrog2 AT rpi.edu): TBD, Wednesday, 4 p.m. to 6 p.m.
 
 **While email addresses are supplied for all course staff, please
   prefer to use Piazza instead of email unless the matter is
