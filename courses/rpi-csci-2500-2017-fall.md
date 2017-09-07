@@ -15,7 +15,7 @@ Rensselaer Polytechnic Institute
 Course web site: [https://piazza.com/rpi/fall2017/csci2500](https://piazza.com/rpi/fall2017/csci2500)  
 Office Hours:
 
-* Holzbauer: Amos Eaton 205, TBD
+* Holzbauer: Amos Eaton 205, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).
 * LaPre: Amos Eaton 206, Tuesday and Friday, 2 p.m. to 4 p.m. (and by appointment).
 
 Class Time and Location: Sage 3303, Tuesdays and Fridays, 12 p.m. to 1:50 p.m.
@@ -60,7 +60,7 @@ Programming in 7 Days* (2016), by Darrell L. Graham.
 We have three Graduate TAs assigned to our class.
 
 * Muhammad Ishaq (ishaq AT ishaq.pk): TBD, Monday, 4 p.m. to 6 p.m.
-* Shengxuan 'Leo' Liu (lius16 AT rpi.edu): TBD
+* Shengxuan 'Leo' Liu (lius16 AT rpi.edu): TBD, Tuesday, 12:30 p.m. to 2:30 p.m.
 * Georgios Mavroudeas (mavrog2 AT rpi.edu): TBD, Wednesday, 4 p.m. to 6 p.m.
 
 **While email addresses are supplied for all course staff, please
