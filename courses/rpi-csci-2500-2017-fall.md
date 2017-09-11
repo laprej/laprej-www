@@ -61,7 +61,7 @@ We have three Graduate TAs assigned to our class.
 
 * Muhammad Ishaq (ishaq AT ishaq.pk): AE 127, Monday, 4 p.m. to 6 p.m.
 * Shengxuan 'Leo' Liu (lius16 AT rpi.edu): AE 127, Tuesday, 12:30 p.m. to 2:30 p.m.
-* Georgios Mavroudeas (mavrog2 AT rpi.edu): AE 127, Wednesday, 4 p.m. to 6 p.m.
+* Georgios Mavroudeas (mavrog2 AT rpi.edu): AE 127, Wednesday, 12 p.m. to 2 p.m.
 
 **While email addresses are supplied for all course staff, please
   prefer to use Piazza instead of email unless the matter is
