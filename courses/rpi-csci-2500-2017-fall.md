@@ -63,6 +63,12 @@ We have three Graduate TAs assigned to our class.
 * Shengxuan 'Leo' Liu (lius16 AT rpi.edu): AE 127, Monday, 12 p.m. to 2 p.m.
 * Georgios Mavroudeas (mavrog2 AT rpi.edu): AE 127, Wednesday, 12 p.m. to 2 p.m.
 
+### Lab Sections
+
+* Wednesday, 10 a.m., Sage 3303, Leo, Adarsh, Jesse
+* Wednesday, 12 p.m., Amos Eaton 214, M.I., Jacob, Kasra
+* Wednesday, 2 p.m., Amos Eaton 214, Georgios, Aidan, Xi
+
 **While email addresses are supplied for all course staff, please
   prefer to use Piazza instead of email unless the matter is
   specifically about you.  For example, a family emergency, illness,
