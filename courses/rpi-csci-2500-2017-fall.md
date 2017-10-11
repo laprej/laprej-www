@@ -65,9 +65,9 @@ We have three Graduate TAs assigned to our class.
 
 ### Lab Sections
 
-* Wednesday, 10 a.m., Sage 3303, Leo, Adarsh, Jesse
-* Wednesday, 12 p.m., Amos Eaton 214, M.I., Jacob, Kasra
-* Wednesday, 2 p.m., Amos Eaton 214, Georgios, Aidan, Xi
+* Wednesday, 10 a.m., Sage 3303, Leo, Adarsh, Breanna, Jesse
+* Wednesday, 12 p.m., Amos Eaton 214, M.I., Jacob, Kasra, Thomas
+* Wednesday, 2 p.m., Amos Eaton 214, Georgios, Aidan, Jack, Kevin, Xi
 
 **While email addresses are supplied for all course staff, please
   prefer to use Piazza instead of email unless the matter is
