@@ -97,10 +97,10 @@ navigation:
       link: /
     - title: Courses
       link: /courses/
-    - title: Projects
-      link: /projects/
     - title: CV
       link: /cv.html
+    - title: Calendar
+      link: /calendar.html
     - title: Posts
       link: /posts/
     - title:
