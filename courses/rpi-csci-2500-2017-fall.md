@@ -94,7 +94,7 @@ We have three Graduate TAs assigned to our class.
 * October 10th, Monday schedule, no class.
 * Assignment 3 due on Wednesday, October 11th.  Quiz 3 on Friday, October
   13th.
-* Assignment 4 due on Wednesday, October 25th.  Quiz 4 on Friday,
+* Assignment 4 due on Wednesday, November 1st.  Quiz 4 on Friday,
   October 27th.
 * Quiz 5 on Friday, November 10th.  Group project posted.
 * Assignment 5 due on Wednesday, November 29th.  Quiz 6 on Tuesday,
