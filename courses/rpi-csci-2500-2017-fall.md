@@ -135,6 +135,17 @@ words, if you are one hour late, that will count as one day. 25 hours
 late will count as two days, etc. Once these are exhausted, late
 assignments will not be graded.
 
+**Missed Quiz Policy**: Missed quizzes can only be made up under the
+  following circumstances:
+
+* you have a formal excuse from the Dean of Students Office (such as a job
+  interview or attending a conference) or
+* you have a health-related formal excuse from either the Student Health
+  Center (SHC) or your personal physician. Please see this [note from
+  the SHC]
+  (http://studenthealth.rpi.edu/sites/default/files/Medical%20Excuse%20Letter%20to%20Faculty%201-20-2017.pdf)
+  regarding typical reasons for (not) getting an excuse.
+
 **Grade Disputes**: Grade disputes must be made in person within 10 days.
 After 10 days has elapsed, the grade on record will stand.
 
