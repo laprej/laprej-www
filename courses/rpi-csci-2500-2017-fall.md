@@ -129,11 +129,14 @@ determined by their peers.  If two students code the entire project
 while a third does nothing, that student should not expect the same
 score as the rest of the team.
 
-**Late Assignments Policy**: Three late days are permitted for
-assignments.  They will be consumed in whole day increments. In other
-words, if you are one hour late, that will count as one day. 25 hours
-late will count as two days, etc. Once these are exhausted, late
-assignments will not be graded.
+**Late Assignments Policy**: All students begin the semester with
+three initial late days that can be used for late submissions.  These
+are consumed in whole day increments.  In other words, if you are one
+hour late, that will count as one day.  25 hours late will count as
+two days, etc.  Additional late days may be earned via iClicker points
+gained in lecture.  You may not use more than three late days per
+assignment.  Once your late days are exhausted or you have exceeded
+three late days, late assignments will not be graded.
 
 **Missed Quiz Policy**: Missed quizzes can only be made up under the
   following circumstances:
