@@ -9,14 +9,12 @@ description: Syllabus for CSCI 4220 Network Programming.
 ### Spring 2017
 
 Dr. Justin M. LaPre  
-Dr. Herbert O. Holzbauer  
 Department of Computer Science  
 Rensselaer Polytechnic Institute  
 110 8th Street Troy, New York 12180   
-Course web site: [https://piazza.com/rpi/spring2017/csci4220](https://piazza.com/rpi/spring2017/csci4220)  
-Dr. LaPre Office Hours: Amos Eaton 206, Tuesday and Friday, 4 p.m. to 5 p.m. (and by appointment).  
-Dr. Holzbauer Office Hours: MRC 304, Thursday, 4:30 pm to 5:30 pm.  
-Class Time and Location: Amos Eaton 214, Mondays and Thursdays, 6 p.m. to 7:50 p.m.
+Course web site: [https://piazza.com/rpi/spring2018/csci4220](https://piazza.com/rpi/spring2018/csci4220)  
+Office Hours: Amos Eaton 206, Monday and Thursday, 6 p.m. to 7 p.m. (and by appointment).  
+Class Time and Location: DCC 318, Monday and Thursday, 4 p.m. to 5:50 p.m.
 
 **Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
 You will be notified of any changes made.**
