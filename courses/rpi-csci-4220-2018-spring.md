@@ -6,7 +6,7 @@ description: Syllabus for CSCI 4220 Network Programming.
 
 ## CSCI 4220, Network Programming
 
-### Spring 2017
+### Spring 2018
 
 Dr. Justin M. LaPre  
 Department of Computer Science  
@@ -27,7 +27,11 @@ network protocol suites. Concentration on Unix interprocess
 communication (IPC), network programming using TCP and UDP, as well as
 client-side and mobile programming. Programming projects in C are required.
 
-The first half of class will be classic lecture-style while the second half of class will be closer in nature to a lab.  Accompanying documents will be available via either Piazza or Submitty.  Students should bring their laptops as they will be required for the lab portion.
+The first half of each class will be classic lecture-style while the
+second half of class will be closer in nature to a lab.  Accompanying
+documents will be available via either Piazza or Submitty.  Students
+should bring their laptops as they will be required for the lab
+portion.
 
 **Prerequisite** CSCI 4210 (Operating Systems).
 
@@ -38,42 +42,49 @@ Edition* (2003), by W. Richard Stevens et al.
 [Amazon link.](http://a.co/aE8mNZ4)
 
 ### Graduate Teaching Assistants
-We have two Graduate TAs assigned to our class.
+* Pan Deng (dengp AT rpi.edu): TBD
+* Yingyi Wu (wuy21 AT rpi.edu): TBD
 
-* Yu Chen (cheny39 AT rpi.edu): Amos Eaton 127, Thursdays, 1 p.m. to 3 p.m.
-* Shama Kollya (kollys AT rpi.edu): No scheduled office hours.
+### Undergraduate Mentors
+* Hannah Deen
+* Max Shavrick
+* Xinyue Yan
 
 ### Schedule of Topics
 
-1/19  History / OSI model  
-1/23  C background  
-1/26  Unix commands  
-1/30  High level UDP and TCP/IP  
-2/2  Byte ordering, socket creation, misc. inet functions  
-2/6  Client / server model  
-2/9  Client / server model  
-2/13  UDP sockets  
-2/16  Bonjour (Zeroconf) / Service Discovery  
-2/21  TCP 3 Way Handshake, TCP States, TCP Close  
-2/23  TCP congestion control, ACK, windows, etc  
-2/27  Broadcasting  
-3/2  Bit Torrent / DHT / P2P  
-3/6  TCP sockets (SOCK_STREAM)  
-3/9  Overflow Days  
-SPRING BREAK  
-3/20  select (I/O Multiplexing)  
-3/23  Socket Options  
-3/27  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
-3/30  IPv4/IPv6 addressing, DNS, gethost\*(), nslookup  
-4/3  HTTP  
-4/6  Overflow Days  
-4/10  SSL  
-4/13  RPI Sec A (SSL-related?)  
-4/17  MPI  
-4/20  RPI Sec B  
-4/24  
-4/27  
-5/1  Overflow Days  
+| Date      | Topic
+| :----     | -----:
+| 1/18      | History / OSI model
+| 1/22      | Prof. LaPre unavailable, possible guest lecture TBA
+| 1/25      | Prof. LaPre unavailable, possible guest lecture TBA
+| 1/29      | C background
+| 2/1       | Unix commands
+| 2/5       | High level UDP and TCP/IP
+| 2/8       | Byte ordering, socket creation, misc. inet functions
+| 2/12      | Client / server model
+| 2/15      | Client / server model
+| 2/20      | UDP sockets
+| 2/22      | Bonjour (Zeroconf) / Service Discovery
+| 2/26      | TCP 3 Way Handshake, TCP States, TCP Close
+| 3/1       | TCP congestion control, ACK, windows, etc
+| 3/5       | Broadcasting
+| 3/8       | Bit Torrent / DHT / P2P
+| 3/12-3/16 | SPRING BREAK
+| 3/19      | TCP sockets (SOCK_STREAM)
+| 3/22      | Overflow Days
+| 3/26      | select (I/O Multiplexing)
+| 3/29      | Socket Options
+| 4/2       | IPv4/IPv6 addressing, DNS, gethost\*(), nslookup
+| 4/5       | IPv4/IPv6 addressing, DNS, gethost\*(), nslookup
+| 4/9       | HTTP
+| 4/12      | Overflow Days
+| 4/16      | SSL
+| 4/19      | RPI Sec A (SSL-related?)
+| 4/23      | MPI
+| 4/26      | RPI Sec B
+| 4/30      |
+| 4/27      |
+| 5/1       | Overflow Days
 
 ### Schedule of Projects and altered class days
 

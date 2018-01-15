@@ -7,7 +7,7 @@ kramdown:
   input: GFM
 
 redcarpet:
-    extensions: ["with_toc_data"]
+    extensions: ["with_toc_data", "no_intra_emphasis", "tables"]
 
 # gems:
 #   - jekyll-knitr
