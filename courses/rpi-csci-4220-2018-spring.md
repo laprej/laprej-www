@@ -27,12 +27,7 @@ network protocol suites. Concentration on Unix interprocess
 communication (IPC), network programming using TCP and UDP, as well as
 client-side and mobile programming. Programming projects in C are required.
 
-The first 20-30 minutes of lecture will be covered by Dr. Holzbauer.
-Mondays will typically be guided RFC study (or something similar)
-while Thursdays will quiz you on the topics from the previous lecture.
-Additionally, students SHOULD bring their laptops on Thursdays as they
-will be required for the online quiz.  Afterwards, Dr. LaPre will
-continue with the remainder of lecture.
+The first half of class will be classic lecture-style while the second half of class will be closer in nature to a lab.  Accompanying documents will be available via either Piazza or Submitty.  Students should bring their laptops as they will be required for the lab portion.
 
 **Prerequisite** CSCI 4210 (Operating Systems).
 
