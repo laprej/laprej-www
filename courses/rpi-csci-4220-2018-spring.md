@@ -91,12 +91,13 @@ Edition* (2003), by W. Richard Stevens et al.
 
 ### Schedule of Assignments and altered class days
 
-* Assignment 1 out on Thursday, February 16th, due February 27th.
+* Assignment 1 out on Thursday, February 5th, due February 13th.
+* Assignment 2 out on Thursday, February 16th, due February 27th.
 * February 20th, Monday schedule, we have class.
-* Assignment 2 out on Monday, February 27th, due March 9th.
-* Assignment 3 out on Monday, March 20th, due April 3rd.
-* Assignment 4 out on Monday, April 3rd, due April 17th.
-* Assignment 5 out on Monday, April 17th, due May 1st.
+* Assignment 3 out on Monday, February 27th, due March 20th.
+* Assignment 4 out on Monday, March 20th, due April 3rd.
+* Assignment 5 out on Monday, April 3rd, due April 17th.
+* Assignment 6 out on Monday, April 17th, due May 1st.
 
 ### Grading and Other Class Policies
 
