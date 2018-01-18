@@ -60,13 +60,13 @@ Edition* (2003), by W. Richard Stevens et al.
 | 1/18      | History / OSI model; Unix commands
 | 1/22      | Prof. LaPre unavailable, possible guest lecture TBA
 | 1/25      | Prof. LaPre unavailable, possible guest lecture TBA
-| 1/29      |
+| 1/29      | High level UDP and TCP/IP; UDP sockets
 | 2/1       |
-| 2/5       | High level UDP and TCP/IP
+| 2/5       |
 | 2/8       | Byte ordering, socket creation, misc. inet functions
 | 2/12      | Client / server model
 | 2/15      | Client / server model
-| 2/20      | UDP sockets
+| 2/20      |
 | 2/22      | Bonjour (Zeroconf) / Service Discovery
 | 2/26      | TCP 3 Way Handshake, TCP States, TCP Close
 | 3/1       | TCP congestion control, ACK, windows, etc
@@ -91,13 +91,13 @@ Edition* (2003), by W. Richard Stevens et al.
 
 ### Schedule of Assignments and altered class days
 
-* Assignment 1 out on Thursday, February 5th, due February 13th.
-* Assignment 2 out on Thursday, February 16th, due February 27th.
+* Assignment 1 due February 13th.
 * February 20th, Monday schedule, we have class.
-* Assignment 3 out on Monday, February 27th, due March 20th.
-* Assignment 4 out on Monday, March 20th, due April 3rd.
-* Assignment 5 out on Monday, April 3rd, due April 17th.
-* Assignment 6 out on Monday, April 17th, due May 1st.
+* Assignment 2 due February 27th.
+* Assignment 3 due March 20th.
+* Assignment 4 due April 3rd.
+* Assignment 5 due April 17th.
+* Assignment 6 due May 1st.
 
 ### Grading and Other Class Policies
 
@@ -136,17 +136,16 @@ a D- allowed under the RPI Grade Modifier Policy.
   any issues you encountered, the approximate time you spent on it,
   and the breakdown of work if it's a group assignment
 
-Programming assignments are graded as
-follows: 15% for proper comments (e.g., each function should indicate
-what it does) and 85% for a correct working implementation. We
-typically divide the correctness points over key functions
-working. For example, reading -- worth 10 points, writing -- worth 10
-points as file correctly, and then doing the calculation correctly --
-worth 65 points. Note that programs that either don't compile or
-generate a `core dump` typically get no more than 20 points of the
-85. Thus, your max score for a "properly commented" program that fails
-in some fundamental way is only 35 points even if you spent 100 hours
-of time on it.
+Programming assignments are graded as follows: 25% for proper comments
+(e.g., each function should indicate what it does) and 75% for a
+correct working implementation. We typically divide the correctness
+points over key functions working. For example, reading -- worth 20
+points, writing -- worth 20 points, and then doing the calculation
+correctly -- worth 35 points. Note that programs that either don't
+compile or generate a `core dump` typically get no more than 20 points
+of the 75. Thus, your max score for a "properly commented" program
+that fails in some fundamental way is only 45 points even if you spent
+100 hours of time on it.
 
 **Compatibility**: All assignments MUST compile with clang++ and run
 on Ubuntu 14.04.  This is the compiler and operating system on
