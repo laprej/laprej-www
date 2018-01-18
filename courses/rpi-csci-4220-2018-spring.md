@@ -61,21 +61,21 @@ Edition* (2003), by W. Richard Stevens et al.
 | 1/22      | Prof. LaPre unavailable, possible guest lecture TBA
 | 1/25      | Prof. LaPre unavailable, possible guest lecture TBA
 | 1/29      | High level UDP and TCP/IP; UDP sockets
-| 2/1       |
-| 2/5       |
-| 2/8       | Byte ordering, socket creation, misc. inet functions
-| 2/12      | Client / server model
-| 2/15      | Client / server model
-| 2/20      |
-| 2/22      | Bonjour (Zeroconf) / Service Discovery
-| 2/26      | TCP 3 Way Handshake, TCP States, TCP Close
-| 3/1       | TCP congestion control, ACK, windows, etc
+| 2/1       | Byte ordering, misc. inet functions
+| 2/5       | tftp; Sorcerer’s Apprentice; `SIGALRM`
+| 2/8       | TCP sockets (SOCK_STREAM); Client / server model
+| 2/12      | select (I/O Multiplexing); Bonjour (Zeroconf) / Service Discovery
+| 2/15      | TCP 3 Way Handshake, TCP States, TCP Close
+| 2/20      | TCP congestion control, ACK, windows, etc
+| 2/22      |
+| 2/26      |
+| 3/1       |
 | 3/5       | Broadcasting
 | 3/8       | Bit Torrent / DHT / P2P
 | 3/12-3/16 | SPRING BREAK
-| 3/19      | TCP sockets (SOCK_STREAM)
+| 3/19      |
 | 3/22      | Overflow Days
-| 3/26      | select (I/O Multiplexing)
+| 3/26      |
 | 3/29      | Socket Options
 | 4/2       | IPv4/IPv6 addressing, DNS, gethost\*(), nslookup
 | 4/5       | IPv4/IPv6 addressing, DNS, gethost\*(), nslookup
@@ -151,7 +151,7 @@ that fails in some fundamental way is only 45 points even if you spent
 on Ubuntu 14.04.  This is the compiler and operating system on
 Submitty so you will have no problems meeting this requirement.  *It
 is worth noting that not all valid C programs are valid C++
-programs.*
+programs.*  All C files must compile cleanly with clang++.
 
 ### Students With Special Needs
 
