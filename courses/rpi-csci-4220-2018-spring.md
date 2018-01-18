@@ -124,7 +124,18 @@ After 10 days has elapsed, the grade on record will stand.
 class. See the course catalog for more details.  There is no A+ nor is
 a D- allowed under the RPI Grade Modifier Policy.
 
-**Assignment Grading Criteria**: Programming assignments are graded as
+**Assignment Grading Criteria**: Your submission must include the
+  following items:
+
+* A `Makefile` that will build your program
+* One or more `.cpp` files
+* One or more `.h` files
+* Any other assorted files necessary for proper compilation
+* A `README` file (.txt extension optional) describing your program,
+  any issues you encountered, the approximate time you spent on it,
+  and the breakdown of work if it's a group assignment
+
+Programming assignments are graded as
 follows: 15% for proper comments (e.g., each function should indicate
 what it does) and 85% for a correct working implementation. We
 typically divide the correctness points over key functions
@@ -157,18 +168,17 @@ accommodations.
 ### Academic Integrity
 
 While I strongly encourage you to form study groups and work together
-in learning this material, the course project, homeworks and
-programming assignments are to be done individually unless otherwise
-noted by the assignment/project specification. What this means is that
-you should do whatever is necessary to ensure your work remains your
-work. If during in the grading process, it is determined that students
-shared or duplicated work, those students will automatically score a
-zero for the offense.  For a second offense, the student or students
-involved will fail this course and a report will be sent to the Dean
-of Students office which could result in additional disciplinary
-action.  Additionally, undergraduates offenders cannot mentor in the
-future.  In the event a graduate student is caught cheating, that
-student will fail.
+in learning this material, programming assignments are to be done
+individually unless otherwise noted by the assignment/project
+specification. What this means is that you should do whatever is
+necessary to ensure your work remains your work. If during in the
+grading process, it is determined that students shared or duplicated
+work, those students will automatically score a zero for the offense.
+For a second offense, the student or students involved will fail this
+course and a report will be sent to the Dean of Students office which
+could result in additional disciplinary action.  Additionally,
+undergraduates offenders cannot mentor in the future.  In the event a
+graduate student is caught cheating, that student will fail.
 
 ### Learning Outcomes
 
