@@ -16,8 +16,9 @@ Course web site: [https://piazza.com/rpi/spring2018/csci4220](https://piazza.com
 Office Hours: Amos Eaton 206, Monday and Thursday, 6 p.m. to 7 p.m. (and by appointment).  
 Class Time and Location: DCC 318, Monday and Thursday, 4 p.m. to 5:50 p.m.
 
-**Like the Constitution, this syllabus should be considered a "living document" in that it is subject to change.
-You will be notified of any changes made.**
+**Like the Constitution, this syllabus should be considered a "living
+document" in that it is subject to change.  You will be notified of
+any changes made.**
 
 ### Course Description
 
@@ -25,7 +26,8 @@ Programming with an overview of the principles of computer networks,
 including an overview of the OSI reference model and various popular
 network protocol suites. Concentration on Unix interprocess
 communication (IPC), network programming using TCP and UDP, as well as
-client-side and mobile programming. Programming projects in C are required.
+client-side and mobile programming. Programming projects in C++ are
+required.
 
 The first half of each class will be classic lecture-style while the
 second half of class will be closer in nature to a lab.  Accompanying
@@ -47,6 +49,7 @@ Edition* (2003), by W. Richard Stevens et al.
 
 ### Undergraduate Mentors
 * Hannah Deen
+* Anthony DeLorenzo
 * Max Shavrick
 * Xinyue Yan
 
@@ -133,7 +136,11 @@ generate a `core dump` typically get no more than 20 points of the
 in some fundamental way is only 35 points even if you spent 100 hours
 of time on it.
 
-**Compatibility**: All assignments MUST compile and run on Ubuntu 14.04.
+**Compatibility**: All assignments MUST compile with clang++ and run
+on Ubuntu 14.04.  This is the compiler and operating system on
+Submitty so you will have no problems meeting this requirement.  *It
+is worth noting that not all valid C programs are valid C++
+programs.*
 
 ### Students With Special Needs
 
