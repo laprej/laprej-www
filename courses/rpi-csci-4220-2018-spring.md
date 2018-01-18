@@ -67,27 +67,25 @@ Edition* (2003), by W. Richard Stevens et al.
 | 2/12      | select (I/O Multiplexing); Bonjour (Zeroconf) / Service Discovery
 | 2/15      | TCP 3 Way Handshake, TCP States, TCP Close
 | 2/20      | TCP congestion control, ACK, windows, etc
-| 2/22      |
-| 2/26      |
-| 3/1       |
-| 3/5       | Broadcasting
-| 3/8       | Bit Torrent / DHT / P2P
+| 2/22      | Design Patterns
+| 2/26      | Network Protocols
+| 3/1       | Threads
+| 3/5       | IRC
+| 3/8       | Broadcasting
 | 3/12-3/16 | SPRING BREAK
-| 3/19      |
-| 3/22      | Overflow Days
-| 3/26      |
-| 3/29      | Socket Options
+| 3/19      | rsync
+| 3/22      | Bit Torrent / DHT / P2P
+| 3/26      | Socket Options; Bufferbloat, ECN
+| 3/29      | CORBA
 | 4/2       | IPv4/IPv6 addressing, DNS, gethost\*(), nslookup
-| 4/5       | IPv4/IPv6 addressing, DNS, gethost\*(), nslookup
+| 4/5       | No class
 | 4/9       | HTTP
-| 4/12      | Overflow Days
-| 4/16      | SSL
-| 4/19      | RPI Sec A (SSL-related?)
-| 4/23      | MPI
-| 4/26      | RPI Sec B
-| 4/30      |
-| 4/27      |
-| 5/1       | Overflow Days
+| 4/12      | SSL
+| 4/16      | MPI
+| 4/19      | OpenMP
+| 4/23      | Alternatives to TCP: QUIC, SCTP
+| 4/26      | IPFS
+| 4/30      | Overflow Day
 
 ### Schedule of Assignments and altered class days
 
@@ -95,6 +93,7 @@ Edition* (2003), by W. Richard Stevens et al.
 * February 20th, Monday schedule, we have class.
 * Assignment 2 due February 27th.
 * Assignment 3 due March 20th.
+* March 30 - April 6: GM Week.
 * Assignment 4 due April 3rd.
 * Assignment 5 due April 17th.
 * Assignment 6 due May 1st.
@@ -102,7 +101,7 @@ Edition* (2003), by W. Richard Stevens et al.
 ### Grading and Other Class Policies
 
 *  72%: 6 programming projects (12 points each)
-*  28%: In-class quizzes (Thursdays)
+*  28%: In-class labs
 
 **We will also be using Submitty (AKA the homework server).  Details
   will follow on Piazza.**
