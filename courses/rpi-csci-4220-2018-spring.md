@@ -57,11 +57,11 @@ Edition* (2003), by W. Richard Stevens et al.
 
 | Date      | Topic
 | :----     | -----:
-| 1/18      | History / OSI model
+| 1/18      | History / OSI model; Unix commands
 | 1/22      | Prof. LaPre unavailable, possible guest lecture TBA
 | 1/25      | Prof. LaPre unavailable, possible guest lecture TBA
-| 1/29      | C background
-| 2/1       | Unix commands
+| 1/29      |
+| 2/1       |
 | 2/5       | High level UDP and TCP/IP
 | 2/8       | Byte ordering, socket creation, misc. inet functions
 | 2/12      | Client / server model
@@ -89,19 +89,19 @@ Edition* (2003), by W. Richard Stevens et al.
 | 4/27      |
 | 5/1       | Overflow Days
 
-### Schedule of Projects and altered class days
+### Schedule of Assignments and altered class days
 
-* Project 1 out on Thursday, February 16th, due February 27th.
-* February 21st, Monday schedule, we have class.
-* Project 2 out on Monday, February 27th, due March 9th.
-* Project 3 out on Monday, March 20th, due April 3rd.
-* Project 4 out on Monday, April 3rd, due April 17th.
-* Project 5 out on Monday, April 17th, due May 1st.
+* Assignment 1 out on Thursday, February 16th, due February 27th.
+* February 20th, Monday schedule, we have class.
+* Assignment 2 out on Monday, February 27th, due March 9th.
+* Assignment 3 out on Monday, March 20th, due April 3rd.
+* Assignment 4 out on Monday, April 3rd, due April 17th.
+* Assignment 5 out on Monday, April 17th, due May 1st.
 
 ### Grading and Other Class Policies
 
-*  70%: 5 programming projects (14 points each)
-*  30%: In-class quizzes (Thursdays)
+*  72%: 6 programming projects (12 points each)
+*  28%: In-class quizzes (Thursdays)
 
 **We will also be using Submitty (AKA the homework server).  Details
   will follow on Piazza.**
@@ -111,7 +111,7 @@ be aware that I may include material not necessarily covered in the
 text or on the web page.  You are responsible for all announcements
 made in lecture (e.g., any change in due dates).
 
-**Late Projects Policy**: Three late days are permitted for
+**Late Assignments Policy**: Three late days are permitted for
 assignments.  They will be consumed in whole day increments. In other
 words, if you are one hour late, that will count as one day. 25 hours
 late will count as two days, etc. Once these are exhausted, late
