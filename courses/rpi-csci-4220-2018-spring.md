@@ -44,8 +44,8 @@ Edition* (2003), by W. Richard Stevens et al.
 [Amazon link.](http://a.co/aE8mNZ4)
 
 ### Graduate Teaching Assistants
-* Pan Deng (dengp AT rpi.edu): TBD
-* Yingyi Wu (wuy21 AT rpi.edu): TBD
+* Pan Deng (dengp AT rpi.edu): Amos Eaton 110, Friday 12-2 p.m.
+* Yingyi Wu (wuy21 AT rpi.edu)
 
 ### Undergraduate Mentors
 * Hannah Deen
