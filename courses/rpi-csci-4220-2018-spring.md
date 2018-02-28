@@ -118,9 +118,10 @@ late will count as two days, etc. Once these are exhausted, late
 assignments will not be graded.  However, additional late days can
 be earned for every six points (not labs) earned through labs.
 
-**Late Labs Policy**: Three bonus labs will be awarded to all students.
-For example, if you miss 4 of 10 labs, you will only be penalized for
-missing 1.  Your lab score cannot rise above 100%.
+**Late Labs Policy**: Late labs will not be accepted but three bonus
+labs will be awarded to all students. For example, if you miss 4 of 10
+labs, you will only be penalized for missing 1.  Your lab score cannot
+rise above 100%.
 
 **Grade Disputes**: Grade disputes must be made within 10 days.
 After 10 days has elapsed, the grade on record will stand.
